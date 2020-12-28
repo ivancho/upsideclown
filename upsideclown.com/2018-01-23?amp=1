@@ -1,0 +1,590 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+	<meta charset="utf-8">
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="canonical" href="http://upsideclown.com/2018-01-23">
+
+	<title>The Long Way Home (Upsideclown)</title>
+	<style amp-custom>
+		h1 {
+			font-size: 4rem;
+			line-height: 1.2;
+			letter-spacing: -.1rem;
+			font-weight: 300;
+			margin-top: 0;
+			margin-bottom: 2rem;
+		}
+		.container {
+			width: 100%;
+		    position: relative;
+		    max-width: 960px;
+		    margin: 0 auto;
+		    padding: 0 20px;
+		    box-sizing: border-box; }
+		}
+		@charset "UTF-8";
+/*!
+Typeplate : Starter Kit
+URL ........... http://typeplate.com
+Version ....... 3.0.2
+Github ........ https://github.com/typeplate/starter-kit
+Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+  color: #222;
+}
+
+blockquote + figcaption cite {
+  display: block;
+  font-size: inherit;
+  text-align: right;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+pre code {
+  word-wrap: normal;
+}
+
+html {
+  font: normal 112.5% / 1.65 serif;
+}
+
+body {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #444;
+}
+
+.typl8-tera {
+  font-size: 6.5em;
+  margin-bottom: 3.93939rem;
+}
+
+.typl8-giga {
+  font-size: 5em;
+  margin-bottom: 3.0303rem;
+}
+
+.typl8-mega, h1 {
+  font-size: 4em;
+  margin-bottom: 2.42424rem;
+}
+
+.typl8-alpha, h2 {
+  font-size: 3.33333em;
+  margin-bottom: 2.0202rem;
+}
+
+.typl8-beta, h3 {
+  font-size: 2.66667em;
+  margin-bottom: 1.61616rem;
+}
+
+.typl8-gamma, h4 {
+  font-size: 2em;
+  margin-bottom: 1.21212rem;
+}
+
+.typl8-delta, h5 {
+  font-size: 1.33333em;
+  margin-bottom: 0.80808rem;
+}
+
+.typl8-epsilon {
+  font-size: 1.16667em;
+  margin-bottom: 0.70707rem;
+}
+
+.typl8-zeta, h6 {
+  font-size: 1em;
+  margin-bottom: 0.60606rem;
+}
+
+p {
+  margin: auto auto 1.5rem;
+}
+
+p + p {
+  text-indent: 1.5rem;
+  margin-top: -1.5rem;
+}
+
+small {
+  font-size: 65%;
+}
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre {
+  white-space: pre;
+}
+
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+
+abbr[title]:hover {
+  cursor: help;
+}
+
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+p + .typl8-drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="typl8-lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-lining dt,
+.typl8-lining dd {
+  display: inline;
+  margin: 0;
+}
+
+.typl8-lining dt + dt:before,
+.typl8-lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+
+.typl8-lining dd + dd:before {
+  content: ", ";
+}
+
+.typl8-lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="typl8-dictionary-style">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+
+.typl8-dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+
+.typl8-dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+
+.typl8-dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+    <figure>
+      <blockquote cite="">
+        <p></p>
+      </blockquote>
+      <figcaption>
+        <cite>
+          <small><a href=""></a></small>
+        </cite>
+      </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="typl8-pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.typl8-pull-quote {
+  position: relative;
+  padding: 1em;
+}
+
+.typl8-pull-quote:before, .typl8-pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+
+.typl8-pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+
+.typl8-pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. X.X | </strong><cite title=""></cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */		
+body {
+	font-family: georgia, serif;
+	font-size: 1rem;
+	background: #F5F5F5;
+}
+h1 {
+    -webkit-hyphens: none;
+    -moz-hyphens:    none;
+    -ms-hyphens:     none;
+    hyphens:         none;
+}
+h1, h3 {
+	color: #333;
+}
+p, li {
+	color: #444;
+}
+a {
+	color: #327F9A;
+}
+h4 {
+	color: #62aFcA;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	font-variant: small-caps;
+}
+hr {
+	display: none;
+}
+li + li {
+    margin-top: -1rem;	
+}
+ol + p, ul + p {
+    margin-top: -1rem;	
+}
+ul {
+  list-style: circle outside;
+}
+ol {
+  list-style: decimal outside;
+}
+#mce-EMAIL {
+	width: 400px;
+}
+p.boilerplate {
+	text-transform: uppercase;
+}
+p.boilerplate, p.boilerplate a, p.boilerplate a:hover {
+	color: #444;
+}
+p.nav {
+	text-indent: 0;
+	text-transform: uppercase;
+}
+h3.nav-arrest {
+	color: #62aFcA;	
+}
+#banner, #banner a {
+    xtransition: .3s all;  /* rotate gradually instead of instantly */
+    -webkit-transform: rotate(180deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(180deg);      /* to support IE 9 */
+    transform: rotate(180deg);
+	font-family: georgia;
+	font-size: 2rem;
+	color: #327F9A;
+	text-decoration: none;
+}
+#banner a:hover {
+    /* -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); */
+	color: #62aFcA;
+}
+@media (max-width: 550px) {
+	.hide-on-mobile { display: none; }
+	h1 { font-size: 2rem;}
+	p, h4, li, label { font-size: 0.8rem; }
+	#mce-EMAIL { width: 90%; }
+	ul {
+	  list-style: circle inside;
+	}
+	ol {
+	  list-style: decimal inside;
+	}
+}
+@media (min-width: 550px) {
+	.show-on-mobile { display: none; }
+}		ul {
+		  list-style: circle inside;
+		  padding-left: 0;
+		  margin-top: 0;
+	  	}
+		li + li {
+			margin-top: 0rem;
+		}
+		ol + p, ul + p {
+			margin-top: 1.5rem;
+		}
+		@media (max-width: 550px) {
+			h1 { font-size: 2rem; }
+			p, h4, li, label { font-size: 0.8rem; }
+			#mce-EMAIL { width: 90%; }
+		}
+	</style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": "http://upsideclown.com/2018-01-23",
+        "headline": "The Long Way Home",
+        "datePublished": "2018-01-23T10:00:00Z",
+        "dateModified": "2018-01-23T10:00:00Z",
+        "author": {
+          "@type": "Person",
+          "name": "Vic"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Upsideclown",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://upsideclown.com/reboot-2017/upsideclown-logo-amp.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    </script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+	<div class="container">
+		<p id="banner" align="right"><a href="/?amp=1">umol&#x2184;&#x259;p!sdn</a></p>
+			
+		<p class="nav">
+			<small>
+			<a href="#archive">Archive</a>
+			<a href="#subscribe">Subscribe</a>
+			</small>
+		</p>
+		
+		<h1>The Long Way Home</h1>
+		<p>
+			By Vic<em> a.k.a.</em> <a href="https://twitter.com/pendlecheek" target="_blank">@pendlecheek</a>, 23 January 2018</u> <a href="/2018-01-23?amp=1">#</a></p>
+
+		<hr>
+
+		<p class="typl8-drop-cap">It is a distance of one hundred and thirty miles from Mitchell to Bristol as the crow flies. On the footpaths and byways, with detours to towns and villages for supplies, it is more like two hundred.</p>
+<p>Jim and Tom were brothers. There were eighteen months between them. Jim had a healthy disrespect for authority. A few months ago, he got caught playing truant. Every day he had told his parents he had been to school. What he didn&#8217;t know was that his school had been bombed weeks earlier. He was always getting Tom into trouble.</p>
+<hr />
+<p>&#8220;So, where are we going?&#8221;</p>
+<p>&#8220;We&#8217;re going home, kid.&#8221;</p>
+<p>&#8220;But that&#8217;s miles.&#8221;</p>
+<p>&#8220;We&#8217;ll be alright.&#8221;</p>
+<p>&#8220;Where are we going to sleep?&#8221;</p>
+<p>&#8220;We&#8217;ll find somewhere.&#8221;</p>
+<hr />
+<p>The first bombs had fallen on Bristol soon after the start of the war. St Philips was close to Temple Meads station and surrounded by railway track. It was hit from pretty early on. Then came the Blitz of November 1940, when the carpet of incendiaries fell. Hundreds of kids were killed, and the old medieval part of the city was flattened. Only luck and accident prevented the nearby gasworks on Folly Lane from going up. They&#8217;d have all been blown sky high had the bombs caught light as intended. Quick thinking from the vicar and the effort of volunteers had saved St Mary Redcliffe church&#8212;for now.</p>
+<p>Jim and Tom were two of the last to be evacuated. At first their Ma and Da had refused to give permission. Of their nine children, the eldest were already serving. Jim and Tom were among the youngest, and when there was no let-up in the raids their parents finally agreed to let them go in May 1941. Neither they nor their family knew where they were headed.</p>
+<p>They ended up on a farm in Cornwall and stuck it a week. It was too quiet, and too much like hard work. Besides, the farmer and his wife didn&#8217;t want them there. &#8220;Rather die from a bomb than boredom,&#8221; said Jim.</p>
+<p>They had planned their escape, swiping chunks of bread, cheese and fruit from the dinner table when the missus wasn&#8217;t looking. They knew the farmer would sleep more soundly at the weekend, when the missus let him go to the pub. They weren&#8217;t worried about the dog, who was as soft as wool. In the dead of night, they tiptoed downstairs with their boots round their necks and were away into the fields.</p>
+<p>In adventure stories, the hero travels by night and rests up concealed by day. After an hour of wandering, Jim and Tom found it was just too blooming dark to do that.  They hid in the woods and waited for light. For the next two weeks, they kept heading northeast.</p>
+<p>The food soon ran out, and that was just as well. When it went green Tom got a tummy ache. After a couple of days, they were really hungry.</p>
+<p>&#8220;Take us to Padstow, Mister? We&#8217;ve got to meet our Ma there.&#8221; This ruse worked on more occasion than one. In the towns, they blended in with families at the Sally Army kitchens, and may have nicked a bun or an apple or two. They made friends with the horses on the carts that carried them.</p>
+<hr />
+<p>At Tintagel, they played at being King Arthur and Sir Galahad.</p>
+<p>At Clovelly, they messed around in boats, pretending to be sailors.</p>
+<p>At Westward Ho! they shouted &#8220;Westward Ho!&#8221; until their throats were sore.</p>
+<hr />
+<p>They couldn&#8217;t always get a lift, which meant more walking. They stuck to the coast so as not to get lost. At Barnstaple they had a choice to make.</p>
+<p>&#8220;It&#8217;s quickest to go over Exmoor.&#8221;</p>
+<p>&#8220;Remember what they said at Scouts, though. We could die out there. Hound of the Baskervilles!&#8221;</p>
+<p>&#8220;That&#8217;s Dartmoor. But I suppose there&#8217;ll be soldiers. We&#8217;ll go inland.&#8221;</p>
+<p>At Taunton, they heard their first bombs in weeks and saw their first Americans. The GIs gave them chewing gum and sweets, and a ride in their Jeep.</p>
+<p>They tried a couple of times on the way to catch a train. But whenever they got to a station there would be a copper hanging about. At Weston, they finally managed to skip on. Getting off at Temple Meads was no trouble. They knew how to sneak past the guards.</p>
+<p>Perhaps someone had reported them missing. Perhaps they had sent out a search party. But no one found them until they walked through the backdoor of the house on Oxford Street. Their folks weren&#8217;t inclined to send them back, and so they stayed. It turned out the Blitz was over, although no one could know that at the time.</p>
+<p>At least some of this story is true. Jim was thirteen, Tom eleven. Tom still lives in Bristol. Jim became a police officer and my grandfather.</p>
+		<h1>&nbsp;</h1>
+
+		<h4 id="archive">this is the fucking archive <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<ul>
+			<li>30 Oct. 2018, Vic: <a href="http://upsideclown.com/2018-10-30?amp=1">Minami-Senju Disconnect</a></li>
+						<li>16 Oct. 2018, Dan: <a href="http://upsideclown.com/2018-10-16?amp=1">Energy&#8217;s Exile</a></li>
+						<li>11 Sep. 2018, Matt: <a href="http://upsideclown.com/2018-09-11?amp=1">On the Campaign Trail</a></li>
+						<li>21 Aug. 2018, Neil: <a href="http://upsideclown.com/2018-08-21?amp=1">By Any Other Word</a></li>
+						<li>31 Jul. 2018, Jamie: <a href="http://upsideclown.com/2018-07-31?amp=1">How to Say Goodbye (Part II)</a></li>
+						<li>17 Jul. 2018, Vic: <a href="http://upsideclown.com/2018-07-17?amp=1">Shirley Asinine</a></li>
+						<li>3 Jul. 2018, Dan: <a href="http://upsideclown.com/2018-07-03?amp=1">Tell the Bees</a></li>
+						<li>19 Jun. 2018, James: <a href="http://upsideclown.com/2018-06-19?amp=1">Warning: May contain offensive language</a></li>
+						<li>29 May. 2018, Matt: <a href="http://upsideclown.com/2018-05-29?amp=1">Volume Five</a></li>
+						<li>15 May. 2018, Neil: <a href="http://upsideclown.com/2018-05-15?amp=1">In the City Last Night</a></li>
+						<li>1 May. 2018, Jamie: <a href="http://upsideclown.com/2018-05-01?amp=1">The Sandéparabola</a></li>
+						<li>17 Apr. 2018, Vic: <a href="http://upsideclown.com/2018-04-17?amp=1">Ultra Absorbent</a></li>
+						<li>3 Apr. 2018, Dan: <a href="http://upsideclown.com/2018-04-03?amp=1">The Best Seat in the House</a></li>
+						<li>20 Mar. 2018, James: <a href="http://upsideclown.com/2018-03-20?amp=1">The girl with kaleidoscope eyes</a></li>
+						<li>6 Mar. 2018, Matt: <a href="http://upsideclown.com/2018-03-06?amp=1">The Ursa Major Moving Group</a></li>
+						<li>20 Feb. 2018, Neil: <a href="http://upsideclown.com/2018-02-20?amp=1">Ghost World</a></li>
+						<li>6 Feb. 2018, Jamie: <a href="http://upsideclown.com/2018-02-06?amp=1">In search of&#8230; Edson Vincent, football&#8217;s lost superstar</a></li>
+						<li>23 Jan. 2018, Vic: <strong>The Long Way Home</strong></li>
+						<li>9 Jan. 2018, Dan: <a href="http://upsideclown.com/2018-01-09?amp=1">Season&#8217;s Greetings</a></li>
+						<li>19 Dec. 2017, James: <a href="http://upsideclown.com/2017-12-19?amp=1">The Ghost of Christmas Yet to Come</a></li>
+						<li>4 Dec. 2017, Matt: <a href="http://upsideclown.com/2017-12-04?amp=1">The search for another intelligence</a></li>
+						<li>21 Nov. 2017, Neil: <a href="http://upsideclown.com/2017-11-21?amp=1">Passing</a></li>
+						<li>7 Nov. 2017, Jamie: <a href="http://upsideclown.com/2017-11-07?amp=1">The Dark Of The Matinee</a></li>
+						<li>24 Oct. 2017, Vic: <a href="http://upsideclown.com/2017-10-24?amp=1">Anybody Seen Carlos?</a></li>
+						<li>10 Oct. 2017, Dan: <a href="http://upsideclown.com/2017-10-10?amp=1">Salvage</a></li>
+						<li>26 Sep. 2017, George: <a href="http://upsideclown.com/2017-09-26?amp=1">No Planes Go</a></li>
+						<li>12 Sep. 2017, James: <a href="http://upsideclown.com/2017-09-12?amp=1">Pontification</a></li>
+						<li>29 Aug. 2017, Matt: <a href="http://upsideclown.com/2017-08-29?amp=1">Moving House</a></li>
+						<li>15 Aug. 2017, Neil: <a href="http://upsideclown.com/2017-08-15?amp=1">Parental Guidance</a></li>
+						<li>1 Aug. 2017, Jamie: <a href="http://upsideclown.com/2017-08-01?amp=1">OK, Commuter</a></li>
+						<li>18 Jul. 2017, Vic: <a href="http://upsideclown.com/2017-07-18?amp=1">228 days to go</a></li>
+										<li>2003&mdash;2017: Hiatus. <a href="http://upsideclown.com/2003_12_01.shtml" target="_blank">Where we left off</a></li>
+			</ul>
+
+		<h1>&nbsp;</h1>
+
+		<h4 id="subscribe">never come here again <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<p>Receive new stories by email. Fortnightly. <a href="http://eepurl.com/cVjL2D" target="_blank">Subscribe.</a></p>
+
+		<h1>&nbsp;</h1>
+
+		<p class="boilerplate">
+			<small>We are all Upsideclown: Vic, Jamie, Neil, Matt, James, George, and Dan. Material&nbsp;&copy;&nbsp;its respective author. Email:&nbsp;<a href="mailto:complains@upsideclown.com">complaints@upsideclown.com</a></small>
+		</p>
+		
+
+	</div> <!-- /.container -->
+	
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-101929921-1"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>	
+</body>
+</html>

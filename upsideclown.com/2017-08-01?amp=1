@@ -1,0 +1,576 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+	<meta charset="utf-8">
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="canonical" href="http://upsideclown.com/2017-08-01">
+
+	<title>OK, Commuter (Upsideclown)</title>
+	<style amp-custom>
+		h1 {
+			font-size: 4rem;
+			line-height: 1.2;
+			letter-spacing: -.1rem;
+			font-weight: 300;
+			margin-top: 0;
+			margin-bottom: 2rem;
+		}
+		.container {
+			width: 100%;
+		    position: relative;
+		    max-width: 960px;
+		    margin: 0 auto;
+		    padding: 0 20px;
+		    box-sizing: border-box; }
+		}
+		@charset "UTF-8";
+/*!
+Typeplate : Starter Kit
+URL ........... http://typeplate.com
+Version ....... 3.0.2
+Github ........ https://github.com/typeplate/starter-kit
+Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+  color: #222;
+}
+
+blockquote + figcaption cite {
+  display: block;
+  font-size: inherit;
+  text-align: right;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+pre code {
+  word-wrap: normal;
+}
+
+html {
+  font: normal 112.5% / 1.65 serif;
+}
+
+body {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #444;
+}
+
+.typl8-tera {
+  font-size: 6.5em;
+  margin-bottom: 3.93939rem;
+}
+
+.typl8-giga {
+  font-size: 5em;
+  margin-bottom: 3.0303rem;
+}
+
+.typl8-mega, h1 {
+  font-size: 4em;
+  margin-bottom: 2.42424rem;
+}
+
+.typl8-alpha, h2 {
+  font-size: 3.33333em;
+  margin-bottom: 2.0202rem;
+}
+
+.typl8-beta, h3 {
+  font-size: 2.66667em;
+  margin-bottom: 1.61616rem;
+}
+
+.typl8-gamma, h4 {
+  font-size: 2em;
+  margin-bottom: 1.21212rem;
+}
+
+.typl8-delta, h5 {
+  font-size: 1.33333em;
+  margin-bottom: 0.80808rem;
+}
+
+.typl8-epsilon {
+  font-size: 1.16667em;
+  margin-bottom: 0.70707rem;
+}
+
+.typl8-zeta, h6 {
+  font-size: 1em;
+  margin-bottom: 0.60606rem;
+}
+
+p {
+  margin: auto auto 1.5rem;
+}
+
+p + p {
+  text-indent: 1.5rem;
+  margin-top: -1.5rem;
+}
+
+small {
+  font-size: 65%;
+}
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre {
+  white-space: pre;
+}
+
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+
+abbr[title]:hover {
+  cursor: help;
+}
+
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+p + .typl8-drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="typl8-lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-lining dt,
+.typl8-lining dd {
+  display: inline;
+  margin: 0;
+}
+
+.typl8-lining dt + dt:before,
+.typl8-lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+
+.typl8-lining dd + dd:before {
+  content: ", ";
+}
+
+.typl8-lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="typl8-dictionary-style">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+
+.typl8-dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+
+.typl8-dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+
+.typl8-dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+    <figure>
+      <blockquote cite="">
+        <p></p>
+      </blockquote>
+      <figcaption>
+        <cite>
+          <small><a href=""></a></small>
+        </cite>
+      </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="typl8-pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.typl8-pull-quote {
+  position: relative;
+  padding: 1em;
+}
+
+.typl8-pull-quote:before, .typl8-pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+
+.typl8-pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+
+.typl8-pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. X.X | </strong><cite title=""></cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */		
+body {
+	font-family: georgia, serif;
+	font-size: 1rem;
+	background: #F5F5F5;
+}
+h1 {
+    -webkit-hyphens: none;
+    -moz-hyphens:    none;
+    -ms-hyphens:     none;
+    hyphens:         none;
+}
+h1, h3 {
+	color: #333;
+}
+p, li {
+	color: #444;
+}
+a {
+	color: #327F9A;
+}
+h4 {
+	color: #62aFcA;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	font-variant: small-caps;
+}
+hr {
+	display: none;
+}
+li + li {
+    margin-top: -1rem;	
+}
+ol + p, ul + p {
+    margin-top: -1rem;	
+}
+ul {
+  list-style: circle outside;
+}
+ol {
+  list-style: decimal outside;
+}
+#mce-EMAIL {
+	width: 400px;
+}
+p.boilerplate {
+	text-transform: uppercase;
+}
+p.boilerplate, p.boilerplate a, p.boilerplate a:hover {
+	color: #444;
+}
+p.nav {
+	text-indent: 0;
+	text-transform: uppercase;
+}
+h3.nav-arrest {
+	color: #62aFcA;	
+}
+#banner, #banner a {
+    xtransition: .3s all;  /* rotate gradually instead of instantly */
+    -webkit-transform: rotate(180deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(180deg);      /* to support IE 9 */
+    transform: rotate(180deg);
+	font-family: georgia;
+	font-size: 2rem;
+	color: #327F9A;
+	text-decoration: none;
+}
+#banner a:hover {
+    /* -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); */
+	color: #62aFcA;
+}
+@media (max-width: 550px) {
+	.hide-on-mobile { display: none; }
+	h1 { font-size: 2rem;}
+	p, h4, li, label { font-size: 0.8rem; }
+	#mce-EMAIL { width: 90%; }
+	ul {
+	  list-style: circle inside;
+	}
+	ol {
+	  list-style: decimal inside;
+	}
+}
+@media (min-width: 550px) {
+	.show-on-mobile { display: none; }
+}		ul {
+		  list-style: circle inside;
+		  padding-left: 0;
+		  margin-top: 0;
+	  	}
+		li + li {
+			margin-top: 0rem;
+		}
+		ol + p, ul + p {
+			margin-top: 1.5rem;
+		}
+		@media (max-width: 550px) {
+			h1 { font-size: 2rem; }
+			p, h4, li, label { font-size: 0.8rem; }
+			#mce-EMAIL { width: 90%; }
+		}
+	</style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": "http://upsideclown.com/2017-08-01",
+        "headline": "OK, Commuter",
+        "datePublished": "2017-08-01T09:00:00Z",
+        "dateModified": "2017-08-01T09:00:00Z",
+        "author": {
+          "@type": "Person",
+          "name": "Jamie"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Upsideclown",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://upsideclown.com/reboot-2017/upsideclown-logo-amp.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    </script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+	<div class="container">
+		<p id="banner" align="right"><a href="/?amp=1">umol&#x2184;&#x259;p!sdn</a></p>
+			
+		<p class="nav">
+			<small>
+			<a href="#archive">Archive</a>
+			<a href="#subscribe">Subscribe</a>
+			</small>
+		</p>
+		
+		<h1>OK, Commuter</h1>
+		<p>
+			By Jamie, 1 August 2017</u> <a href="/2017-08-01?amp=1">#</a></p>
+
+		<hr>
+
+		<p class="typl8-drop-cap">Nearly two hours of your life each day, as good as wasted. A packed train, filling up a little more at each suburban station, with increasingly apologetic compression &#8212; followed by the mass disgorging into the human current of the platform and then the barrier dance (queue tap wait, queue tap wait, queue tap no it hasn&#8217;t worked you&#8217;ve tapped yours I&#8217;m through good luck finding someone to help), and then an even more sardinian tube carriage. So here&#8217;s a game I like to play. You&#8217;ve got to keep yourself amused and alert (assuming you have something resembling a brain and you gave up the Metro for the mindless regurgitation of the AP tinged with some Mail-esque editorial it is around a decade ago), and this one has the added benefit of not only keeping your brain ticking over with some mathematical goodies, but also helping to recalibrate your ego. Super handy, then.</p>
+<p>It goes a little something like this. From the moment you walk out the front door to the second you step into the office, you have to keep a count going of every face you see. Call this figure F. At the same time, keep a separate count of each individual who&#8217;s more attractive than you. Call this figure A. Once you go through the doors into your place of work, simply express A as a percentage of F [for those of you who weren&#8217;t paying attention in RDNT&#8217;s maths class, that&#8217;s (A/F)*100] and hey presto! You have identified your attractiveness quotient (AQ) for your morning &#8212; meaning you sit in the top x% of beautiful people in your realm of work/life transition.</p>
+<p>Obviously there are factors to take into account. This works much better if you keep track of your AQ over a decent period of time, smoothing out any particularly sharp peaks or troughs (trough being a particularly pertinent term given a number of the specimens I observed over the course of a week working somewhere just outside Basingstoke), and it can be pretty instructive to observe the fluctuations in quotient based on factors purely within your own control (those weeks where you really should have had a haircut, the months where the gym didn&#8217;t get the attention it required) or those you have no say in (the ageing process in my instance being fortunately slightly kinder to the male population).</p>
+<p>There are some common objections to the scientific nature of the approach. &#8220;How do you know if you&#8217;re more or less attractive than someone else? Surely this is all just subjective?&#8221; Well, duh. It&#8217;s not like I have a facial perfection template based on the golden ratio in my brain, and can instantly map everyone&#8217;s features and give them an impartial score from 1 to 800 &#8212; I happen to live in the commuter belt and get the busiest tube train in the country every day, that would take way too long. Sorry, I just have to rely on snap judgements like everyone does when it comes to matters of fanciability. Fortunately, I have a pretty good grasp of my own looks relative to the rest of the population.</p>
+<p>I&#8217;ve also come up against what is supposed to be the killer &#8220;aha&#8221; moment &#8212; when someone says that the really good looking people aren&#8217;t even going to be working, certainly not having to get to an office for shortly after 8am. Those models/actors/sportspeople aren&#8217;t ever going to trouble the scorers on this particular straw poll. Ah yes, but for each incredibly chiselled and tanned individual who&#8217;s nowhere near my radar, I&#8217;d happily wager there&#8217;s at least five rather flabbier, pastier, less well-groomed and quite possibly unwashed types who equally aren&#8217;t in the running to drag down the general quality level&#8230;</p>
+<hr />
+<p>Stop.</p>
+<hr />
+<p>STOP STOP STOP STOP STOP.</p>
+<hr />
+<p>It&#8217;s funny, coming back after <a href="http://upsideclown.com/2003_12_15.shtml">so long away.</a> Where do you begin &#8212; pick up from where you left off, or make a clean break and a clean start?
+I started to re-read some old articles. Partly, I don&#8217;t recognise this <a href="http://upsideclown.com/2001_02_08.shtml">persona</a> that seemed to be present across <a href="http://upsideclown.com/2000_11_27.shtml">so many</a> of them. Was that actually me, have I forgotten with distance that I was <a href="http://upsideclown.com/2001_11_05.shtml">actually an arsehole</a> all that time or was this a character of my own creation, constantly faking and an odd mix of cocky and self-deprecating? Or was it just a combination of time pressure and a lack of <a href="http://upsideclown.com/2001_01_15.shtml">quality</a> <a href="http://upsideclown.com/2001_09_17.shtml">control,</a> churning out a piece every few weeks on a deadline and not a backwards glance?</p>
+<p>Whatever it was, no more. Maybe it&#8217;s age, maybe it&#8217;s a feeling of responsibility, maybe it&#8217;s just me kidding myself that more than the handful of us originals are actually going to read any of it this time around, and wanting to be better. But I feel like it&#8217;s time to step it up, to show that seventeen years have changed me. No to hide behind a snarky front, or let that slightly nasty, downward-punching side come out (that Basingstoke line &#8212; urgh), but to come up with something <a href="http://upsideclown.com/2000_10_09.shtml">creative,</a> something <a href="http://upsideclown.com/2001_06_11.shtml">original,</a> something <a href="http://upsideclown.com/2003_02_24.shtml">genuine</a> (although maybe not too honest &#8212; <a href="http://upsideclown.com/2001_07_23.shtml">as fellow Clowns have discovered</a>), something <a href="http://upsideclown.com/2003_02_03.shtml">from the heart.</a> [Or, at the very least, a slight sideways <a href="http://upsideclown.com/2003_06_12.shtml">giggle</a>]. It&#8217;s not going to be easy &#8212; right now I&#8217;m out of practice, out of ideas, out of touch. What&#8217;s more, my auto-complete on the phone keyboard just suggested &#8220;out of the office&#8221; three times for the last sentence, which goes to show the kind of thing I&#8217;ve been typing more often than not for the last fourteen years. But it&#8217;s got to be the right thing.</p>
+<p>So, a new manifesto. From now on, less of the voice. Fewer articles, more pieces. More time to breathe. You may even start to see titles that don&#8217;t contain some mid-to-late 90&#8217;s cultural reference/puns. And above all, write for me. Here&#8217;s hoping it works&#8230;</p>
+<hr />
+<p>(The ironic thing is, I had promised myself I wasn&#8217;t going to do <a href="http://upsideclown.com/2002_12_02.shtml">another self-referential one</a> first up. Hey ho.)</p>
+		<h1>&nbsp;</h1>
+
+		<h4 id="archive">this is the fucking archive <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<ul>
+			<li>30 Oct. 2018, Vic: <a href="http://upsideclown.com/2018-10-30?amp=1">Minami-Senju Disconnect</a></li>
+						<li>16 Oct. 2018, Dan: <a href="http://upsideclown.com/2018-10-16?amp=1">Energy&#8217;s Exile</a></li>
+						<li>11 Sep. 2018, Matt: <a href="http://upsideclown.com/2018-09-11?amp=1">On the Campaign Trail</a></li>
+						<li>21 Aug. 2018, Neil: <a href="http://upsideclown.com/2018-08-21?amp=1">By Any Other Word</a></li>
+						<li>31 Jul. 2018, Jamie: <a href="http://upsideclown.com/2018-07-31?amp=1">How to Say Goodbye (Part II)</a></li>
+						<li>17 Jul. 2018, Vic: <a href="http://upsideclown.com/2018-07-17?amp=1">Shirley Asinine</a></li>
+						<li>3 Jul. 2018, Dan: <a href="http://upsideclown.com/2018-07-03?amp=1">Tell the Bees</a></li>
+						<li>19 Jun. 2018, James: <a href="http://upsideclown.com/2018-06-19?amp=1">Warning: May contain offensive language</a></li>
+						<li>29 May. 2018, Matt: <a href="http://upsideclown.com/2018-05-29?amp=1">Volume Five</a></li>
+						<li>15 May. 2018, Neil: <a href="http://upsideclown.com/2018-05-15?amp=1">In the City Last Night</a></li>
+						<li>1 May. 2018, Jamie: <a href="http://upsideclown.com/2018-05-01?amp=1">The Sandéparabola</a></li>
+						<li>17 Apr. 2018, Vic: <a href="http://upsideclown.com/2018-04-17?amp=1">Ultra Absorbent</a></li>
+						<li>3 Apr. 2018, Dan: <a href="http://upsideclown.com/2018-04-03?amp=1">The Best Seat in the House</a></li>
+						<li>20 Mar. 2018, James: <a href="http://upsideclown.com/2018-03-20?amp=1">The girl with kaleidoscope eyes</a></li>
+						<li>6 Mar. 2018, Matt: <a href="http://upsideclown.com/2018-03-06?amp=1">The Ursa Major Moving Group</a></li>
+						<li>20 Feb. 2018, Neil: <a href="http://upsideclown.com/2018-02-20?amp=1">Ghost World</a></li>
+						<li>6 Feb. 2018, Jamie: <a href="http://upsideclown.com/2018-02-06?amp=1">In search of&#8230; Edson Vincent, football&#8217;s lost superstar</a></li>
+						<li>23 Jan. 2018, Vic: <a href="http://upsideclown.com/2018-01-23?amp=1">The Long Way Home</a></li>
+						<li>9 Jan. 2018, Dan: <a href="http://upsideclown.com/2018-01-09?amp=1">Season&#8217;s Greetings</a></li>
+						<li>19 Dec. 2017, James: <a href="http://upsideclown.com/2017-12-19?amp=1">The Ghost of Christmas Yet to Come</a></li>
+						<li>4 Dec. 2017, Matt: <a href="http://upsideclown.com/2017-12-04?amp=1">The search for another intelligence</a></li>
+						<li>21 Nov. 2017, Neil: <a href="http://upsideclown.com/2017-11-21?amp=1">Passing</a></li>
+						<li>7 Nov. 2017, Jamie: <a href="http://upsideclown.com/2017-11-07?amp=1">The Dark Of The Matinee</a></li>
+						<li>24 Oct. 2017, Vic: <a href="http://upsideclown.com/2017-10-24?amp=1">Anybody Seen Carlos?</a></li>
+						<li>10 Oct. 2017, Dan: <a href="http://upsideclown.com/2017-10-10?amp=1">Salvage</a></li>
+						<li>26 Sep. 2017, George: <a href="http://upsideclown.com/2017-09-26?amp=1">No Planes Go</a></li>
+						<li>12 Sep. 2017, James: <a href="http://upsideclown.com/2017-09-12?amp=1">Pontification</a></li>
+						<li>29 Aug. 2017, Matt: <a href="http://upsideclown.com/2017-08-29?amp=1">Moving House</a></li>
+						<li>15 Aug. 2017, Neil: <a href="http://upsideclown.com/2017-08-15?amp=1">Parental Guidance</a></li>
+						<li>1 Aug. 2017, Jamie: <strong>OK, Commuter</strong></li>
+						<li>18 Jul. 2017, Vic: <a href="http://upsideclown.com/2017-07-18?amp=1">228 days to go</a></li>
+										<li>2003&mdash;2017: Hiatus. <a href="http://upsideclown.com/2003_12_01.shtml" target="_blank">Where we left off</a></li>
+			</ul>
+
+		<h1>&nbsp;</h1>
+
+		<h4 id="subscribe">never come here again <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<p>Receive new stories by email. Fortnightly. <a href="http://eepurl.com/cVjL2D" target="_blank">Subscribe.</a></p>
+
+		<h1>&nbsp;</h1>
+
+		<p class="boilerplate">
+			<small>We are all Upsideclown: Vic, Jamie, Neil, Matt, James, George, and Dan. Material&nbsp;&copy;&nbsp;its respective author. Email:&nbsp;<a href="mailto:complains@upsideclown.com">complaints@upsideclown.com</a></small>
+		</p>
+		
+
+	</div> <!-- /.container -->
+	
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-101929921-1"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>	
+</body>
+</html>

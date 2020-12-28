@@ -1,0 +1,261 @@
+<html>
+<head>
+<title>upsideclown</title>
+<style type="text/css">
+	.main { background: #93A9B4 url('images/main_waterstamp.gif') no-repeat top left; padding: 5px; }
+	body { margin-top: 0px; margin-bottom: 0px; margin-right: 0px;}
+	h1 { font-family: Arial, Helvetica, Verdana, sans-serif; font-size: 24px; color: White; font-weight: normal; }
+	p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+	p.subhead { font-size: 10px; color: White; }
+	p.bottom { font-size: 10px; }
+	p.minor { line-height: 130%; margin-top: 0px; margin-bottom: 0px; text-indent: 2em; }
+	p.major { line-height: 130%; margin-bottom: 0px; text-indent: 2em; }
+	p.quote { line-height: 130%; margin-top: 5px; margin-bottom: 5px; font-style: italic; padding-left: 2em; padding-right: 2em; }
+	a { color: White; font-weight: bold; }
+	a.rhn:hover { background: #728994; }
+</style>
+</head>
+
+<body background="images/background.gif" bgcolor="#93A9B4" marginheight="0" topmargin="0" marginwidth="0">
+<!-- Main holding table -->
+<table align="right" width="600" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td class="main" align="left" valign="top">
+
+	<p>&nbsp;</p>
+
+	<!-- Banner table -->
+	<table width="453" height="94" align="center" cellpadding="0" cellspacing="0" border="0">
+	<tr height="75"><td width="453" colspan="2"><img src="images/main_masthead1.gif" width="453" height="75" alt="Upsideclown" /></td></tr>
+	<tr height="19"><td width="73" align="left"><img src="images/main_masthead2.gif" width="73" height="19" alt="Upsideclown" /></td><td width="380" align="right"><img src="images/main_slogan1.gif" height="19" border="0" alt="Slogan" /></td></tr>
+	</table>
+	<!-- Banner table ends -->
+
+	<!-- Upsideclown message -->
+	<p>&nbsp;</p>
+	<table width="445" align="center" cellpadding="0" cellspacing="0" border="0" style="border: 2px solid #B3C9D0; padding: 3px;">
+	<tr><td>
+	<p class="bottom">
+<span style="color: White;"><b>*</b></span> 200 articles. Two years. <a href="/whelk/">Whelk. The best of Upsideclown</a>. <!-- On Sale Now. -->Might be reprinted.
+<!--	<br />
+<span style="color: White;"><b>*</b></span> Oh, and this: Come to the <a href="/party/">Upsideclown Party</a>, Saturday July 27th.
+-->	</p>
+	</td></tr>
+	</table>
+
+	<!-- Main content starts -->
+
+
+
+
+
+<h1>
+Disintermediation
+</h1>
+
+<p class="subhead">
+<b>13 November 2003</b>
+<br>
+<a href="mailto:matt@upsideclown.com">Matt</a> returns to Wonderland
+</p>
+
+<p class="major">
+Pulling my coat on, I feel Karen already in it. Wherever she is, it's raining and I can feel a gentle patter on my shoulders. I hug myself and she hugs back, twice as hard.
+</p>
+<p class="minor">
+I'm halfway to the shops when there's a bizarre sensation of something running up my back, round my neck and down my arm. Startled I look at my wrist and there's a tiny Super Mario there scampering round the cuff. I have to look again before I notice it's covered in a fine fur, which is when I realise it's Karen's work, piping the augmention into my optic nerves aswell as into the coat. The fur is her latest hallmark, it's a nice trick. Hair is pretty easy to render compared to the subtleties of body language expressed in skin and muscle tensions, and that alone saves pretty much 50% of cost for the computation.
+</p>
+<p class="minor">
+In looking at the Mario I give it focus and see its context in my peripheral vision. It has indeed come from Karen, all the difficult maths are being run on the grid, and a full image of it is streaming down to my local sensorium. Bandwidth, after all, is free, and speaking of that I notice a spike in the flow, which usually means a data buffer has started building up, and sure enough in a second the Mario begins to speak.
+</p>
+
+<p class="major">
+When I sat angsting at the kitchen table with my mum about the big step I was taking with Karen, about the coats, she was very sympathetic and let me talk and talk but I'm sure she hid her smirks with her mug of tea. Every generation says this, I know, that their parents don't understand them, but in this case it's true. Karen and I had taken a mortgage out together at 16, as soon as we could (actually, we'd been to see people about it earlier and lied about our ages), and my parents especially hadn't exactly been approving. But at least they pretended to understand the intimacy involved in swapping Nelson pointers. My grandparents, when I talked to them, didn't understand at all -- but then they've got all kinds of weird hangups, whereas my generation don't think a second about getting naked and in bed with a good friend or two. Or more.
+</p>
+<p class="minor">
+I was 19 when I swapped Nelsons with Karen, which is on the late side but still roughly average for a first time. Possibly it wasn't my first time, but given how cheap the ones I'd been buying at aged 14 from the Fujitsu and BAT black-market reps (the black-market is the unregulated Indonesia of my generation) I doubt I'd experienced a real connection before.
+</p>
+
+<p class="major">
+Nelson pointers: Why copy something when you can just copy a reference to it? Every item of clothing I buy comes with a unique identifier, coordinates in the noosphere that lets me, when I'm working more in cyberspace, locate it. A unique resource indicator, you could call it (although they're no longer unique, as I'll explain). Buying a coat, for example, is a matter of exchanging something for it. (Actually you give money instead of swapping directly, and money is a mechanism of abstracting swapping when we deal with singletons, that is, rivalrous objects, like a can of coke which if I drink you can't. Or the physical slice of this coat, which if you wear, <i>I</i> can't.)
+</p>
+<p class="minor">
+Anyway, when I buy a coat I get the physical slice and the cyberspace index to it -- these are ubiquitous; we live in a true semiotcracy now so anybody can create signifiers. The index I plug into my class hierarchy, declaring the coat to be an instance of my clothes (it's also an instance of coats of this style, just one of, oh, dozens probably, it was a big workshop, but that comes built in). That's done automatically, the hierarchy (which is actually a meshwork) is updated by the house when I put my coat in the closet for the first time. That's done so that if I get a message it can get routed to my-clothes-in-general, and if I'm wearing my coat, because my coat is-a instance of my clothes, the message will arrive in my pocket and I'll feel it drop in.
+</p>
+<p class="minor">
+Swapping Nelsons means mucking with the cyberspace index to the coat, with the no-longer-unique URI. Karen gave me the Nelson pointer her clothes superclass, to her wardrobe in other words, and I gave her the Nelson to the contents of my closet, and we merged them.
+</p>
+<p class="minor">
+Our coats are now no longer simply instances of an uber-coat, but actual manifestations of the same coat. What happens to her manifestation happens to mine. Like Ted Nelson said, years and years ago, when Shiva appears in two temples at the same time, you're not looking at two instances of the god. Hey, he's a deity, he can manifest in two places, you're looking at the same guy!
+</p>
+
+<p class="major">
+It's not until some way through talking with the Mario that I notice I'm not talking with Karen directly. She's built a Bayesian network of our conversation and populated that, so it's only when I ask her something unexpected I get the characteristic "hm, let's talk about that later" in reply.
+</p>
+<p class="minor">
+The model's got enough smarts to check the weather archive when I ask it when the rain started, and when I ask her (via the model) what she'd like for dinner it makes a sensible reply -- ostensibly using heuristics based on previous menus and choices, but I suspect Nestle, who are subsidising the link and computation this week, may have skewed the response to favour their subsiduaries.
+</p>
+<p class="minor">
+And that's exactly the problem, the reason why Karen's gone out to the country today.
+</p>
+<p class="minor">
+Okay, so we can all create nouns, but there still has to be a mechanism to multicast the input/output of all of these manifestations. We pay for the link, we pay for the computational mills, but corporations put money in too and it's got to the point where we couldn't afford to buy enough computation on our own anymore. We <i>have</i> to accept advertising. How semiotcratic is that?
+</p>
+<p class="minor">
+It's a difficult question. On the one hand computing is still rivalrous and it's cheaper the centralise it, so in a way accepting a little advertising buys us a lot of freedom. But on the other, when advertising agencies lobby to disallow local computing that isn't hooked up to the grid and you can't trust whether somebody really asked you if you wanted a Heineken or perhaps they asked if you wanted a beer and the product name was substituted en route...
+</p>
+
+<p class="major">
+The copyclothes I bought as a kid, the underwear bought in double packs that the reps claimed shared a Nelson: Sure they warmed up so you'd get a tingle on your genitals every so often, and they <i>say</i> it was your boyfriend/girlfriend getting aroused, but hey, when you're 14 you're getting erections every five minutes. Who's to say they haven't just recorded one randy teenager once, and it's being taped out on a 24 hour loop?
+</p>
+<p class="minor">
+And let's not even get into teledildonics, I've heard too many rumours about that.
+</p>
+
+<p class="major">
+Karen's on a proper black-market mission. Not just unregulated, but a place with access to a Drexler and the right blueprints. She's gone to obtain a Direct Connection. And as I finish talking to the Mario she pings me by IM. A smiley: Success.
+</p>
+
+<p class="major">
+Later, in our apartment in London, we hook the precious cable between the gateways of our personal area networks and turn off the link to the grid. The newsfeeds plastering the walls of the flat wink out and our soundtrack finishes. The constant hints and reminders about my status in my various social networks that hover at the edges of my field of view disappear (network clustering being one of the things we really do need the massive computation of the grid for).
+</p>
+<p class="minor">
+And there's a curious kind of silence. The traffic noise is still there, and the hum of the aircon, but something else is missing. Who knows. Perhaps there's a constant muttering of subliminal product placement, now gone; perhaps I've seen nothing but Ford cars for a month and now I can see what's really there. Whatever.
+</p>
+<p class="minor">
+For a while Karen and I sit, chatting and cuddling, wallowing in the privacy. Then we swap our remaining Nelson pointers, directly this time: contacts lenses, clothes, IO to our kinesthetics. The signal's clean, the cable good quality.
+</p>
+<p class="minor">
+Then we sit for a moment, gazing at one another, utterly and as never before disintermediated. And there, I'm afraid, my tale will have to stop. I'm sure you understand.
+</p>
+
+
+	<!-- Main content ends -->
+
+	<p>&nbsp;</p>
+
+	<!-- Archive -->
+	<p align="center">
+	&nbsp;
+	<br />
+	<a name="archive"><img src="images/main_archive.gif" height="19" alt="This is the fucking archive" /></a>
+	</p>
+
+<p class="bottom">Current clown:</p><p class="bottom">18 December 2003. <b>George</b> writes: <a href="2003_12_18.shtml">This List</a><br />
+</p><p class="bottom">Most recent ten:</p><p class="bottom">15 December 2003. <b>Jamie</b> writes: <a href="2003_12_15.shtml">Seven Songs</a><br />
+11 December 2003. <b>Dan</b> writes: <a href="2003_12_11.shtml">Spinning Jenny</a><br />
+8 December 2003. <b>Victor</b> writes: <a href="2003_12_08.shtml">Rock Opera</a><br />
+4 December 2003. <b>Matt</b> writes: <a href="2003_12_04.shtml">The Mirrored Spheres of Patagonia</a><br />
+1 December 2003. <b>George</b> writes: <a href="2003_12_01.shtml">Charm</a><br />
+27 November 2003. <b>James</b> writes: <a href="2003_11_27.shtml">On Boxing</a><br />
+24 November 2003. <b>Jamie</b> writes: <a href="2003_11_24.shtml">El Matador del Amor; Or, the Man who Killed Love</a><br />
+20 November 2003. <b>Dan</b> writes: <a href="2003_11_20.shtml">Rights Management</a><br />
+17 November 2003. <b>Victor</b> writes: <a href="2003_11_17.shtml">Walking on Yellow</a><br />
+13 November 2003. <b>Matt</b> writes: <a href="2003_11_13.shtml">Disintermediation</a><br />
+(And alas we lost <b>Neil</b>, who last wrote <a href="2002_06_17.shtml">Cockfosters</a>)<br /></p><p class="bottom">Also by this clown:</p><p class="bottom">4 December 2003. <b>Matt</b> writes: <a href="2003_12_04.shtml">The Mirrored Spheres of Patagonia</a><br />
+13 November 2003. <b>Matt</b> writes: <a href="2003_11_13.shtml">Disintermediation</a><br />
+23 October 2003. <b>Matt</b> writes: <a href="2003_10_23.shtml">Topology</a><br />
+2 October 2003. <b>Matt</b> writes: <a href="2003_10_02.shtml">Haunted</a><br />
+8 September 2003. <b>Matt</b> writes: <a href="2003_09_08.shtml">The Gardener's Diary</a><br />
+21 August 2003. <b>Matt</b> writes: <a href="2003_08_21.shtml">The Starling Variable</a><br />
+31 July 2003. <b>Matt</b> writes: <a href="2003_07_31.shtml">Two stories</a><br />
+14 July 2003. <b>Matt</b> writes: <a href="2003_07_14.shtml">What is real?</a><br />
+23 June 2003. <b>Matt</b> writes: <a href="2003_06_19.shtml">Mapping and journeys</a><br />
+29 May 2003. <b>Matt</b> writes: <a href="2003_05_29.shtml">Extelligence</a><br />
+5 May 2003. <b>Matt</b> writes: <a href="2003_05_05.shtml">Religious experiences</a><br />
+17 April 2003. <b>Matt</b> writes: <a href="2003_04_17.shtml">Seeing the Light</a><br />
+27 March 2003. <b>Matt</b> writes: <a href="2003_03_27.shtml">Flowering</a><br />
+10 March 2003. <b>Matt</b> writes: <a href="2003_03_10.shtml">Climax state</a><br />
+10 February 2003. <b>Matt</b> writes: <a href="2003_02_10.shtml">The Role of Cooperation in Human Interaction</a><br />
+20 January 2003. <b>Matt</b> writes: <a href="2003_01_20.shtml">The same old subroutine</a><br />
+2 January 2003. <b>Matt</b> writes: <a href="2003_01_02.shtml">New beginnings</a><br />
+9 December 2002. <b>Matt</b> writes: <a href="2002_12_09.shtml">Packet Loss</a><br />
+18 November 2002. <b>Matt</b> writes: <a href="2002_11_18.shtml">Wonderland</a><br />
+31 October 2002. <b>Matt</b> writes: <a href="2002_10_31.shtml">Having and losing</a><br />
+10 October 2002. <b>Matt</b> writes: <a href="2002_10_10.shtml">Trees of Knowledge</a><br />
+19 September 2002. <b>Matt</b> writes: <a href="2002_09_19.shtml">The online life of bigplaty47</a><br />
+29 August 2002. <b>Matt</b> writes: <a href="2002_08_29.shtml">Divorce</a><br />
+8 August 2002. <b>Matt</b> writes: <a href="2002_08_08.shtml">How to get exactly what you want</a><br />
+18 July 2002. <b>Matt</b> writes: <a href="2002_07_18.shtml">Eleven Graceland endings</a><br />
+27 June 2002. <b>Matt</b> writes: <a href="2002_06_27.shtml">Listopad, Prague 1989</a><br />
+3 June 2002. <b>Matt</b> writes: <a href="2002_06_03.shtml">Engram bullets</a><br />
+6 May 2002. <b>Matt</b> writes: <a href="2002_05_06.shtml">Sound advice</a><br />
+15 April 2002. <b>Matt</b> writes: <a href="2002_04_15.shtml">How it all works: Cars</a><br />
+21 March 2002. <b>Matt</b> writes: <a href="2002_03_21.shtml">Proceeding to the next stage</a><br />
+25 February 2002. <b>Matt</b> writes: <a href="2002_02_25.shtml">Spam quartet</a><br />
+31 January 2002. <b>Matt</b> writes: <a href="2002_01_31.shtml">Person to person</a><br />
+7 January 2002. <b>Matt</b> writes: <a href="2002_01_07.shtml">All for the best</a><br />
+13 December 2001. <b>Matt</b> writes: <a href="2001_12_13.shtml">Life</a><br />
+19 November 2001. <b>Matt</b> writes: <a href="2001_11_19.shtml">Giving is better than receiving</a><br />
+25 October 2001. <b>Matt</b> writes: <a href="2001_10_25.shtml">Ludo</a><br />
+1 October 2001. <b>Matt</b> writes: <a href="2001_10_01.shtml">Gifts, contracts, and whispers</a><br />
+6 September 2001. <b>Matt</b> writes: <a href="2001_09_06.shtml">The world is ending</a><br />
+13 August 2001. <b>Matt</b> writes: <a href="2001_08_13.shtml">The Church of Mrs Bins</a><br />
+16 July 2001. <b>Matt</b> writes: <a href="2001_07_16.shtml">Things I Don't Have</a><br />
+25 June 2001. <b>Matt</b> writes: <a href="2001_06_25.shtml">Fighting the Good Fight</a><br />
+31 May 2001. <b>Matt</b> writes: <a href="2001_05_31.shtml">Code dependency</a><br />
+7 May 2001. <b>Matt</b> writes: <a href="2001_05_07.shtml">Up The Arse, Or Not At All</a><br />
+5 April 2001. <b>Matt</b> writes: <a href="2001_04_05.shtml">The increasing nonlinearity of time</a><br />
+19 March 2001. <b>Matt</b> writes: <a href="2001_03_19.shtml">Hit Me Baby, One More Time</a><br />
+22 February 2001. <b>Matt</b> writes: <a href="2001_02_22.shtml">Space, Matter, Cities, Sausages</a><br />
+29 January 2001. <b>Matt</b> writes: <a href="2001_01_29.shtml">Truth in Advertising</a><br />
+1 January 2001. <b>Matt</b> writes: <a href="2001_01_01.shtml">Six predictions for tomorrow</a><br />
+7 December 2000. <b>Matt</b> writes: <a href="2000_12_07.shtml">You must reach this line to ride</a><br />
+16 November 2000. <b>Matt</b> writes: <a href="2000_11_16.shtml">The truth about the leopard</a><br />
+23 October 2000. <b>Matt</b> writes: <a href="2000_10_23.shtml">Shopping mauls</a><br />
+28 September 2000. <b>Matt</b> writes: <a href="2000_09_28.shtml">Heavy traffic on the road to Utopia</a><br />
+4 September 2000. <b>Matt</b> writes: <a href="2000_09_04.shtml">Sixty worlds a minute</a><br />
+17 July 2000. <b>Matt</b> writes: <a href="2000_07_17.shtml">You, Me, and Face-space</a><br />
+</p>
+<!-- About -->
+<p align="center">
+&nbsp;
+<br />
+<a name="about"><img src="images/main_about.gif" height="19" alt="Let meeeeeee entertain you" /></a>
+</p>
+
+<p class="bottom">
+We are all Upsideclown: <a href="mailto:dan@upsideclown.com">Dan</a>, <a href="mailto:george@upsideclown.com">George</a>, <a href="mailto:james@upsideclown.com">James</a>, <a href="mailto:jamie@upsideclown.com">Jamie</a>, <a href="mailto:matt@upsideclown.com">Matt</a>, <a href="mailto:neil@upsideclown.com">Neil</a>, <a href="mailto:victor@upsideclown.com">Victor</a>.
+</p>
+
+<p class="bottom">
+Material is (c) respective authors. For everything else, there's <a href="mailto:it@upsideclown.com">it@upsideclown.com</a>.
+</p>
+
+
+<!-- Subscribe -->
+<p align="center">
+&nbsp;
+<br />
+<a name="subscribe"><img src="images/main_subscribe.gif" height="19" alt="Never come here again" /></a>
+</p>
+
+<p class="bottom">
+And weeeeeee can entertain you by email too. Get fresh steaming Upsideclown in your inbox Mondays and Thursdays, and you'll never need to visit this website again. To subscribe, send the word <b>subscribe</b> in the body of your mail to <a href="mailto:upsideclown-request@historicalfact.com?body=subscribe">upsideclown-request@historicalfact.com</a>. (To unsubscribe, send the word <b>unsubscribe</b> instead.)
+</p>
+
+<p>
+<img src="images/spacer.gif" height="300" width="1" alt="..." />
+</p>
+
+</td>
+<td width="60">
+<img src="images/spacer.gif" width="60" heigth="1" alt="..." />
+</td>
+<td width="14" bgcolor="#93A9B4" align="left" valign="top">
+<img src="images/rhn_onthispage.gif" width="14" height="79" alt="On this page:" />
+<img src="images/spacer.gif" width="14" height="12" alt="..." />
+<a href="#archive" class="rhn"><img src="images/rhn_archive.gif" width="14" height="58" border="0" alt="Archive" /></a>
+<img src="images/spacer.gif" width="14" height="12" alt="..." />
+<a href="#about" class="rhn"><img src="images/rhn_about.gif" width="14" height="48" border="0" alt="About" /></a>
+<img src="images/spacer.gif" width="14" height="12" alt="..." />
+<a href="#subscribe" class="rhn"><img src="images/rhn_subscribe.gif" width="14" height="71" border="0" alt="Subscribe" /></a>
+<img src="images/spacer.gif" width="14" height="12" alt="..." />
+<img src="images/rhn_elsewhere.gif" width="14" height="68" />
+<img src="images/spacer.gif" width="14" height="12" alt="..." />
+<a href="http://www.upsideclone.com/" class="rhn"><img src="images/rhn_upsideclone.gif" width="14" height="89" border="0" alt="Upsideclone" /></a>
+</td>
+</tr>
+</table>
+</body>
+</html>

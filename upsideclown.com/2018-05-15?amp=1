@@ -1,0 +1,602 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+	<meta charset="utf-8">
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="canonical" href="http://upsideclown.com/2018-05-15">
+
+	<title>In the City Last Night (Upsideclown)</title>
+	<style amp-custom>
+		h1 {
+			font-size: 4rem;
+			line-height: 1.2;
+			letter-spacing: -.1rem;
+			font-weight: 300;
+			margin-top: 0;
+			margin-bottom: 2rem;
+		}
+		.container {
+			width: 100%;
+		    position: relative;
+		    max-width: 960px;
+		    margin: 0 auto;
+		    padding: 0 20px;
+		    box-sizing: border-box; }
+		}
+		@charset "UTF-8";
+/*!
+Typeplate : Starter Kit
+URL ........... http://typeplate.com
+Version ....... 3.0.2
+Github ........ https://github.com/typeplate/starter-kit
+Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+  color: #222;
+}
+
+blockquote + figcaption cite {
+  display: block;
+  font-size: inherit;
+  text-align: right;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+pre code {
+  word-wrap: normal;
+}
+
+html {
+  font: normal 112.5% / 1.65 serif;
+}
+
+body {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #444;
+}
+
+.typl8-tera {
+  font-size: 6.5em;
+  margin-bottom: 3.93939rem;
+}
+
+.typl8-giga {
+  font-size: 5em;
+  margin-bottom: 3.0303rem;
+}
+
+.typl8-mega, h1 {
+  font-size: 4em;
+  margin-bottom: 2.42424rem;
+}
+
+.typl8-alpha, h2 {
+  font-size: 3.33333em;
+  margin-bottom: 2.0202rem;
+}
+
+.typl8-beta, h3 {
+  font-size: 2.66667em;
+  margin-bottom: 1.61616rem;
+}
+
+.typl8-gamma, h4 {
+  font-size: 2em;
+  margin-bottom: 1.21212rem;
+}
+
+.typl8-delta, h5 {
+  font-size: 1.33333em;
+  margin-bottom: 0.80808rem;
+}
+
+.typl8-epsilon {
+  font-size: 1.16667em;
+  margin-bottom: 0.70707rem;
+}
+
+.typl8-zeta, h6 {
+  font-size: 1em;
+  margin-bottom: 0.60606rem;
+}
+
+p {
+  margin: auto auto 1.5rem;
+}
+
+p + p {
+  text-indent: 1.5rem;
+  margin-top: -1.5rem;
+}
+
+small {
+  font-size: 65%;
+}
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre {
+  white-space: pre;
+}
+
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+
+abbr[title]:hover {
+  cursor: help;
+}
+
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+p + .typl8-drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="typl8-lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-lining dt,
+.typl8-lining dd {
+  display: inline;
+  margin: 0;
+}
+
+.typl8-lining dt + dt:before,
+.typl8-lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+
+.typl8-lining dd + dd:before {
+  content: ", ";
+}
+
+.typl8-lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="typl8-dictionary-style">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+
+.typl8-dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+
+.typl8-dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+
+.typl8-dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+    <figure>
+      <blockquote cite="">
+        <p></p>
+      </blockquote>
+      <figcaption>
+        <cite>
+          <small><a href=""></a></small>
+        </cite>
+      </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="typl8-pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.typl8-pull-quote {
+  position: relative;
+  padding: 1em;
+}
+
+.typl8-pull-quote:before, .typl8-pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+
+.typl8-pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+
+.typl8-pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. X.X | </strong><cite title=""></cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */		
+body {
+	font-family: georgia, serif;
+	font-size: 1rem;
+	background: #F5F5F5;
+}
+h1 {
+    -webkit-hyphens: none;
+    -moz-hyphens:    none;
+    -ms-hyphens:     none;
+    hyphens:         none;
+}
+h1, h3 {
+	color: #333;
+}
+p, li {
+	color: #444;
+}
+a {
+	color: #327F9A;
+}
+h4 {
+	color: #62aFcA;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	font-variant: small-caps;
+}
+hr {
+	display: none;
+}
+li + li {
+    margin-top: -1rem;	
+}
+ol + p, ul + p {
+    margin-top: -1rem;	
+}
+ul {
+  list-style: circle outside;
+}
+ol {
+  list-style: decimal outside;
+}
+#mce-EMAIL {
+	width: 400px;
+}
+p.boilerplate {
+	text-transform: uppercase;
+}
+p.boilerplate, p.boilerplate a, p.boilerplate a:hover {
+	color: #444;
+}
+p.nav {
+	text-indent: 0;
+	text-transform: uppercase;
+}
+h3.nav-arrest {
+	color: #62aFcA;	
+}
+#banner, #banner a {
+    xtransition: .3s all;  /* rotate gradually instead of instantly */
+    -webkit-transform: rotate(180deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(180deg);      /* to support IE 9 */
+    transform: rotate(180deg);
+	font-family: georgia;
+	font-size: 2rem;
+	color: #327F9A;
+	text-decoration: none;
+}
+#banner a:hover {
+    /* -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); */
+	color: #62aFcA;
+}
+@media (max-width: 550px) {
+	.hide-on-mobile { display: none; }
+	h1 { font-size: 2rem;}
+	p, h4, li, label { font-size: 0.8rem; }
+	#mce-EMAIL { width: 90%; }
+	ul {
+	  list-style: circle inside;
+	}
+	ol {
+	  list-style: decimal inside;
+	}
+}
+@media (min-width: 550px) {
+	.show-on-mobile { display: none; }
+}		ul {
+		  list-style: circle inside;
+		  padding-left: 0;
+		  margin-top: 0;
+	  	}
+		li + li {
+			margin-top: 0rem;
+		}
+		ol + p, ul + p {
+			margin-top: 1.5rem;
+		}
+		@media (max-width: 550px) {
+			h1 { font-size: 2rem; }
+			p, h4, li, label { font-size: 0.8rem; }
+			#mce-EMAIL { width: 90%; }
+		}
+	</style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": "http://upsideclown.com/2018-05-15",
+        "headline": "In the City Last Night",
+        "datePublished": "2018-05-15T09:00:00Z",
+        "dateModified": "2018-05-15T09:00:00Z",
+        "author": {
+          "@type": "Person",
+          "name": "Neil"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Upsideclown",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://upsideclown.com/reboot-2017/upsideclown-logo-amp.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    </script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+	<div class="container">
+		<p id="banner" align="right"><a href="/?amp=1">umol&#x2184;&#x259;p!sdn</a></p>
+			
+		<p class="nav">
+			<small>
+			<a href="#archive">Archive</a>
+			<a href="#subscribe">Subscribe</a>
+			</small>
+		</p>
+		
+		<h1>In the City Last Night</h1>
+		<p>
+			By Neil, 15 May 2018</u> <a href="/2018-05-15?amp=1">#</a></p>
+
+		<hr>
+
+		<p class="typl8-drop-cap">&#8220;It&#8217;s nice to spend time with someone I can just be myself with.&#8221;</p>
+<p>6.45pm and we&#8217;re affecting a slow social disentanglement with reluctant warmth.</p>
+<p>&#8220;Are you sure you don&#8217;t have time for a coffee?&#8221;</p>
+<p>There&#8217;s undoubtedly an allure to Claire&#8217;s comforting familiarity, although in truth we&#8217;ve said little beyond occasional observations and nostalgic jokes during the past ninety minutes spent meandering around reverentially lit cases of medieval almanacs.</p>
+<p>&#8220;The dinner&#8217;s at 7.30,&#8221; I apologise, ignoring the insistent vibration of my phone against my thigh, &#8220;And I need to get changed first.&#8221;</p>
+<p>&#8220;That&#8217;s okay Rob,&#8221; she smiles. &#8220;I appreciate you slipping away early to come and do this with me, it wouldn&#8217;t have been the same with anyone else. I know there must be a lot of demands on your time now you&#8217;re so terribly important.&#8221;</p>
+<p>&#8220;It&#8217;s fine,&#8221; I assure her. &#8220;Once you&#8217;ve climbed far enough up the greasy pole, no-one really questions your comings and goings so long as you do it with enough confidence. I&#8217;m not sure I really added to your experience though, I&#8217;ve forgotten so much.&#8221;</p>
+<p>We&#8217;d studied together, St. Andrew&#8217;s, drawn to each other by a mutual passion for the subject, although for a time I had mistaken her attentions for something else, but Claire had stayed in the field whereas I veered off into the law, a decision that still saddened and perplexed her.</p>
+<p>&#8220;It&#8217;s the appreciation, not the knowledge it&#8217;s nice to share with someone,&#8221; she reassures me generously then sighs, surveys the Gift Shop tat surrounding us as if only just realising where she is and admits: &#8220;I should probably get going too, the train takes an age and there&#8217;s no guarantee the house will be still standing if I leave Alex in charge for too long. I hate getting home so late on a weeknight but it&#8217;s only really for things like this that I miss London: are you still surviving here?&#8221;</p>
+<p>&#8220;At this point I can&#8217;t really imagine being anywhere else,&#8221; I reply.</p>
+<hr />
+<p>&#8220;No thank you,&#8221; I stretch my hand out flat and cover the wine glass, well-versed in the tendency for refusals to go unheeded, and the bottle is begrudgingly withdrawn.</p>
+<p>&#8220;Robert&#8217;s not one to allow himself any kind of life outside of the office,&#8221; Olly Westbrook explains ingratiatingly to our client as he meets my eyes with a needling gaze.</p>
+<p>&#8220;There&#8217;s a lot still to be done tomorrow,&#8221; I respond placidly, thinking of all of the Ollies that I have seen off before.</p>
+<p>9.45pm: the sharp suit has been ditched for a DJ and plummy chatter echoes around the plush expanse of the Worshipful Company of Water Scrigers&#8217; Livery Hall.</p>
+<p>&#8220;Mr. Westbrook&#8217;s been suggesting that the matter&#8217;s as good as agreed,&#8221; the Guildmaster demurs, twitching snowy eyebrows with a hint of challenge.</p>
+<p>I savour the sight of Olly tensing out of the corner of my eye as I allow the comment to hang in the air for a few moments before telling him: &#8220;We still don&#8217;t want to leave anything to chance,&#8221; with my most platitudinous blandness.</p>
+<p>The inevitable invitation to withdraw for further sampling of the Company&#8217;s extensive cellars comes as the wreckage of the school-dinner dessert is cleared away by unobtrusive staff, slim, young Europeans in starched collars. I briefly contemplate the risks of leaving my cocksure junior with unfettered access to the Guildmaster but they are not sufficient to force me to endure a further hour of sententious bluster and I make my excuses.</p>
+<p>&#8220;It could have been agreed by now,&#8221; Olly has followed me out into the hall. &#8220;If we&#8217;d really pushed them, they&#8217;d have crumbled. People like this aren&#8217;t looking for someone to grind things down, they want a bit more aggression.&#8221;</p>
+<p>&#8220;They&#8217;ve been around for three hundred and fifty years, I suspect they have rather more patience than you give them credit for.&#8221;</p>
+<p>I almost pause mid-sentence as I look up at the Mediterranean-complexioned functionary handing me my coat. I immediately feel I know him from somewhere but, although he meets my gaze, his face remains impassive.</p>
+<p>My phone rings and, without looking at it, I move briskly away from Olly, telling him: &#8220;I&#8217;m sorry, I really must take this.&#8221;</p>
+<hr />
+<p>&#8220;There &#8216;e goes again, Robbie the risk-taker,&#8221; shaven-headed and with a year-round air of sunburn, Jay winks and continues looking me in the eyes as he tosses in chips to meet my pugnacious raise.</p>
+<p>12.15am and six of us are joshing amidst a fug of smoke and sweat in a bare room above a laundrette in one of the bits of Bermondsey they haven&#8217;t got to yet.</p>
+<p>&#8220;There&#8217;s no buy back in, remember,&#8221; Jay teases me, &#8220;So don&#8217;t think you can bully us with your lawyer&#8217;s salary.&#8221;</p>
+<p>There&#8217;s agreeable laughter at this, even though frank late-night discussions have previously suggested that half the men in this room easily outstrip my income via less well-documented means.</p>
+<p>Money-making schemes are a fair staple of conversations during the frequent and lengthening breaks between runs of hands, when we refuel on rum and sniff, express affection towards someone and then complain about them as soon as they go out for a piss and engage in endless opinion-expressing about those other safe areas of male socialisation, women and sport.</p>
+<p>It was the latter that threw us together, the twin lotteries of season-ticket allocation and the friends your children make gradually blooming, after some fairly heavy initial circumspection on both sides, into this unexpected but very welcome acquisition of a new circle of post-divorce friends.</p>
+<p>&#8220;Fuck&#8217;s sake, turn that thing off!&#8221; Jay orders as my phone buzzes again in the faded jeans I had extricated from my locker at the office gym.</p>
+<p>&#8220;Or tell her to fuck off!&#8221; Col chimes in to more laughter.</p>
+<p>&#8220;Think I&#8217;d rather tell you guys to fuck off!&#8221; I rejoinder; a joke, but I am already looking for an acceptable moment to move on.</p>
+<hr />
+<p>Wired and wind-swept, I hustle, hood up, down the 2am Stratford street. As someone comes the other way, rangy and urgent, we both keep looking ahead with the shared desire of the city&#8217;s night-owls to not know each other&#8217;s business.</p>
+<p>I punch in a number at the secure entrance and the door buzzes open without a word of enquiry over the intercom. Up at the flat, the door opens at my push and Anil is outlined in the unlit hallway.</p>
+<p>&#8220;Strip,&#8221; is his first word to me, followed (as I comply with this instruction) by: &#8220;What took you so long, bitch?&#8221;</p>
+<p>&#8220;Sorry, I had things to do,&#8221; I mumble with performed deference.</p>
+<p>&#8220;There are no other things, you should be keeping yourself free for whenever I need you.&#8221;</p>
+<p>&#8220;Yes Sir.&#8221; The dynamic sufficiently established, Anil pushes me onto my knees, keeping a proprietorial hand on my head as I get to work.</p>
+<p>Much as I try to enjoy the moment, my mind wanders and I&#8217;m already thinking of the contracts that need reviewing in the morning, collecting the kids in time for the cinema tomorrow evening, the frail but favoured aunt I am travelling up to visit at the weekend. </p>
+<hr />
+<p>3.30am: home, padding around the empty flat. I yank the bathroom light on and root around beneath the sink until I&#8217;ve successfully retrieved a zopiclone. Straightening, I instinctively look up to find myself staring back out from the mirror. Quickly, I reach for the switch.</p>
+		<h1>&nbsp;</h1>
+
+		<h4 id="archive">this is the fucking archive <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<ul>
+			<li>30 Oct. 2018, Vic: <a href="http://upsideclown.com/2018-10-30?amp=1">Minami-Senju Disconnect</a></li>
+						<li>16 Oct. 2018, Dan: <a href="http://upsideclown.com/2018-10-16?amp=1">Energy&#8217;s Exile</a></li>
+						<li>11 Sep. 2018, Matt: <a href="http://upsideclown.com/2018-09-11?amp=1">On the Campaign Trail</a></li>
+						<li>21 Aug. 2018, Neil: <a href="http://upsideclown.com/2018-08-21?amp=1">By Any Other Word</a></li>
+						<li>31 Jul. 2018, Jamie: <a href="http://upsideclown.com/2018-07-31?amp=1">How to Say Goodbye (Part II)</a></li>
+						<li>17 Jul. 2018, Vic: <a href="http://upsideclown.com/2018-07-17?amp=1">Shirley Asinine</a></li>
+						<li>3 Jul. 2018, Dan: <a href="http://upsideclown.com/2018-07-03?amp=1">Tell the Bees</a></li>
+						<li>19 Jun. 2018, James: <a href="http://upsideclown.com/2018-06-19?amp=1">Warning: May contain offensive language</a></li>
+						<li>29 May. 2018, Matt: <a href="http://upsideclown.com/2018-05-29?amp=1">Volume Five</a></li>
+						<li>15 May. 2018, Neil: <strong>In the City Last Night</strong></li>
+						<li>1 May. 2018, Jamie: <a href="http://upsideclown.com/2018-05-01?amp=1">The Sandéparabola</a></li>
+						<li>17 Apr. 2018, Vic: <a href="http://upsideclown.com/2018-04-17?amp=1">Ultra Absorbent</a></li>
+						<li>3 Apr. 2018, Dan: <a href="http://upsideclown.com/2018-04-03?amp=1">The Best Seat in the House</a></li>
+						<li>20 Mar. 2018, James: <a href="http://upsideclown.com/2018-03-20?amp=1">The girl with kaleidoscope eyes</a></li>
+						<li>6 Mar. 2018, Matt: <a href="http://upsideclown.com/2018-03-06?amp=1">The Ursa Major Moving Group</a></li>
+						<li>20 Feb. 2018, Neil: <a href="http://upsideclown.com/2018-02-20?amp=1">Ghost World</a></li>
+						<li>6 Feb. 2018, Jamie: <a href="http://upsideclown.com/2018-02-06?amp=1">In search of&#8230; Edson Vincent, football&#8217;s lost superstar</a></li>
+						<li>23 Jan. 2018, Vic: <a href="http://upsideclown.com/2018-01-23?amp=1">The Long Way Home</a></li>
+						<li>9 Jan. 2018, Dan: <a href="http://upsideclown.com/2018-01-09?amp=1">Season&#8217;s Greetings</a></li>
+						<li>19 Dec. 2017, James: <a href="http://upsideclown.com/2017-12-19?amp=1">The Ghost of Christmas Yet to Come</a></li>
+						<li>4 Dec. 2017, Matt: <a href="http://upsideclown.com/2017-12-04?amp=1">The search for another intelligence</a></li>
+						<li>21 Nov. 2017, Neil: <a href="http://upsideclown.com/2017-11-21?amp=1">Passing</a></li>
+						<li>7 Nov. 2017, Jamie: <a href="http://upsideclown.com/2017-11-07?amp=1">The Dark Of The Matinee</a></li>
+						<li>24 Oct. 2017, Vic: <a href="http://upsideclown.com/2017-10-24?amp=1">Anybody Seen Carlos?</a></li>
+						<li>10 Oct. 2017, Dan: <a href="http://upsideclown.com/2017-10-10?amp=1">Salvage</a></li>
+						<li>26 Sep. 2017, George: <a href="http://upsideclown.com/2017-09-26?amp=1">No Planes Go</a></li>
+						<li>12 Sep. 2017, James: <a href="http://upsideclown.com/2017-09-12?amp=1">Pontification</a></li>
+						<li>29 Aug. 2017, Matt: <a href="http://upsideclown.com/2017-08-29?amp=1">Moving House</a></li>
+						<li>15 Aug. 2017, Neil: <a href="http://upsideclown.com/2017-08-15?amp=1">Parental Guidance</a></li>
+						<li>1 Aug. 2017, Jamie: <a href="http://upsideclown.com/2017-08-01?amp=1">OK, Commuter</a></li>
+						<li>18 Jul. 2017, Vic: <a href="http://upsideclown.com/2017-07-18?amp=1">228 days to go</a></li>
+										<li>2003&mdash;2017: Hiatus. <a href="http://upsideclown.com/2003_12_01.shtml" target="_blank">Where we left off</a></li>
+			</ul>
+
+		<h1>&nbsp;</h1>
+
+		<h4 id="subscribe">never come here again <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<p>Receive new stories by email. Fortnightly. <a href="http://eepurl.com/cVjL2D" target="_blank">Subscribe.</a></p>
+
+		<h1>&nbsp;</h1>
+
+		<p class="boilerplate">
+			<small>We are all Upsideclown: Vic, Jamie, Neil, Matt, James, George, and Dan. Material&nbsp;&copy;&nbsp;its respective author. Email:&nbsp;<a href="mailto:complains@upsideclown.com">complaints@upsideclown.com</a></small>
+		</p>
+		
+
+	</div> <!-- /.container -->
+	
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-101929921-1"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>	
+</body>
+</html>

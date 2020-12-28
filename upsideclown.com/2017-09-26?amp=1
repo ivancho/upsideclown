@@ -1,0 +1,575 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+	<meta charset="utf-8">
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="canonical" href="http://upsideclown.com/2017-09-26">
+
+	<title>No Planes Go (Upsideclown)</title>
+	<style amp-custom>
+		h1 {
+			font-size: 4rem;
+			line-height: 1.2;
+			letter-spacing: -.1rem;
+			font-weight: 300;
+			margin-top: 0;
+			margin-bottom: 2rem;
+		}
+		.container {
+			width: 100%;
+		    position: relative;
+		    max-width: 960px;
+		    margin: 0 auto;
+		    padding: 0 20px;
+		    box-sizing: border-box; }
+		}
+		@charset "UTF-8";
+/*!
+Typeplate : Starter Kit
+URL ........... http://typeplate.com
+Version ....... 3.0.2
+Github ........ https://github.com/typeplate/starter-kit
+Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+  color: #222;
+}
+
+blockquote + figcaption cite {
+  display: block;
+  font-size: inherit;
+  text-align: right;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+pre code {
+  word-wrap: normal;
+}
+
+html {
+  font: normal 112.5% / 1.65 serif;
+}
+
+body {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #444;
+}
+
+.typl8-tera {
+  font-size: 6.5em;
+  margin-bottom: 3.93939rem;
+}
+
+.typl8-giga {
+  font-size: 5em;
+  margin-bottom: 3.0303rem;
+}
+
+.typl8-mega, h1 {
+  font-size: 4em;
+  margin-bottom: 2.42424rem;
+}
+
+.typl8-alpha, h2 {
+  font-size: 3.33333em;
+  margin-bottom: 2.0202rem;
+}
+
+.typl8-beta, h3 {
+  font-size: 2.66667em;
+  margin-bottom: 1.61616rem;
+}
+
+.typl8-gamma, h4 {
+  font-size: 2em;
+  margin-bottom: 1.21212rem;
+}
+
+.typl8-delta, h5 {
+  font-size: 1.33333em;
+  margin-bottom: 0.80808rem;
+}
+
+.typl8-epsilon {
+  font-size: 1.16667em;
+  margin-bottom: 0.70707rem;
+}
+
+.typl8-zeta, h6 {
+  font-size: 1em;
+  margin-bottom: 0.60606rem;
+}
+
+p {
+  margin: auto auto 1.5rem;
+}
+
+p + p {
+  text-indent: 1.5rem;
+  margin-top: -1.5rem;
+}
+
+small {
+  font-size: 65%;
+}
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre {
+  white-space: pre;
+}
+
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+
+abbr[title]:hover {
+  cursor: help;
+}
+
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+p + .typl8-drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="typl8-lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-lining dt,
+.typl8-lining dd {
+  display: inline;
+  margin: 0;
+}
+
+.typl8-lining dt + dt:before,
+.typl8-lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+
+.typl8-lining dd + dd:before {
+  content: ", ";
+}
+
+.typl8-lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="typl8-dictionary-style">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+
+.typl8-dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+
+.typl8-dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+
+.typl8-dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+    <figure>
+      <blockquote cite="">
+        <p></p>
+      </blockquote>
+      <figcaption>
+        <cite>
+          <small><a href=""></a></small>
+        </cite>
+      </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="typl8-pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.typl8-pull-quote {
+  position: relative;
+  padding: 1em;
+}
+
+.typl8-pull-quote:before, .typl8-pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+
+.typl8-pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+
+.typl8-pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. X.X | </strong><cite title=""></cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */		
+body {
+	font-family: georgia, serif;
+	font-size: 1rem;
+	background: #F5F5F5;
+}
+h1 {
+    -webkit-hyphens: none;
+    -moz-hyphens:    none;
+    -ms-hyphens:     none;
+    hyphens:         none;
+}
+h1, h3 {
+	color: #333;
+}
+p, li {
+	color: #444;
+}
+a {
+	color: #327F9A;
+}
+h4 {
+	color: #62aFcA;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	font-variant: small-caps;
+}
+hr {
+	display: none;
+}
+li + li {
+    margin-top: -1rem;	
+}
+ol + p, ul + p {
+    margin-top: -1rem;	
+}
+ul {
+  list-style: circle outside;
+}
+ol {
+  list-style: decimal outside;
+}
+#mce-EMAIL {
+	width: 400px;
+}
+p.boilerplate {
+	text-transform: uppercase;
+}
+p.boilerplate, p.boilerplate a, p.boilerplate a:hover {
+	color: #444;
+}
+p.nav {
+	text-indent: 0;
+	text-transform: uppercase;
+}
+h3.nav-arrest {
+	color: #62aFcA;	
+}
+#banner, #banner a {
+    xtransition: .3s all;  /* rotate gradually instead of instantly */
+    -webkit-transform: rotate(180deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(180deg);      /* to support IE 9 */
+    transform: rotate(180deg);
+	font-family: georgia;
+	font-size: 2rem;
+	color: #327F9A;
+	text-decoration: none;
+}
+#banner a:hover {
+    /* -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); */
+	color: #62aFcA;
+}
+@media (max-width: 550px) {
+	.hide-on-mobile { display: none; }
+	h1 { font-size: 2rem;}
+	p, h4, li, label { font-size: 0.8rem; }
+	#mce-EMAIL { width: 90%; }
+	ul {
+	  list-style: circle inside;
+	}
+	ol {
+	  list-style: decimal inside;
+	}
+}
+@media (min-width: 550px) {
+	.show-on-mobile { display: none; }
+}		ul {
+		  list-style: circle inside;
+		  padding-left: 0;
+		  margin-top: 0;
+	  	}
+		li + li {
+			margin-top: 0rem;
+		}
+		ol + p, ul + p {
+			margin-top: 1.5rem;
+		}
+		@media (max-width: 550px) {
+			h1 { font-size: 2rem; }
+			p, h4, li, label { font-size: 0.8rem; }
+			#mce-EMAIL { width: 90%; }
+		}
+	</style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": "http://upsideclown.com/2017-09-26",
+        "headline": "No Planes Go",
+        "datePublished": "2017-09-26T09:00:00Z",
+        "dateModified": "2017-09-26T09:00:00Z",
+        "author": {
+          "@type": "Person",
+          "name": "George"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Upsideclown",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://upsideclown.com/reboot-2017/upsideclown-logo-amp.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    </script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+	<div class="container">
+		<p id="banner" align="right"><a href="/?amp=1">umol&#x2184;&#x259;p!sdn</a></p>
+			
+		<p class="nav">
+			<small>
+			<a href="#archive">Archive</a>
+			<a href="#subscribe">Subscribe</a>
+			</small>
+		</p>
+		
+		<h1>No Planes Go</h1>
+		<p>
+			By George<em> a.k.a.</em> <a href="https://twitter.com/gsvoss" target="_blank">@gsvoss</a>, 26 September 2017</u> <a href="/2017-09-26?amp=1">#</a></p>
+
+		<hr>
+
+		<p class="typl8-drop-cap">I was out on the patio yesterday morning when I suddenly remembered chemtrails. It seemed like the most surreal thing: not only a sky scratched with straight white lines, but to have lived in a time when we had both the engineering capacity to fill the air with metal whales, and enough dim-wittedness to not understand the concept of humidity and temperature differentials. Still, as the graffiti the next road over says, we have all now had <em>quite</em> enough of experts. </p>
+<p>I live in south London under what used to be a major flight path in and out of City Airport. I never minded it: noise is noise, and standing out back watching the beasts flinging themselves ever upwards before banking at disturbingly steep angles always felt like a lovely free show. At least once a week, mostly early evenings with a stiff gin in hand, a plane would appear to tip a little too much and I would imagine that the pilot had overshot; that the whole enormous structure would keep on tipping and rolling, glinting in the evening light as it plunged down onto my paving stones in a tidal wave of flames.</p>
+<hr />
+<p>We - we little Englanders - have always conceived of the island quality of our nation through water. Britannia rules the waves, and our thresholds are defined by our surrounding oceans and channels. But there&#8217;s water elsewhere too. Vapour trails are formed from water ice crystals spat out by airplane engines. National borders do not end on the ground but carry on up, up, into the air: a vertical wall which climbs upwards for a hundred miles; a tall tube in the shape of a country. </p>
+<p>So, should a nation be stupid enough to try and extricate itself from some fairly comprehensive international agreements defining who exactly is allowed to fly in or out or across national airspace, the walls of that tube become much much thicker. It turned out that taking back control also meant creating an aerial deadzone. Nothing can fly in here without a Library of Alexandria&#8217;s worth of paperwork, and nothing can fly out without the same. </p>
+<p>There are some airborne machines: the occasional military plane; smaller buzzy police things, blinky with red lights, and which sound like a combine harvester if they get too low. But those threads of connection, the cats-cradle of flightpaths that cross-cut the country before splaying out over the sea and the continent &#8212; those are gone, baby, gone.</p>
+<p>A while back some fucker in a pub tried to convince me how much more peaceful the skies were now without all those terrible polluting planes and their ugly contrails. I was five pints in, piss-awful beer brewed somewhere near Salford but <em>very</em> strong, and I nearly headbutted him. I used to fly monthly for work out to Rotterdam and I resented every minute of it. Now I&#8217;d murder someone to be back in one of those spine-crunching orange seats, trying to open a can of gin at altitude without flinging it across the row. </p>
+<hr />
+<p>What comes up must come down and so down down down we&#8217;ve gone into those deep tunnels of Crossrail and the Eurostar and so on. God love every perceptive captain of industry who realised just how important subterranean train lines would become. The security is laxer, too, at least compared to how I remember airports. Every little &#8216;arms in the air / just don&#8217;t care / am I wearing deodorant?&#8217; dance I did in the scanners at Gatwick felt like a reasonable trade-off against the possibility of what might go wrong; the image of the plane aflame at the front of my mind.</p>
+<p>Now we&#8217;ve switched out vertigo for claustrophobia the stakes appear to be literally lower. Every train I&#8217;ve taken out of here has been bookended by a perfunctory pat-down by deeply bored children in scruffy navy blue and a benediction over my bags with some wand device. I presume the logic is that once they have your face they&#8217;ll know exactly what you did last summer, so tracking down someone post-fact is far easier that having to prevent idiocy ahead of time. Stupidly expensive of course, even in cattle class, but it gets you out of this bloody place.</p>
+<p>It also gets you in. You can&#8217;t carry anything big, but would you want to? The ports are snarled up for months with container ships as full of paperwork as freight. But a small package or five sewn into a coat lining, kept warm in an armpit as it zooms under the Channel &#8212; now that&#8217;s easy enough to find safe passage into the belly of our strong and stable nation. Unlike the ports the trains will spit you out in the middle of town, passport and package in hand, ready to deliver.</p>
+<p>And it&#8217;s good. Jesus Christ it&#8217;s good, those little stickered clear pouches filled with slightly chalky white powder that looks green in the half-light. I don&#8217;t know if they get named by our friends on the continent or the halfway boys in Tottenham but I appreciate the gesture: &#8220;Hamburg&#8221;, &#8220;Aarhus&#8221;, &#8220;Lyon&#8221;; a new way to learn the old geographies. I had a fingernail of &#8220;Milan&#8221; a fortnight ago and came to three days later, unable to see anything in the red spectrum and the taste of steel on my tongue.</p>
+<p>That was stupid though, idiotic. The better thing to plan it out carefully, and really, what else are you going to do with your time now?</p>
+<p>Dress like you would for a long-haul flight if you remember those &#8212; soft loose clothing, thick socks, no shoes. A pillow and a blanket and a bottle of water are good to have. You might want a high-fat snack for later.</p>
+<p>Find an open space &#8212; a back garden or patio or a park or a rooftop. If they&#8217;ve got you out picking fruit, stay on after the end of shift. Wrap yourself up warm and rub a fingerful of powder into your gums. Lie down. Look up. It&#8217;ll take a few minutes but they&#8217;ll come in soon enough. First a whine, and then the roar of the engines as they come swooping down at you; those metal beasts barrelling across the skies doing wild loops and backflips. Bright yellow and hot pink and verdant green trails screeching across the sky; eye-blinding turquoise and glowing red powder explosions in their wake. Stay with them; let them take you. Watch the skies.</p>
+		<h1>&nbsp;</h1>
+
+		<h4 id="archive">this is the fucking archive <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<ul>
+			<li>30 Oct. 2018, Vic: <a href="http://upsideclown.com/2018-10-30?amp=1">Minami-Senju Disconnect</a></li>
+						<li>16 Oct. 2018, Dan: <a href="http://upsideclown.com/2018-10-16?amp=1">Energy&#8217;s Exile</a></li>
+						<li>11 Sep. 2018, Matt: <a href="http://upsideclown.com/2018-09-11?amp=1">On the Campaign Trail</a></li>
+						<li>21 Aug. 2018, Neil: <a href="http://upsideclown.com/2018-08-21?amp=1">By Any Other Word</a></li>
+						<li>31 Jul. 2018, Jamie: <a href="http://upsideclown.com/2018-07-31?amp=1">How to Say Goodbye (Part II)</a></li>
+						<li>17 Jul. 2018, Vic: <a href="http://upsideclown.com/2018-07-17?amp=1">Shirley Asinine</a></li>
+						<li>3 Jul. 2018, Dan: <a href="http://upsideclown.com/2018-07-03?amp=1">Tell the Bees</a></li>
+						<li>19 Jun. 2018, James: <a href="http://upsideclown.com/2018-06-19?amp=1">Warning: May contain offensive language</a></li>
+						<li>29 May. 2018, Matt: <a href="http://upsideclown.com/2018-05-29?amp=1">Volume Five</a></li>
+						<li>15 May. 2018, Neil: <a href="http://upsideclown.com/2018-05-15?amp=1">In the City Last Night</a></li>
+						<li>1 May. 2018, Jamie: <a href="http://upsideclown.com/2018-05-01?amp=1">The Sandéparabola</a></li>
+						<li>17 Apr. 2018, Vic: <a href="http://upsideclown.com/2018-04-17?amp=1">Ultra Absorbent</a></li>
+						<li>3 Apr. 2018, Dan: <a href="http://upsideclown.com/2018-04-03?amp=1">The Best Seat in the House</a></li>
+						<li>20 Mar. 2018, James: <a href="http://upsideclown.com/2018-03-20?amp=1">The girl with kaleidoscope eyes</a></li>
+						<li>6 Mar. 2018, Matt: <a href="http://upsideclown.com/2018-03-06?amp=1">The Ursa Major Moving Group</a></li>
+						<li>20 Feb. 2018, Neil: <a href="http://upsideclown.com/2018-02-20?amp=1">Ghost World</a></li>
+						<li>6 Feb. 2018, Jamie: <a href="http://upsideclown.com/2018-02-06?amp=1">In search of&#8230; Edson Vincent, football&#8217;s lost superstar</a></li>
+						<li>23 Jan. 2018, Vic: <a href="http://upsideclown.com/2018-01-23?amp=1">The Long Way Home</a></li>
+						<li>9 Jan. 2018, Dan: <a href="http://upsideclown.com/2018-01-09?amp=1">Season&#8217;s Greetings</a></li>
+						<li>19 Dec. 2017, James: <a href="http://upsideclown.com/2017-12-19?amp=1">The Ghost of Christmas Yet to Come</a></li>
+						<li>4 Dec. 2017, Matt: <a href="http://upsideclown.com/2017-12-04?amp=1">The search for another intelligence</a></li>
+						<li>21 Nov. 2017, Neil: <a href="http://upsideclown.com/2017-11-21?amp=1">Passing</a></li>
+						<li>7 Nov. 2017, Jamie: <a href="http://upsideclown.com/2017-11-07?amp=1">The Dark Of The Matinee</a></li>
+						<li>24 Oct. 2017, Vic: <a href="http://upsideclown.com/2017-10-24?amp=1">Anybody Seen Carlos?</a></li>
+						<li>10 Oct. 2017, Dan: <a href="http://upsideclown.com/2017-10-10?amp=1">Salvage</a></li>
+						<li>26 Sep. 2017, George: <strong>No Planes Go</strong></li>
+						<li>12 Sep. 2017, James: <a href="http://upsideclown.com/2017-09-12?amp=1">Pontification</a></li>
+						<li>29 Aug. 2017, Matt: <a href="http://upsideclown.com/2017-08-29?amp=1">Moving House</a></li>
+						<li>15 Aug. 2017, Neil: <a href="http://upsideclown.com/2017-08-15?amp=1">Parental Guidance</a></li>
+						<li>1 Aug. 2017, Jamie: <a href="http://upsideclown.com/2017-08-01?amp=1">OK, Commuter</a></li>
+						<li>18 Jul. 2017, Vic: <a href="http://upsideclown.com/2017-07-18?amp=1">228 days to go</a></li>
+										<li>2003&mdash;2017: Hiatus. <a href="http://upsideclown.com/2003_12_01.shtml" target="_blank">Where we left off</a></li>
+			</ul>
+
+		<h1>&nbsp;</h1>
+
+		<h4 id="subscribe">never come here again <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<p>Receive new stories by email. Fortnightly. <a href="http://eepurl.com/cVjL2D" target="_blank">Subscribe.</a></p>
+
+		<h1>&nbsp;</h1>
+
+		<p class="boilerplate">
+			<small>We are all Upsideclown: Vic, Jamie, Neil, Matt, James, George, and Dan. Material&nbsp;&copy;&nbsp;its respective author. Email:&nbsp;<a href="mailto:complains@upsideclown.com">complaints@upsideclown.com</a></small>
+		</p>
+		
+
+	</div> <!-- /.container -->
+	
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-101929921-1"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>	
+</body>
+</html>

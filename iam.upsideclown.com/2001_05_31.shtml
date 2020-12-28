@@ -1,0 +1,314 @@
+<html>
+<head>
+<title>Upsideclown</title>
+<style type="text/css">
+P.subhead {
+font-family : Verdana, Arial, Helvetica;
+color : #773333;
+font-size : 11px;
+margin-right : 30%;
+margin-left : 25px;
+}
+P.bottom {
+font-family : Verdana, Arial, Helvetica;
+color : #773333;
+font-size : 11px;
+}
+P, OL, UL, LI {
+color : #333366;
+font-family : Georgia, serif;
+}
+LI.major {
+margin-top : 10px;
+margin-bottom : 10px;
+}
+P.minor {
+margin-top : 0px;
+margin-bottom : 0px;
+text-indent : 2em;
+}
+P.major {
+margin-bottom : 0px;
+}
+P.quote {
+margin-top : 5px;
+margin-bottom : 5px;
+font-style : italic;
+padding-left : 2em;
+padding-right : 2em;
+}
+.top {
+font-family : Verdana, Arial, Helvetica;
+font-weight : bold;
+font-size : 11px;
+color : #333366;
+}
+.light {
+font-family: Verdana, Arial, Helvetica;
+font-size: 11px;
+color: #eeffcc;
+}
+A {
+color : #333399;
+font-weight : bold;
+}
+A:visited {
+color : #333366;
+}
+A:hover {
+color : #eeffcc;
+background : #773333;
+}
+H1 {
+font-family : 'Trebuchet MS', Verdana, Arial, Helvetica;
+font-size : 28px;
+color : #773333;
+font-weight : normal;
+}
+HR {
+color: #333366;
+width: 30%;
+align: center;
+}
+</style>
+
+</head>
+
+<body background="cubes.gif" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" style="margin-top: 0px; margin-left: 0px; margin-right: 0px">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="3" style="border-bottom: 2px solid black;">
+<tr>
+<td bgcolor="#773333" valign="middle" align="left" style="padding-left: 10px;">
+<p class="light">
+<span style="font-size: 18px;">One</span> year. <span style="font-size: 18px;">100</span> articles. So we're having a Reader's <span style="font-size: 36px;">Party</span>. Come along to <a style="color: White; font-size: 24px; font-weight: normal;" href="http://www.upsidecrown.com/"><font color="White">Upsidecrown</font></a>.
+</p>
+</td>
+</tr>
+</table>
+
+<p align="right"><a name="top"></a><img width="330" height="122" alt="Upsideclown banner" src="title.gif"></p>
+
+<table width="85%" align="center" cellpadding="0" cellspacing="0" border="0">
+
+<tr>
+<td width="25" bgcolor="#eeffcc"><img src="spacer.gif" height="1" width="25"></td>
+<td bgcolor="#eeffcc" style="padding-right : 25px;" valign="bottom">
+
+<p align="right" class="top">
+Fresh Mondays and Thursdays&nbsp;&nbsp;&nbsp;<a href="#archive">ARCHIVE</a>&nbsp;&nbsp;&nbsp;<a href="#us">US</a>
+</p>
+
+</td>
+<td height="25" width="25">&nbsp;</td>
+</tr>
+
+<tr>
+<td width="25" bgcolor="#eeffcc">&nbsp;</td>
+<td bgcolor="#eeffcc" style="padding-right : 25px; padding-top : 15px; padding-bottom : 15px" align="left" valign="top">
+
+
+<font face="serif">
+
+
+
+<h1>
+Code dependency
+</h1>
+
+<p class="subhead">
+<b>31 May 2001</b>
+<br>
+<a href="mailto:matt@upsideclown.com">Matt</a> says it's time to upgrade.
+</p>
+
+<p class="major">
+The liner's rocking only slightly as I settle into my cabin for the night. The fire alarm that wakes me shortly before sunrise is not as piercing as it could be for which I am grateful, and I dress quickly making my way still slightly dazed to the lifeboats which are deployed rapidly thanks to repeated and effective training. Perhaps the lifeboat will remain near here by the holed and slowly sinking liner, cupping its occupants on the surface of the water with no sense of urgency as they wait patiently for the life guard to surely arrive. Or perhaps the small boat will be carried by the tide and washed and slopped by the current round the coast a little way, past a head and into a cove that has had no human near since the dawn of time, no explorer within five hundred miles, a cove that the Creator never expected anyone to see, and consequently never finished. The rocks, the sand, the blue cold water, the air blend into a bland grey nothingness, unhewn matter, a distinct presence of a hole, a lack of reality, the edge of the universe, right here, on the coast in Alaska.
+</p>
+<p class="minor">
+That was the first.
+</p>
+
+<p class="major">
+In an underwater lake recently discovered in Antarctica we find the second. A creature distantly related to jellyfish has a tiny time measurement organ based upon the resonance of a ring of modified nerve cells. On study of the genetic code, the structure of the organ, and the species' nearest relatives we find that this tiny feature simply cannot be. There's no way for evolution to produce this -- too many knots and self-references and mutual dependancies -- and no way for external interference in this lake for many many times the length of existence of the species. At this point we have over seven hundred years experience in understanding and manipulating DNA. We <i>know</i>. This organ simply cannot exist. Yet it does.
+</p>
+<p class="minor">
+There's a logical contradiction in the scientific structure of the universe. 
+</p>
+
+<p class="major">
+A third: An edge case in partical physics where in very particular circumstances there's a loophole in quantum uncertainty. Suddenly we have access to the hidden variables of the universe, although it's such a convoluted situation these variables aren't useful. This should never ever ever happen.
+</p>
+
+<p class="major">
+We think these are bugs in the universe. Errors in the code. Mistakes of the Creator. We weren't expected to get this far, to investigate in this much detail. It's funny really. For so long science has made the case that there is no god, and suddenly. Well.
+</p>
+
+<p class="major">
+A fourth: A certain isotope of potassium machined into a certain shape to within billionths of a millimetre comes into contact with a certain intensity of a certain wavelength of light... and it spontaneously disappears, no residual mass, no residual energy. Nothing left. Just a vague grey hole, an absence of anything, in the same shape of the material, that the surroundings gradually close over.
+</p>
+
+<p class="major">
+We think it's the subroutine crashing. We think that behind the scenes somewhere whatever's dealing with this potassium isn't written well enough to cope with this case, and it just gives up. Bombs.
+</p>
+
+<p class="major">
+After thousands upon thousands of years of smooth sailing it's taken only a hundred or so to find these cases. They aren't common, but there are many more. Mostly in out of the way places it was incredibly unlikely we'd see. There's a hole, a tiny one, on Jupiter. I could give you the coordinates if you like. We weren't looking for it but saw it anyway on a recent expedition. It was random where we sent the probe in, and the hole is vanishingly small compared to the size of the planet. What the odds? Exactly. So it's understandable there are bugs, but equally you understand our concern.
+</p>
+
+<p class="major">
+Example number five. There are shops open that have been running in families for generations. Taxes are paid, children are supported, rent and rates payments are made with income from the shops. But when we looked closely at the actual revenue and expenditure of one, there's no way this shop could survive. Somewhere along the line it'd been supported, massively. So we checked the audit trails, the accounts, the lines of money all the way to the top. And we're not sure. Somewhere along the line less than enough becomes more than enough, and it's impossible to tell where.
+</p>
+<p class="minor">
+We looked harder. And it turns out that there's no way our economy can run -- could ever have run in fact. It's not obvious. It's far from clear, actually it's very very close to the line whether there's enough happening to keep our society going. But we've done the calculations, and they took several decades and the latest computers, and ever so slightly it all doesn't work. It. All. Doesn't. Work.
+</p>
+
+<p class="major">
+Creation is littered with examples like this, at all kinds of levels. Numbers that simply have to add up, but just don't. In mathematics, in flocks of birds, in geography: It all appears to be the same. That in certain very exact situations things stop working as they should and vanish into a kind of grey absence of reality (if they're physically visible), or a numerical fudge that nobody can quite pin down (if they aren't).
+</p>
+
+<p class="major">
+And we're concerned. We're worried that there are these bugs. It means that everything was assembled by a fallible being. I mean it's good that we have proof there really is a Creator, finally after all this time, but these bugs, these mistakes, these crashes, these errors in the basic code and programming, what do they mean?
+</p>
+<p class="minor">
+What we're really scared of is a reboot.
+</p>
+
+
+<p>&nbsp;</p>
+</font>
+</td>
+<td width="25" background="shadow.gif" valign="top">&nbsp;</td>
+</tr>
+
+<tr>
+<td width="25" height="25">&nbsp;</td>
+<td height="25" background="shadow.gif">&nbsp;</td>
+<td width="25" height="25" background="shadow.gif">&nbsp;</td>
+</tr>
+
+</table>
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<img src="spacer.gif" width="1" height="50">
+</td>
+</tr>
+<tr>
+<td bgcolor="#773333" height="17" align="left" style="padding-left : 10px">
+<a name="archive"></a><img alt="Previously on upsideclown" src="archive.gif" height="17" width="425">
+</td>
+</tr>
+<tr>
+<td bgcolor="#60b0f0" style="padding : 10px" align="left">
+
+<table align="right" border="0" cellpadding="0" cellspacing="0"><tr><td><p><a href="#top" class="top">top</a></p></td></tr></table>
+
+<p class="bottom">Current clown:</p><p class="bottom">18 December 2003. <b>George</b> writes: <a href="2003_12_18.shtml">This List</a><br />
+</p><p class="bottom">Most recent ten:</p><p class="bottom">15 December 2003. <b>Jamie</b> writes: <a href="2003_12_15.shtml">Seven Songs</a><br />
+11 December 2003. <b>Dan</b> writes: <a href="2003_12_11.shtml">Spinning Jenny</a><br />
+8 December 2003. <b>Victor</b> writes: <a href="2003_12_08.shtml">Rock Opera</a><br />
+4 December 2003. <b>Matt</b> writes: <a href="2003_12_04.shtml">The Mirrored Spheres of Patagonia</a><br />
+1 December 2003. <b>George</b> writes: <a href="2003_12_01.shtml">Charm</a><br />
+27 November 2003. <b>James</b> writes: <a href="2003_11_27.shtml">On Boxing</a><br />
+24 November 2003. <b>Jamie</b> writes: <a href="2003_11_24.shtml">El Matador del Amor; Or, the Man who Killed Love</a><br />
+20 November 2003. <b>Dan</b> writes: <a href="2003_11_20.shtml">Rights Management</a><br />
+17 November 2003. <b>Victor</b> writes: <a href="2003_11_17.shtml">Walking on Yellow</a><br />
+13 November 2003. <b>Matt</b> writes: <a href="2003_11_13.shtml">Disintermediation</a><br />
+(And alas we lost <b>Neil</b>, who last wrote <a href="2002_06_17.shtml">Cockfosters</a>)<br /></p><p class="bottom">Also by this clown:</p><p class="bottom">4 December 2003. <b>Matt</b> writes: <a href="2003_12_04.shtml">The Mirrored Spheres of Patagonia</a><br />
+13 November 2003. <b>Matt</b> writes: <a href="2003_11_13.shtml">Disintermediation</a><br />
+23 October 2003. <b>Matt</b> writes: <a href="2003_10_23.shtml">Topology</a><br />
+2 October 2003. <b>Matt</b> writes: <a href="2003_10_02.shtml">Haunted</a><br />
+8 September 2003. <b>Matt</b> writes: <a href="2003_09_08.shtml">The Gardener's Diary</a><br />
+21 August 2003. <b>Matt</b> writes: <a href="2003_08_21.shtml">The Starling Variable</a><br />
+31 July 2003. <b>Matt</b> writes: <a href="2003_07_31.shtml">Two stories</a><br />
+14 July 2003. <b>Matt</b> writes: <a href="2003_07_14.shtml">What is real?</a><br />
+23 June 2003. <b>Matt</b> writes: <a href="2003_06_19.shtml">Mapping and journeys</a><br />
+29 May 2003. <b>Matt</b> writes: <a href="2003_05_29.shtml">Extelligence</a><br />
+5 May 2003. <b>Matt</b> writes: <a href="2003_05_05.shtml">Religious experiences</a><br />
+17 April 2003. <b>Matt</b> writes: <a href="2003_04_17.shtml">Seeing the Light</a><br />
+27 March 2003. <b>Matt</b> writes: <a href="2003_03_27.shtml">Flowering</a><br />
+10 March 2003. <b>Matt</b> writes: <a href="2003_03_10.shtml">Climax state</a><br />
+10 February 2003. <b>Matt</b> writes: <a href="2003_02_10.shtml">The Role of Cooperation in Human Interaction</a><br />
+20 January 2003. <b>Matt</b> writes: <a href="2003_01_20.shtml">The same old subroutine</a><br />
+2 January 2003. <b>Matt</b> writes: <a href="2003_01_02.shtml">New beginnings</a><br />
+9 December 2002. <b>Matt</b> writes: <a href="2002_12_09.shtml">Packet Loss</a><br />
+18 November 2002. <b>Matt</b> writes: <a href="2002_11_18.shtml">Wonderland</a><br />
+31 October 2002. <b>Matt</b> writes: <a href="2002_10_31.shtml">Having and losing</a><br />
+10 October 2002. <b>Matt</b> writes: <a href="2002_10_10.shtml">Trees of Knowledge</a><br />
+19 September 2002. <b>Matt</b> writes: <a href="2002_09_19.shtml">The online life of bigplaty47</a><br />
+29 August 2002. <b>Matt</b> writes: <a href="2002_08_29.shtml">Divorce</a><br />
+8 August 2002. <b>Matt</b> writes: <a href="2002_08_08.shtml">How to get exactly what you want</a><br />
+18 July 2002. <b>Matt</b> writes: <a href="2002_07_18.shtml">Eleven Graceland endings</a><br />
+27 June 2002. <b>Matt</b> writes: <a href="2002_06_27.shtml">Listopad, Prague 1989</a><br />
+3 June 2002. <b>Matt</b> writes: <a href="2002_06_03.shtml">Engram bullets</a><br />
+6 May 2002. <b>Matt</b> writes: <a href="2002_05_06.shtml">Sound advice</a><br />
+15 April 2002. <b>Matt</b> writes: <a href="2002_04_15.shtml">How it all works: Cars</a><br />
+21 March 2002. <b>Matt</b> writes: <a href="2002_03_21.shtml">Proceeding to the next stage</a><br />
+25 February 2002. <b>Matt</b> writes: <a href="2002_02_25.shtml">Spam quartet</a><br />
+31 January 2002. <b>Matt</b> writes: <a href="2002_01_31.shtml">Person to person</a><br />
+7 January 2002. <b>Matt</b> writes: <a href="2002_01_07.shtml">All for the best</a><br />
+13 December 2001. <b>Matt</b> writes: <a href="2001_12_13.shtml">Life</a><br />
+19 November 2001. <b>Matt</b> writes: <a href="2001_11_19.shtml">Giving is better than receiving</a><br />
+25 October 2001. <b>Matt</b> writes: <a href="2001_10_25.shtml">Ludo</a><br />
+1 October 2001. <b>Matt</b> writes: <a href="2001_10_01.shtml">Gifts, contracts, and whispers</a><br />
+6 September 2001. <b>Matt</b> writes: <a href="2001_09_06.shtml">The world is ending</a><br />
+13 August 2001. <b>Matt</b> writes: <a href="2001_08_13.shtml">The Church of Mrs Bins</a><br />
+16 July 2001. <b>Matt</b> writes: <a href="2001_07_16.shtml">Things I Don't Have</a><br />
+25 June 2001. <b>Matt</b> writes: <a href="2001_06_25.shtml">Fighting the Good Fight</a><br />
+31 May 2001. <b>Matt</b> writes: <a href="2001_05_31.shtml">Code dependency</a><br />
+7 May 2001. <b>Matt</b> writes: <a href="2001_05_07.shtml">Up The Arse, Or Not At All</a><br />
+5 April 2001. <b>Matt</b> writes: <a href="2001_04_05.shtml">The increasing nonlinearity of time</a><br />
+19 March 2001. <b>Matt</b> writes: <a href="2001_03_19.shtml">Hit Me Baby, One More Time</a><br />
+22 February 2001. <b>Matt</b> writes: <a href="2001_02_22.shtml">Space, Matter, Cities, Sausages</a><br />
+29 January 2001. <b>Matt</b> writes: <a href="2001_01_29.shtml">Truth in Advertising</a><br />
+1 January 2001. <b>Matt</b> writes: <a href="2001_01_01.shtml">Six predictions for tomorrow</a><br />
+7 December 2000. <b>Matt</b> writes: <a href="2000_12_07.shtml">You must reach this line to ride</a><br />
+16 November 2000. <b>Matt</b> writes: <a href="2000_11_16.shtml">The truth about the leopard</a><br />
+23 October 2000. <b>Matt</b> writes: <a href="2000_10_23.shtml">Shopping mauls</a><br />
+28 September 2000. <b>Matt</b> writes: <a href="2000_09_28.shtml">Heavy traffic on the road to Utopia</a><br />
+4 September 2000. <b>Matt</b> writes: <a href="2000_09_04.shtml">Sixty worlds a minute</a><br />
+17 July 2000. <b>Matt</b> writes: <a href="2000_07_17.shtml">You, Me, and Face-space</a><br />
+</p>
+
+</td>
+</tr>
+<tr>
+<td background="shadow.gif">
+<img src="spacer.gif" width="1" height="15">
+</td>
+</tr>
+<tr>
+<td bgcolor="#773333" height="17" align="left" style="padding-left : 10px">
+<a name="us"></a><img alt="Let meeeeee entertain you" src="us.gif" height="17" width="419">
+</td>
+</tr>
+<tr>
+<td bgcolor="#60b0f0" style="padding : 10px" align="left">
+
+<table align="right" border="0" cellpadding="0" cellspacing="0"><tr><td><p><a href="#top" class="top">top</a></p></td></tr></table>
+
+<p class="bottom">
+We are all Upsideclown: <a href="mailto:dan@upsideclown.com">Dan</a>, <a href="mailto:george@upsideclown.com">George</a>, <a href="mailto:james@upsideclown.com">James</a>, <a href="mailto:jamie@upsideclown.com">Jamie</a>, <a href="mailto:matt@upsideclown.com">Matt</a>, <a href="mailto:neil@upsideclown.com">Neil</a>, <a href="mailto:victor@upsideclown.com">Victor</a>.
+</p>
+
+<p class="bottom">
+Material is (c) respective authors. For everything else, there's <a href="mailto:it@upsideclown.com">it@upsideclown.com</a>.
+</p>
+
+<p class="bottom">
+And weeeeeee can entertain you by email too. Get fresh steaming Upsideclown in your inbox Mondays and Thursdays. To subscribe, send the word <b>subscribe</b> in the body of your mail to <a href="mailto:upsideclown-request@historicalfact.com?body=subscribe">upsideclown-request@historicalfact.com</a>. (To unsubscribe, send the word <b>unsubscribe</b> instead.)
+</p>
+
+</td>
+</tr>
+<tr>
+<td background="shadow.gif">
+<img src="spacer.gif" width="1" height="15">
+</td>
+</tr>
+</table>
+
+</body>
+</html>

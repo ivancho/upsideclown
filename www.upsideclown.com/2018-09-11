@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/reboot-2017/styles/normalize.css"></link>
+	<link rel="stylesheet" href="/reboot-2017/styles/skeleton.css"></link>
+	<link rel="stylesheet" href="/reboot-2017/styles/typeplate.css"></link>
+	<link rel="stylesheet" href="/reboot-2017/styles/site.css"></link>
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/rss"></link>
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="amphtml" href="http://upsideclown.com/2018-09-11?amp=1"></link>
+	<meta property="fb:pages" content="309710979432524" />
+	<title>On the Campaign Trail (Upsideclown)</title>
+</head>
+<body>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101929921-1', 'auto');
+  ga('send', 'pageview');
+
+</script>	<div class="container">
+		<div class="row">
+			<div class="two columns">&nbsp;</div>
+			<div class="ten columns">
+				<p id="banner" align="right"><a href="/">umol&#x2184;&#x259;p!sdn</a></p>
+				<!--<p id="banner" align="right">umol&#x2184;ap!sdn</p>-->
+				<p class="nav show-on-mobile">
+					<small>
+					<a href="#archive">Archive</a>
+					<a href="#subscribe">Subscribe</a>
+					</small>
+				</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="two columns">&nbsp;</div>
+			<div class="ten columns">
+				<h1>On the Campaign Trail</h1>
+				<p>
+					By Matt<em> a.k.a.</em> <a href="https://twitter.com/genmon">@genmon</a>, 11 September 2018					<a href="/2018-09-11">#</a>
+					<br>
+					&nbsp;
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="two columns">
+				<h3 class="nav-arrest hide-on-mobile">&#x25A7;</h3>
+				&nbsp;
+				<p class="nav hide-on-mobile">
+					&nbsp;
+					<br>
+					<small>
+					<a href="#archive">Archive</a>
+					<br>
+					<a href="#subscribe">Subscribe</a>
+					</small>
+				</p>
+			</div>
+			<div class="ten columns">
+				<p class="typl8-drop-cap">I was late to the argument but it was the steady trickle of papers showing the Second Diet wasn&#8217;t working that did it for me.</p>
+<p>By that point in my career I was no longer in front-line research&#8212;if you can describe software development of mathematical models to probe climate change as research. I could have been reconciling financial transactions or predicting e-commerce purchases. Others looked for where the models failed, others invented new approaches and co-opted promising ones from other fields, creating the first challenging implementations. I coded. I coded Earth-scale atmosphere simulations at a level of complexity out of reach of the real researchers, sure. But I coded.</p>
+<p>That was during the First Diet, and by the time the second came round I had moved to an editorial job, responsible for technical review of papers submitted for publication at one of the more prestigious climate journals.</p>
+<p>So I had a front-row seat as the evidence built that the belt-tightening of five years previous&#8212;the closing of factories and power stations, the cattle stock left to taper&#8212;somehow wasn&#8217;t working. Atmospheric carbon continued to increase. Perhaps it was no longer being sequestered, perhaps there were previously unaccounted-for carbon sources, as unlikely as that would be after decades of refining the data capture. But the fact remained that, from where I was sitting, it was increasingly clear that the most recent round of carbon reduction agreements was not having the anticipated effect, so average global temperatures would continue to increase, and the closer we were getting to the invisible cliff edge of the Tipping Point, capital T, capital P, when the climate would enter a rapid runaway to a new normal, one that was ephemiscally called Hot Earth.</p>
+<p>And so I became radicalised.</p>
+<p>The Second Diet had been as divisive as the first&#8212;then called the Great Diet or simply the Diet&#8212;was a grand consensus. So in those polarised, antagonistic years, to call for a <em>Third Diet,</em> well the conversation could barely start before veering into scrapping and bitter feuds.</p>
+<p>It’s hard to remember how unifying the first felt. After a run of hot summers, the political mood regarding the climate was that Something Must Be Done. Simmering trade wars had relaxed, and a multilateral effort to get on top of carbon was the perfect collaborative endeavour to symbolise the new world detente. The path was smoothed, no doubt, by the money to be made in the switch away from fossil fuels to solar power, by both the silicon west and the manufacturing east.</p>
+<p>But for whatever reasons, these were the circumstances in which the UN was given monitoring and enforcement powers to drive down carbon in nations across the world. When a government wasn’t quite moving fast enough&#8212;or wanted to dodge a politically awkward confrontation with some local industrial base&#8212;it was able to privately, gratefully, face-savingly acquiesce and publicly yell and shout as the blue-suited UN engineers came in and deactivated whatever carbon source had been identified.</p>
+<p>There was some pain and struggle but it was a worthy diet, a <em>just</em> diet, for the good of all our children and our children’s children. The world willingly suffered as we all took one for the team, together.</p>
+<p>When the atmospheric models used to track progress showed that progress all was not as quick as anticipated, and that another round of carbon reductions would be required, the good will fell apart.</p>
+<p>I hunkered down behind my UN-sponsored monitor as models that I had developed showed that we all needed to cut our air freight just a little more, give up just a touch more meat, reduce fossil fuel consumption faster&#8212;faster even than the switch to alternatives could keep up, meaning power rationing and all that would entail.</p>
+<hr />
+<p>The Second Diet did come about, of course, the UN making use of an authority granted but never expected to be used. Governments allowed it to happen, but individual politicians kicked and screamed about everything from unfairness in the global distribution of carbon reductions, to structural racism and classism in who the reductions apparently targeted.</p>
+<p>Perhaps, instead of forcing the matter, there could have been incentives. Research into new, replacement products that just happened to have a smaller carbon footprint; wild experiments into new ways of living lightly on the earth.</p>
+<p>Time passed, and the long and tired diet I continued my technical reviews. And I saw evidence every week, in the form of the new research passing across my desk, that even after all of this, the Second Diet wouldn&#8217;t be enough.</p>
+<p>There were others calling for a Third Diet but after only five years, divisions were still fresh, and old arguments were being replayed. Arguments that were obvious to me were also more and more technical, and carried little weight with fatigued voters. I could see that if politicians continued to avoid what was clear in the science, with the UN embattled, and the voters resigned, we&#8217;d no longer have a choice about what to do about the climate&#8212;it would simply be too late.</p>
+<p>But every way I looked at it, joining the argument would just make the logjam worse.</p>
+<p>It took a figure out exactly what to do. For a long time I was sure that presenting the scientific evidence in the right way would win the day, and on the back of it the UN would announce a difficult but essential third tightening of the belt. Then I became unsure whether a third diet was necessary, maybe stricter enforcement of the second was all that was required. By the time I realised that I had become lost in the political framing and I should focus on enabling any kind of action&#8212;although I didn&#8217;t know specifically what action&#8212;everyone concerned had dug their heels in and it looked like we&#8217;d be heading to a Hot Earth mainly out of stubbornness. So that&#8217;s where I decided to concentrate my efforts.</p>
+<p>I didn’t add another voice to the Third Diet contingent. Instead I focused on preparing the ground: it was important, I thought, to acknowledge the struggle and successes (however small) of the Second Diet, in order to heal divisions and allow for perhaps another push.</p>
+<p><em>Well done,</em> that’s what I wanted to say to people.</p>
+<p>Well done! The dream, if I was pushed to articulate it, was a personal knock on the door, shake of the hand, and a sincere look in the eye for everyone who had given up their air conditioning or retired their car or gone vegan as part of the Second Diet, whether or not they had done it voluntarily. I figured that everyone needs a bit of pride and acknowledgment in their accomplishments, so let&#8217;s start there.</p>
+<p>But when you break it down&#8230; I was a technical reviewer. I could talk my friends into seeing that this was in theory a good approach, but to get volunteers from beyond that small circle? The biggest objections I encountered were from people who agreed that carbon reduction should be accelerated&#8212;make it mandatory, they said, people are only resisting out of selfishness. And then there were those who saw that some kind of campaign was required, but mine didn&#8217;t go fast enough. The urgency of avoiding Hot Earth was increasing!</p>
+<p>My days divided in two. In my day job I saw the research accelerate. There was finer and finer grained detail in the carbon cycle modelling, measurements and feedback loops. Where were the discrepancies arising between the simulations and the ground truth of the atmosphere? And, the critical question, what was the critical latest possible time to get carbon under control to avoid the cascade towards a baked and uninhabitable planet.</p>
+<p>Then in the evening it was planning and consciousness raising. A campaign like that is fractal. It&#8217;s not like a TV ad seen by a million people, some of whom will change the cat food they buy. It&#8217;s a case of persuading one person, who will persuade two of their friends, then they act together as a group. Then give this cell tools to act, but also to galvenise other individuals and groups of friends. Getting to twenty million households like this is slow.</p>
+<p>But necessary! I still believe this strategy, this slow and face-to-face strategy, was needed. Each encounter with someone new was an opportunity to thank them for their contribution, and have a human conversation about the facts behind the Second Diet&#8212;and why there was more work to be done.</p>
+<p>At the same time we had to find volunteers and spread the word, so a number of eye-catching events were organised to build profile&#8212;not easy when the message is reasonable and reassuring instead of a yell of outrage or the promise of a solution. But, gradually, a single rally turned into rallies in towns around the country, and Well Done gently shifted opinion towards an extension of the Second Diet. Not, as it happens, that such an extension came to pass, or at least not in that form.</p>
+<hr />
+<p>I had a unique perspective in the run-up to the Third Diet, the big one. Well Done was one component of a much broader campaign and we could see that public opinion had decisively moved in favour of tighter carbon controls, although politically there was still some catching up to be done.</p>
+<p>The shock was during my technical reviews. A meta-analysis was submitted that claimed to locate the missing carbon sources: they were all located in the US. A statistical review showed that the carbon reporting was being misrepresented, possibly deliberately.</p>
+<p>I found out why about two years later, as did we all when that spate of whistleblower leaks laid bare what had been US government policy. In the face of economic troubles and decreasing political relevance, the administration had a secret policy to encourage atmospheric carbon dumping whilst simultaneously investing into low-cost fusion technology. A second-place country always benefits from a good amount of chaos, and by keeping climate troubles up globally, the US could profit&#8212;especially when it released its fusion power sources. Lower cost and environmentally even better than solar, a desperate world leapt for fusion, supercharging the US economy and making overnight billionaires.</p>
+<p>However at the time we chose not to publish the meta-analysis. Peer review was not as watertight as we would like for a paper accusing the world’s saviour nation of sabotaging the climate.</p>
+<p>With fusion being the technological rabbit out of the hat, the Well Done campaign, and the rest pushing for an extension of the Second Diet, began to wind down.</p>
+<hr />
+<p>Yet here we are: we ended up with the Third Diet anyhow, and you know how we got here.</p>
+<p>The climate destabilising techniques used by the US tipped us into a runaway Hot Earth scenario. It took a while to check the numbers; it was on a knife edge. There’s no escape. We have 150 to 250 years before the planet is uninhabitable.</p>
+<p>Do we ramp up industry in the hope of building city-sanctuaries on the Moon? Retreat to the bottom of ocean trenches? Or disappear through consciousness upload portals into immortal silicon? Developing any of these is a risk. There’s no guarantee any will work, but we do know that with the research we’ll be expending valuable heat and so the end will come quicker.</p>
+<p>Or do we hunker down, a tighter and tighter Third Diet, dragging it out to the last in the hope that Something Will Turn Up? Yet, assuming a theoretical approach is somehow discovered, with ever more limited resources to be able to put it into practice?</p>
+<p>In this, my retirement address, I speak into my computer for you to hear, wherever you are in the world, but I don’t know if you’re listening. The moment the first country halted air travel, all realised that scientists and engineers would be valuable. Nobody wanted to let the ones they had leave. So all travel was stopped, pretty much overnight.</p>
+<p>And then streaming video. Too hot. And then electricity rationing. So we can talk, sometimes, but there’s no real contact, never a friendly touch on the arm or a drink with an old colleague after work.</p>
+<p>Looking out of the window I’m reminded that it’s September, what we used to call the end of summer, when there’s a slight chill in the wind and you’re kept warm with the memories of long days and long nights, of friends and laughing.</p>
+<p>But it hasn’t cooled yet this year. Perhaps last winter was the final winter. It’s hot and the sun is an accusatory cyclops glare in an unbroken blue sky, the air an invisible blanket of our own making smothering the earth, and the future is poisoned. Well done.</p>			</div> <!-- /.columns -->
+		</div> <!-- /.row -->
+
+		<div class="row">
+			<div class="twelve columns"><h1>&nbsp;</h1></div>
+		</div>
+
+		<div class="row">
+			<div class="two columns"><h3 class="nav-arrest hide-on-mobile">&#x25A7;</h3>&nbsp;</div>
+			<div class="ten columns" id="archive">
+				<h4>this is the fucking archive <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+				<ul>
+				<li>30 Oct. 2018, Vic: <a href="/2018-10-30">Minami-Senju Disconnect</a></li>
+						<li>16 Oct. 2018, Dan: <a href="/2018-10-16">Energy&#8217;s Exile</a></li>
+						<li>11 Sep. 2018, Matt: <strong>On the Campaign Trail</strong></li>
+						<li>21 Aug. 2018, Neil: <a href="/2018-08-21">By Any Other Word</a></li>
+						<li>31 Jul. 2018, Jamie: <a href="/2018-07-31">How to Say Goodbye (Part II)</a></li>
+						<li>17 Jul. 2018, Vic: <a href="/2018-07-17">Shirley Asinine</a></li>
+						<li>3 Jul. 2018, Dan: <a href="/2018-07-03">Tell the Bees</a></li>
+						<li>19 Jun. 2018, James: <a href="/2018-06-19">Warning: May contain offensive language</a></li>
+						<li>29 May. 2018, Matt: <a href="/2018-05-29">Volume Five</a></li>
+						<li>15 May. 2018, Neil: <a href="/2018-05-15">In the City Last Night</a></li>
+						<li>1 May. 2018, Jamie: <a href="/2018-05-01">The Sandéparabola</a></li>
+						<li>17 Apr. 2018, Vic: <a href="/2018-04-17">Ultra Absorbent</a></li>
+						<li>3 Apr. 2018, Dan: <a href="/2018-04-03">The Best Seat in the House</a></li>
+						<li>20 Mar. 2018, James: <a href="/2018-03-20">The girl with kaleidoscope eyes</a></li>
+						<li>6 Mar. 2018, Matt: <a href="/2018-03-06">The Ursa Major Moving Group</a></li>
+						<li>20 Feb. 2018, Neil: <a href="/2018-02-20">Ghost World</a></li>
+						<li>6 Feb. 2018, Jamie: <a href="/2018-02-06">In search of&#8230; Edson Vincent, football&#8217;s lost superstar</a></li>
+						<li>23 Jan. 2018, Vic: <a href="/2018-01-23">The Long Way Home</a></li>
+						<li>9 Jan. 2018, Dan: <a href="/2018-01-09">Season&#8217;s Greetings</a></li>
+						<li>19 Dec. 2017, James: <a href="/2017-12-19">The Ghost of Christmas Yet to Come</a></li>
+						<li>4 Dec. 2017, Matt: <a href="/2017-12-04">The search for another intelligence</a></li>
+						<li>21 Nov. 2017, Neil: <a href="/2017-11-21">Passing</a></li>
+						<li>7 Nov. 2017, Jamie: <a href="/2017-11-07">The Dark Of The Matinee</a></li>
+						<li>24 Oct. 2017, Vic: <a href="/2017-10-24">Anybody Seen Carlos?</a></li>
+						<li>10 Oct. 2017, Dan: <a href="/2017-10-10">Salvage</a></li>
+						<li>26 Sep. 2017, George: <a href="/2017-09-26">No Planes Go</a></li>
+						<li>12 Sep. 2017, James: <a href="/2017-09-12">Pontification</a></li>
+						<li>29 Aug. 2017, Matt: <a href="/2017-08-29">Moving House</a></li>
+						<li>15 Aug. 2017, Neil: <a href="/2017-08-15">Parental Guidance</a></li>
+						<li>1 Aug. 2017, Jamie: <a href="/2017-08-01">OK, Commuter</a></li>
+						<li>18 Jul. 2017, Vic: <a href="/2017-07-18">228 days to go</a></li>
+										<li>2003&mdash;2017: Hiatus. <a href="http://upsideclown.com/2003_12_01.shtml">Where we left off</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="twelve columns"><h1>&nbsp;</h1></div>
+		</div>
+
+		<div class="row">
+			<div class="two columns"><h3 class="nav-arrest hide-on-mobile">&#x25A7;</h3>&nbsp;</div>
+			<div class="ten columns" id="subscribe">
+				<h4>never come here again <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+				<p>Subscribe to receive new stories by email. Fortnightly.</p>
+				
+				<!-- Begin MailChimp Signup Form -->
+				<form action="//interconnected.us10.list-manage.com/subscribe/post?u=337e806bc960ac40cc8241cf4&amp;id=0791ff0ad5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<label for="mce-EMAIL">Email address</label>
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+				    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_337e806bc960ac40cc8241cf4_0791ff0ad5" tabindex="-1" value=""></div>
+					<br>
+				    <input type="submit" value="Subscribe" name="subscribe" class="button">
+				</form>
+				<!--End mc_embed_signup-->
+
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="twelve columns"><h1>&nbsp;</h1></div>
+		</div>
+		
+		<div class="row">
+			<div class="two columns">&nbsp;</div>
+			<div class="ten columns">
+				<p class="boilerplate">
+					<small>We are all Upsideclown: Vic, Jamie, Neil, Matt, James, George, and Dan. Material&nbsp;&copy;&nbsp;its respective author. Email:&nbsp;<a href="mailto:complains@upsideclown.com">complaints@upsideclown.com</a></small>
+				</p>
+			</div>
+		</div>
+		
+
+	</div> <!-- /.container -->
+</body>
+</html>

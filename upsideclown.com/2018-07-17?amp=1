@@ -1,0 +1,570 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+	<meta charset="utf-8">
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="canonical" href="http://upsideclown.com/2018-07-17">
+
+	<title>Shirley Asinine (Upsideclown)</title>
+	<style amp-custom>
+		h1 {
+			font-size: 4rem;
+			line-height: 1.2;
+			letter-spacing: -.1rem;
+			font-weight: 300;
+			margin-top: 0;
+			margin-bottom: 2rem;
+		}
+		.container {
+			width: 100%;
+		    position: relative;
+		    max-width: 960px;
+		    margin: 0 auto;
+		    padding: 0 20px;
+		    box-sizing: border-box; }
+		}
+		@charset "UTF-8";
+/*!
+Typeplate : Starter Kit
+URL ........... http://typeplate.com
+Version ....... 3.0.2
+Github ........ https://github.com/typeplate/starter-kit
+Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+  color: #222;
+}
+
+blockquote + figcaption cite {
+  display: block;
+  font-size: inherit;
+  text-align: right;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+pre code {
+  word-wrap: normal;
+}
+
+html {
+  font: normal 112.5% / 1.65 serif;
+}
+
+body {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #444;
+}
+
+.typl8-tera {
+  font-size: 6.5em;
+  margin-bottom: 3.93939rem;
+}
+
+.typl8-giga {
+  font-size: 5em;
+  margin-bottom: 3.0303rem;
+}
+
+.typl8-mega, h1 {
+  font-size: 4em;
+  margin-bottom: 2.42424rem;
+}
+
+.typl8-alpha, h2 {
+  font-size: 3.33333em;
+  margin-bottom: 2.0202rem;
+}
+
+.typl8-beta, h3 {
+  font-size: 2.66667em;
+  margin-bottom: 1.61616rem;
+}
+
+.typl8-gamma, h4 {
+  font-size: 2em;
+  margin-bottom: 1.21212rem;
+}
+
+.typl8-delta, h5 {
+  font-size: 1.33333em;
+  margin-bottom: 0.80808rem;
+}
+
+.typl8-epsilon {
+  font-size: 1.16667em;
+  margin-bottom: 0.70707rem;
+}
+
+.typl8-zeta, h6 {
+  font-size: 1em;
+  margin-bottom: 0.60606rem;
+}
+
+p {
+  margin: auto auto 1.5rem;
+}
+
+p + p {
+  text-indent: 1.5rem;
+  margin-top: -1.5rem;
+}
+
+small {
+  font-size: 65%;
+}
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre {
+  white-space: pre;
+}
+
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+
+abbr[title]:hover {
+  cursor: help;
+}
+
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+p + .typl8-drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="typl8-lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-lining dt,
+.typl8-lining dd {
+  display: inline;
+  margin: 0;
+}
+
+.typl8-lining dt + dt:before,
+.typl8-lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+
+.typl8-lining dd + dd:before {
+  content: ", ";
+}
+
+.typl8-lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="typl8-dictionary-style">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+
+.typl8-dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+
+.typl8-dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+
+.typl8-dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+    <figure>
+      <blockquote cite="">
+        <p></p>
+      </blockquote>
+      <figcaption>
+        <cite>
+          <small><a href=""></a></small>
+        </cite>
+      </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="typl8-pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.typl8-pull-quote {
+  position: relative;
+  padding: 1em;
+}
+
+.typl8-pull-quote:before, .typl8-pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+
+.typl8-pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+
+.typl8-pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. X.X | </strong><cite title=""></cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */		
+body {
+	font-family: georgia, serif;
+	font-size: 1rem;
+	background: #F5F5F5;
+}
+h1 {
+    -webkit-hyphens: none;
+    -moz-hyphens:    none;
+    -ms-hyphens:     none;
+    hyphens:         none;
+}
+h1, h3 {
+	color: #333;
+}
+p, li {
+	color: #444;
+}
+a {
+	color: #327F9A;
+}
+h4 {
+	color: #62aFcA;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	font-variant: small-caps;
+}
+hr {
+	display: none;
+}
+li + li {
+    margin-top: -1rem;	
+}
+ol + p, ul + p {
+    margin-top: -1rem;	
+}
+ul {
+  list-style: circle outside;
+}
+ol {
+  list-style: decimal outside;
+}
+#mce-EMAIL {
+	width: 400px;
+}
+p.boilerplate {
+	text-transform: uppercase;
+}
+p.boilerplate, p.boilerplate a, p.boilerplate a:hover {
+	color: #444;
+}
+p.nav {
+	text-indent: 0;
+	text-transform: uppercase;
+}
+h3.nav-arrest {
+	color: #62aFcA;	
+}
+#banner, #banner a {
+    xtransition: .3s all;  /* rotate gradually instead of instantly */
+    -webkit-transform: rotate(180deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(180deg);      /* to support IE 9 */
+    transform: rotate(180deg);
+	font-family: georgia;
+	font-size: 2rem;
+	color: #327F9A;
+	text-decoration: none;
+}
+#banner a:hover {
+    /* -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); */
+	color: #62aFcA;
+}
+@media (max-width: 550px) {
+	.hide-on-mobile { display: none; }
+	h1 { font-size: 2rem;}
+	p, h4, li, label { font-size: 0.8rem; }
+	#mce-EMAIL { width: 90%; }
+	ul {
+	  list-style: circle inside;
+	}
+	ol {
+	  list-style: decimal inside;
+	}
+}
+@media (min-width: 550px) {
+	.show-on-mobile { display: none; }
+}		ul {
+		  list-style: circle inside;
+		  padding-left: 0;
+		  margin-top: 0;
+	  	}
+		li + li {
+			margin-top: 0rem;
+		}
+		ol + p, ul + p {
+			margin-top: 1.5rem;
+		}
+		@media (max-width: 550px) {
+			h1 { font-size: 2rem; }
+			p, h4, li, label { font-size: 0.8rem; }
+			#mce-EMAIL { width: 90%; }
+		}
+	</style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": "http://upsideclown.com/2018-07-17",
+        "headline": "Shirley Asinine",
+        "datePublished": "2018-07-17T09:00:00Z",
+        "dateModified": "2018-07-17T09:00:00Z",
+        "author": {
+          "@type": "Person",
+          "name": "Vic"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Upsideclown",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://upsideclown.com/reboot-2017/upsideclown-logo-amp.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    </script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+	<div class="container">
+		<p id="banner" align="right"><a href="/?amp=1">umol&#x2184;&#x259;p!sdn</a></p>
+			
+		<p class="nav">
+			<small>
+			<a href="#archive">Archive</a>
+			<a href="#subscribe">Subscribe</a>
+			</small>
+		</p>
+		
+		<h1>Shirley Asinine</h1>
+		<p>
+			By Vic<em> a.k.a.</em> <a href="https://twitter.com/pendlecheek" target="_blank">@pendlecheek</a>, 17 July 2018</u> <a href="/2018-07-17?amp=1">#</a></p>
+
+		<hr>
+
+		<p class="typl8-drop-cap">Alright, babes? Totes wish you were here. Omg people here are so funny. It&#8217;s really hot, right. And I&#8217;m like so not moving at all. But all the locals are whizzing around on scooters and in little vans. It&#8217;s like they can&#8217;t stop working or something. I told the guy who works at the pool bar to chillax and come for a swim with me, and he was like &#8220;Sorry, I&#8217;ve got to work.&#8221; Don&#8217;t they know I&#8217;m on holiday? LOL</p>
+<p>I&#8217;m having my own version of Love Island right here. But with more brown faces. Such a great place for a holiday romance and by the end of the fortnight I reckon I&#8217;ll have something for my Instagram that&#8217;ll make me the most woke bae in Uttoxeter. All the guys love me out here, and I mean all. It&#8217;s like they&#8217;re on heat or something. This guy at the hotel told me how attractive I was and invited me out on his scooter. But he was ancient, like 30, so NFW. I wasn&#8217;t even flattered. He asked to be my friend on Facebook, as if anyone is on there these days. There are some gorge black guys in the market. They like walk around speaking French all day. It doesn&#8217;t make sense, we&#8217;re not even in France. I said to one of them, why don&#8217;t you speak English like everyone else, otherwise you won&#8217;t get any of this honey LOL</p>
+<hr />
+<p>I thought you said they were all lesbians here? Lesbian is so hot right now, I went out the other night looking for some. A girly fling would be way too cool, guys love it. I made a full-on effort and dressed like one&#8212;I even googled it&#8212;and not one snog. I think they were all too much in awe of me, I was on fire. Shame, though. Would make such a great video. Maybe I need to show more cleavage? Do they prefer boob or bum? Can you ask Jenna? Thx babe.</p>
+<hr />
+<p>So I&#8217;VE MET THIS GUY. Eeek! He&#8217;s called Adnan and he&#8217;s from Syria. He lives on the beach just down from my hotel. So on trend, right?! He said he came over in a little inflatable boat, left his family behind. And I said, why didn&#8217;t they just get the ferry over from Turkey or fly like everyone else LOL</p>
+<p>He&#8217;s the hottie I Snapped you the other day when we were out for a walk. We&#8217;ve been making some great memories. He wanted to show me a field with a load of lifejackets in it, and some graveyard. Dafuq with that, I said. I&#8217;m not really into art. And I couldn&#8217;t get my pout right. A quick squinch, killer cheekbones, strong brow, cat&#8217;s eyes, and we were back on fleek #nofilter</p>
+<p>Adnan says he&#8217;s a refugee. I know, right? Like a real life one. So I changed his ringtone to Fu-gee-la and he got really annoyed. It was so funny, I guess he would have preferred Ready or Not or something. Some of his friends are quite cute too. Do you want me to bring one back for you? No probs.</p>
+<p>Seriously tho, it&#8217;s a bit off-putting seeing all these people looking so miserable. I mean, I know they&#8217;re hungry and everything, but the wasted look is back in again this season. I would kill to be as slim as some of the women here. Wouldn&#8217;t wear a headscarf obvs, that&#8217;s totes not my look.</p>
+<p>I&#8217;m a bit miffed I have to pay for everything. What&#8217;s going on with that? Adnan says he&#8217;ll have some more money when his cousin gets here, whatevs. I&#8217;ve already told him I want a baby. There are hundreds here, and no one seems to want them. So many women down by the harbour begging with their adorbs kids. I figure if I offer to take one off their hands they&#8217;ll be really grateful, one less mouth to feed and I&#8217;ll get soooo many great pics. I felt really left out last time everyone started doing breastfeeding posts. Don&#8217;t tell Mum, though. Remember when she wouldn&#8217;t let me have that pupper? So much floof. IDGAF, I&#8217;ll just say I did it for the lulz #winning</p>
+		<h1>&nbsp;</h1>
+
+		<h4 id="archive">this is the fucking archive <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<ul>
+			<li>30 Oct. 2018, Vic: <a href="http://upsideclown.com/2018-10-30?amp=1">Minami-Senju Disconnect</a></li>
+						<li>16 Oct. 2018, Dan: <a href="http://upsideclown.com/2018-10-16?amp=1">Energy&#8217;s Exile</a></li>
+						<li>11 Sep. 2018, Matt: <a href="http://upsideclown.com/2018-09-11?amp=1">On the Campaign Trail</a></li>
+						<li>21 Aug. 2018, Neil: <a href="http://upsideclown.com/2018-08-21?amp=1">By Any Other Word</a></li>
+						<li>31 Jul. 2018, Jamie: <a href="http://upsideclown.com/2018-07-31?amp=1">How to Say Goodbye (Part II)</a></li>
+						<li>17 Jul. 2018, Vic: <strong>Shirley Asinine</strong></li>
+						<li>3 Jul. 2018, Dan: <a href="http://upsideclown.com/2018-07-03?amp=1">Tell the Bees</a></li>
+						<li>19 Jun. 2018, James: <a href="http://upsideclown.com/2018-06-19?amp=1">Warning: May contain offensive language</a></li>
+						<li>29 May. 2018, Matt: <a href="http://upsideclown.com/2018-05-29?amp=1">Volume Five</a></li>
+						<li>15 May. 2018, Neil: <a href="http://upsideclown.com/2018-05-15?amp=1">In the City Last Night</a></li>
+						<li>1 May. 2018, Jamie: <a href="http://upsideclown.com/2018-05-01?amp=1">The Sandéparabola</a></li>
+						<li>17 Apr. 2018, Vic: <a href="http://upsideclown.com/2018-04-17?amp=1">Ultra Absorbent</a></li>
+						<li>3 Apr. 2018, Dan: <a href="http://upsideclown.com/2018-04-03?amp=1">The Best Seat in the House</a></li>
+						<li>20 Mar. 2018, James: <a href="http://upsideclown.com/2018-03-20?amp=1">The girl with kaleidoscope eyes</a></li>
+						<li>6 Mar. 2018, Matt: <a href="http://upsideclown.com/2018-03-06?amp=1">The Ursa Major Moving Group</a></li>
+						<li>20 Feb. 2018, Neil: <a href="http://upsideclown.com/2018-02-20?amp=1">Ghost World</a></li>
+						<li>6 Feb. 2018, Jamie: <a href="http://upsideclown.com/2018-02-06?amp=1">In search of&#8230; Edson Vincent, football&#8217;s lost superstar</a></li>
+						<li>23 Jan. 2018, Vic: <a href="http://upsideclown.com/2018-01-23?amp=1">The Long Way Home</a></li>
+						<li>9 Jan. 2018, Dan: <a href="http://upsideclown.com/2018-01-09?amp=1">Season&#8217;s Greetings</a></li>
+						<li>19 Dec. 2017, James: <a href="http://upsideclown.com/2017-12-19?amp=1">The Ghost of Christmas Yet to Come</a></li>
+						<li>4 Dec. 2017, Matt: <a href="http://upsideclown.com/2017-12-04?amp=1">The search for another intelligence</a></li>
+						<li>21 Nov. 2017, Neil: <a href="http://upsideclown.com/2017-11-21?amp=1">Passing</a></li>
+						<li>7 Nov. 2017, Jamie: <a href="http://upsideclown.com/2017-11-07?amp=1">The Dark Of The Matinee</a></li>
+						<li>24 Oct. 2017, Vic: <a href="http://upsideclown.com/2017-10-24?amp=1">Anybody Seen Carlos?</a></li>
+						<li>10 Oct. 2017, Dan: <a href="http://upsideclown.com/2017-10-10?amp=1">Salvage</a></li>
+						<li>26 Sep. 2017, George: <a href="http://upsideclown.com/2017-09-26?amp=1">No Planes Go</a></li>
+						<li>12 Sep. 2017, James: <a href="http://upsideclown.com/2017-09-12?amp=1">Pontification</a></li>
+						<li>29 Aug. 2017, Matt: <a href="http://upsideclown.com/2017-08-29?amp=1">Moving House</a></li>
+						<li>15 Aug. 2017, Neil: <a href="http://upsideclown.com/2017-08-15?amp=1">Parental Guidance</a></li>
+						<li>1 Aug. 2017, Jamie: <a href="http://upsideclown.com/2017-08-01?amp=1">OK, Commuter</a></li>
+						<li>18 Jul. 2017, Vic: <a href="http://upsideclown.com/2017-07-18?amp=1">228 days to go</a></li>
+										<li>2003&mdash;2017: Hiatus. <a href="http://upsideclown.com/2003_12_01.shtml" target="_blank">Where we left off</a></li>
+			</ul>
+
+		<h1>&nbsp;</h1>
+
+		<h4 id="subscribe">never come here again <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<p>Receive new stories by email. Fortnightly. <a href="http://eepurl.com/cVjL2D" target="_blank">Subscribe.</a></p>
+
+		<h1>&nbsp;</h1>
+
+		<p class="boilerplate">
+			<small>We are all Upsideclown: Vic, Jamie, Neil, Matt, James, George, and Dan. Material&nbsp;&copy;&nbsp;its respective author. Email:&nbsp;<a href="mailto:complains@upsideclown.com">complaints@upsideclown.com</a></small>
+		</p>
+		
+
+	</div> <!-- /.container -->
+	
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-101929921-1"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>	
+</body>
+</html>

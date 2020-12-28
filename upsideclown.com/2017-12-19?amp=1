@@ -1,0 +1,601 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+	<meta charset="utf-8">
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="canonical" href="http://upsideclown.com/2017-12-19">
+
+	<title>The Ghost of Christmas Yet to Come (Upsideclown)</title>
+	<style amp-custom>
+		h1 {
+			font-size: 4rem;
+			line-height: 1.2;
+			letter-spacing: -.1rem;
+			font-weight: 300;
+			margin-top: 0;
+			margin-bottom: 2rem;
+		}
+		.container {
+			width: 100%;
+		    position: relative;
+		    max-width: 960px;
+		    margin: 0 auto;
+		    padding: 0 20px;
+		    box-sizing: border-box; }
+		}
+		@charset "UTF-8";
+/*!
+Typeplate : Starter Kit
+URL ........... http://typeplate.com
+Version ....... 3.0.2
+Github ........ https://github.com/typeplate/starter-kit
+Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+  color: #222;
+}
+
+blockquote + figcaption cite {
+  display: block;
+  font-size: inherit;
+  text-align: right;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+pre code {
+  word-wrap: normal;
+}
+
+html {
+  font: normal 112.5% / 1.65 serif;
+}
+
+body {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #444;
+}
+
+.typl8-tera {
+  font-size: 6.5em;
+  margin-bottom: 3.93939rem;
+}
+
+.typl8-giga {
+  font-size: 5em;
+  margin-bottom: 3.0303rem;
+}
+
+.typl8-mega, h1 {
+  font-size: 4em;
+  margin-bottom: 2.42424rem;
+}
+
+.typl8-alpha, h2 {
+  font-size: 3.33333em;
+  margin-bottom: 2.0202rem;
+}
+
+.typl8-beta, h3 {
+  font-size: 2.66667em;
+  margin-bottom: 1.61616rem;
+}
+
+.typl8-gamma, h4 {
+  font-size: 2em;
+  margin-bottom: 1.21212rem;
+}
+
+.typl8-delta, h5 {
+  font-size: 1.33333em;
+  margin-bottom: 0.80808rem;
+}
+
+.typl8-epsilon {
+  font-size: 1.16667em;
+  margin-bottom: 0.70707rem;
+}
+
+.typl8-zeta, h6 {
+  font-size: 1em;
+  margin-bottom: 0.60606rem;
+}
+
+p {
+  margin: auto auto 1.5rem;
+}
+
+p + p {
+  text-indent: 1.5rem;
+  margin-top: -1.5rem;
+}
+
+small {
+  font-size: 65%;
+}
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre {
+  white-space: pre;
+}
+
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+
+abbr[title]:hover {
+  cursor: help;
+}
+
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+p + .typl8-drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="typl8-lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-lining dt,
+.typl8-lining dd {
+  display: inline;
+  margin: 0;
+}
+
+.typl8-lining dt + dt:before,
+.typl8-lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+
+.typl8-lining dd + dd:before {
+  content: ", ";
+}
+
+.typl8-lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="typl8-dictionary-style">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+
+.typl8-dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+
+.typl8-dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+
+.typl8-dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+    <figure>
+      <blockquote cite="">
+        <p></p>
+      </blockquote>
+      <figcaption>
+        <cite>
+          <small><a href=""></a></small>
+        </cite>
+      </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="typl8-pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.typl8-pull-quote {
+  position: relative;
+  padding: 1em;
+}
+
+.typl8-pull-quote:before, .typl8-pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+
+.typl8-pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+
+.typl8-pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. X.X | </strong><cite title=""></cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */		
+body {
+	font-family: georgia, serif;
+	font-size: 1rem;
+	background: #F5F5F5;
+}
+h1 {
+    -webkit-hyphens: none;
+    -moz-hyphens:    none;
+    -ms-hyphens:     none;
+    hyphens:         none;
+}
+h1, h3 {
+	color: #333;
+}
+p, li {
+	color: #444;
+}
+a {
+	color: #327F9A;
+}
+h4 {
+	color: #62aFcA;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	font-variant: small-caps;
+}
+hr {
+	display: none;
+}
+li + li {
+    margin-top: -1rem;	
+}
+ol + p, ul + p {
+    margin-top: -1rem;	
+}
+ul {
+  list-style: circle outside;
+}
+ol {
+  list-style: decimal outside;
+}
+#mce-EMAIL {
+	width: 400px;
+}
+p.boilerplate {
+	text-transform: uppercase;
+}
+p.boilerplate, p.boilerplate a, p.boilerplate a:hover {
+	color: #444;
+}
+p.nav {
+	text-indent: 0;
+	text-transform: uppercase;
+}
+h3.nav-arrest {
+	color: #62aFcA;	
+}
+#banner, #banner a {
+    xtransition: .3s all;  /* rotate gradually instead of instantly */
+    -webkit-transform: rotate(180deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(180deg);      /* to support IE 9 */
+    transform: rotate(180deg);
+	font-family: georgia;
+	font-size: 2rem;
+	color: #327F9A;
+	text-decoration: none;
+}
+#banner a:hover {
+    /* -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); */
+	color: #62aFcA;
+}
+@media (max-width: 550px) {
+	.hide-on-mobile { display: none; }
+	h1 { font-size: 2rem;}
+	p, h4, li, label { font-size: 0.8rem; }
+	#mce-EMAIL { width: 90%; }
+	ul {
+	  list-style: circle inside;
+	}
+	ol {
+	  list-style: decimal inside;
+	}
+}
+@media (min-width: 550px) {
+	.show-on-mobile { display: none; }
+}		ul {
+		  list-style: circle inside;
+		  padding-left: 0;
+		  margin-top: 0;
+	  	}
+		li + li {
+			margin-top: 0rem;
+		}
+		ol + p, ul + p {
+			margin-top: 1.5rem;
+		}
+		@media (max-width: 550px) {
+			h1 { font-size: 2rem; }
+			p, h4, li, label { font-size: 0.8rem; }
+			#mce-EMAIL { width: 90%; }
+		}
+	</style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": "http://upsideclown.com/2017-12-19",
+        "headline": "The Ghost of Christmas Yet to Come",
+        "datePublished": "2017-12-19T10:00:00Z",
+        "dateModified": "2017-12-19T10:00:00Z",
+        "author": {
+          "@type": "Person",
+          "name": "James"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Upsideclown",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://upsideclown.com/reboot-2017/upsideclown-logo-amp.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    </script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+	<div class="container">
+		<p id="banner" align="right"><a href="/?amp=1">umol&#x2184;&#x259;p!sdn</a></p>
+			
+		<p class="nav">
+			<small>
+			<a href="#archive">Archive</a>
+			<a href="#subscribe">Subscribe</a>
+			</small>
+		</p>
+		
+		<h1>The Ghost of Christmas Yet to Come</h1>
+		<p>
+			By James, 19 December 2017</u> <a href="/2017-12-19?amp=1">#</a></p>
+
+		<hr>
+
+		<p class="typl8-drop-cap">It was the start of summer on this side of the world, and we hadn&#8217;t seen each other for some time. She&#8217;d sent me a message out of the blue saying she was passing through Auckland and would I like coffee&#8212;so now we were sitting in the café in the lobby of an office block, with a view of the harbour.</p>
+<p>&#8220;Sometimes good things happen for questionable reasons.&#8221;</p>
+<p>That was her opening line, but she always did have a sense for the dramatic. We&#8217;d first met nearly two decades prior on our first day of work. We&#8217;d both been victims of the Big Consultancies hoovering up innocent grads and mangling us through the first years of our career. I&#8217;d lasted longer than she had, more through apathy than anything else. We&#8217;d been decent friends, never any threat of romance, and hadn&#8217;t seen much of each other after that. But LinkedIn had kept us virtually close enough that it wasn&#8217;t too weird when she got in touch. One of the benefits of moving to the other side of the world is that I was everyone&#8217;s friend in that distant place where people might one day go on holiday. </p>
+<p>We made small talk: I enquired about her plans for Christmas.</p>
+<p>&#8220;That&#8217;s kind of why I&#8217;m here, James.&#8221; And she looked behind my eyes. </p>
+<p>That jerked a memory of working with her. Right from the very beginning you always had the feeling that she was quietly observing and making calculated judgements about you. It was subtle, and not standoffish, but definitely perceptible. And the next memory that surfaced was that she is took office Secret Santa the most seriously out of anyone I&#8217;d ever met. When she was around it was always organised, and she managed to find the precise thing that the person deserved. You could always tell when that person was on her naughty list.</p>
+<p>&#8220;I&#8217;m here for Project Leon.&#8221;</p>
+<p>She said it like she expected me to know what that meant, and the name did actually ring a faint bell from a while back. One of the things that happens when you work for a global consulting firm in a relatively small place like this is occasionally you do get interesting sniffs of things like Leon. In fairly typical fashion, a few senior partners who were supposed to be on a global conference call couldn&#8217;t make it; my name got put forward and it ended up in my diary. It was a group of tech clients wanting to get together in Auckland for a meeting, and I was put forward as a handy meeting facilitator. </p>
+<p>The meeting had happened the next week in a fairly typical last-minute panic, but nevertheless had seemed to me to have been successful. This was 2016, so the workshop ended up with the answer &#8220;we should build a platform&#8221; as pretty much every workshop did that year. But apart from a brief email of thanks from the lead guy, I&#8217;d never heard anything since. </p>
+<p>&#8220;The regulators started to hear rumours that the big tech companies were looking to find a way to join forces. There were concerns about all that data and processing power being in the control of a single entity, and the noises back indicated the deal would be blocked. The companies needed to find a way to make the deal happen. And so they came to me.&#8221; </p>
+<p>Judging from the occasional LinkedIn stalking I&#8217;d done over the last decade, she&#8217;d gone on to work in private equity and then moved to Silicon Valley. She never wrote anything down: that was the next memory of her that bubbled up in my mind. I&#8217;d never seen her use a notebook once. </p>
+<p>&#8220;The hardest part of the whole process was getting the top bosses on board. They&#8217;re all a bunch of on-the-spectrum alpha males. Eventually I just called the two biggest players and told each that the other was already on board. I had them both signed up so quickly that to all intents and purposes it was true, and that got them all in a room.&#8221;</p>
+<p>Ah the Kemp-Le Bon technique, I quipped. She looked at me blankly and went on.</p>
+<p>&#8220;You know how when you&#8217;re facilitating one of these meetings and you chuck in a random idea to get them started? I said something like &#8216;People believe what they want to believe. How about we create a shared sense of wonder where no-one wants to break the spell.&#8217; Once they had forgotten who said it first and it had become &#8216;their&#8217; idea, it stuck.&#8221;</p>
+<p>I asked what she meant.</p>
+<p>&#8220;You have kids, don&#8217;t you? Well it turns out so do a majority of the key influencing members of the regulatory panels we want to influence.</p>
+<p>&#8220;We&#8217;re going to make the Santa legend come true.&#8221;</p>
+<p>It was my turn to look blank. She went on.</p>
+<p>&#8220;It was the bitcoin rush that started the whole thing actually. That&#8217;s why they were coming through Auckland that time&#8212;they were stopping off on their way south to cut the ribbon.&#8221;</p>
+<p>Now that had been a big news story in this part of the world. It had initially outraged, and then confused the environmental lobby: building a huge data and processing centre, right in the middle of Antarctica. The protests had mostly died down once the designs came out: completely renewable energy using the almost continuous wind, plus plenty of solar in the summer. The landing sites for the fibre cables avoided all the penguin nesting sites. The whole thing was built offshore and flown in, so people were only on the site for a few hours to hook up the cables, and would only need to go back once a decade. And the pictures of the whole thing were so beautiful in their stark architectural elegance that it had become a literal poster child for smart sustainable thinking. </p>
+<p>I expressed my disbelief in that even if you had the processing power, the logistics were impossible.</p>
+<p>&#8220;Nothing is impossible, James. I firmly believe that, and that&#8217;s why they came to me. I said before that the hardest bit was getting the bosses to agree, and it was. Everything else is just a question of resource allocation and optimisation. And I&#8217;ve got the richest companies in the world working on the former, and literally the coolest A.I. humankind has built working on the latter.&#8221;</p>
+<p>I supposed it made sense. Most of the practical problem is actually a simple equation&#8212;there is a right answer. We need <em>x</em> number of presents, for <em>y</em> number of households, to be delivered around the world in one night. You just add up the numbers, and let the machine optimise. She must have been able to see the calculations turning in my head. </p>
+<p>&#8220;Networked distribution, that&#8217;s the answer. You don&#8217;t need to have an infinite range of presents&#8212;you just need enough of a product range to cover most situations: a few hundred will do. And then you rent a bit of warehouse space, and all you have to do is adjust the stock levels if there are swings in the spread. The closer you get to the last mile, the fewer drones you need on the night. Again, it&#8217;s all pretty simple in principle, and we have time to plan.&#8221;</p>
+<p>&#8220;It&#8217;s taken us a couple of years, but as of right now, everything is lined up. Starting at around midnight your time on Christmas Eve, hundreds of thousands of presents are going be delivered every minute, and that process is going to follow the night all around the world.&#8221;</p>
+<p>My mind started spinning again when I thought about us waking up on Christmas morning and seeing the result. And it starting to hit the news.</p>
+<p>&#8220;And, yes, you&#8217;ve found the next hard bit. There will be people waking up here and posting the presents on their feeds before people have even gone to bed in the U.S., and that&#8217;s where our main audience are. Luckily, people this time of year are already being bombarded with messages of seasonal good cheer that we don&#8217;t have to do anything drastic. But for some people, we&#8217;ve tweaked the algorithms away from &#8216;Buy This&#8217; to &#8216;Don&#8217;t Break The Spell&#8217;. I&#8217;m pretty confident it&#8217;ll work, although we do have a contingency if required: we&#8217;re ready to call a couple of key people in the intelligence community at just the right time to make them an offer of restricted access to our lists.&#8221;</p>
+<p>I must have looked quizzical. </p>
+<p>&#8220;Two lists: one naughty, one nice.&#8221;</p>
+<p>She looked very pleased. It seemed like all she&#8217;d wanted to do her whole life was get everyone in the world the present they deserved, and she&#8217;s now a week away from it happening.</p>
+<p>I started to chuckle, and commented that it was a shame they didn&#8217;t build all that kit at the North Pole.</p>
+<p>&#8220;You know what, our medium-term plan covers that. We&#8217;re slowly going to alter the Santa legend to be based in the South Pole. You know how I said that people believe what they want to believe. It&#8217;ll take a while to work out all the wrinkles. I&#8217;m curious to see if the reindeers stay or go&#8212;I guess they should become flying penguins. Wouldn&#8217;t that be awesome!&#8221;</p>
+<p>There was a glint in her eye now. She could see I looked a bit shocked. </p>
+<p>&#8220;All these old stories we tell ourselves change over time to suit the needs of the present, and sometimes just as deliberately as what we&#8217;re doing. Did you know that Martin Luther invented a new Christmas gift-giver for Protestantism, the Christkind, to focus attention on Christ rather than Saint Nicholas? We&#8217;re just doing a similar update really.&#8221; </p>
+<p>I knew she was right. You only needed to look at any news feed to see that a lot of people are willing to believe all manner of things. Nudging people towards a South Pole Santa would be a doddle. </p>
+<p>So, I summarised her story back to her, as I understood it. A consortium of the world&#8217;s largest companies had cooperated to use to the world&#8217;s smartest computer and build the most extensive distribution network to use data on everyone to simulate the Santa legend to make some regulators feel happy so that their deal will be approved?</p>
+<p>&#8220;Yes, except I think it&#8217;s more than a simulation. It&#8217;s pretty much the real thing. And while the motives are questionable, I think it is more likely to lead to good outcomes than bad in the long run. Imagine the possibility&#8212;everyone is going to want to jump on the giving bandwagon. And very quickly some rational voices are going to start looking at ways of &#8216;asking Santa&#8217; to create better outcomes for other people. Remember, the algorithms work out who is most deserving, and rewards that. I&#8217;ve made sure of that.&#8221;</p>
+<p>Again, there must have been flicker of concern that passed across my face.</p>
+<p>&#8220;Don&#8217;t worry about it. Remember, sometimes good things happen for questionable reasons.&#8221;</p>
+<p>She handed over a small, colourfully wrapped box.</p>
+<p>&#8220;Merry Christmas James,&#8221; she said smiling, as she stood up and left. I thought of my kids on Christmas morning, and knew that I wouldn&#8217;t want to break the spell. </p>
+		<h1>&nbsp;</h1>
+
+		<h4 id="archive">this is the fucking archive <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<ul>
+			<li>30 Oct. 2018, Vic: <a href="http://upsideclown.com/2018-10-30?amp=1">Minami-Senju Disconnect</a></li>
+						<li>16 Oct. 2018, Dan: <a href="http://upsideclown.com/2018-10-16?amp=1">Energy&#8217;s Exile</a></li>
+						<li>11 Sep. 2018, Matt: <a href="http://upsideclown.com/2018-09-11?amp=1">On the Campaign Trail</a></li>
+						<li>21 Aug. 2018, Neil: <a href="http://upsideclown.com/2018-08-21?amp=1">By Any Other Word</a></li>
+						<li>31 Jul. 2018, Jamie: <a href="http://upsideclown.com/2018-07-31?amp=1">How to Say Goodbye (Part II)</a></li>
+						<li>17 Jul. 2018, Vic: <a href="http://upsideclown.com/2018-07-17?amp=1">Shirley Asinine</a></li>
+						<li>3 Jul. 2018, Dan: <a href="http://upsideclown.com/2018-07-03?amp=1">Tell the Bees</a></li>
+						<li>19 Jun. 2018, James: <a href="http://upsideclown.com/2018-06-19?amp=1">Warning: May contain offensive language</a></li>
+						<li>29 May. 2018, Matt: <a href="http://upsideclown.com/2018-05-29?amp=1">Volume Five</a></li>
+						<li>15 May. 2018, Neil: <a href="http://upsideclown.com/2018-05-15?amp=1">In the City Last Night</a></li>
+						<li>1 May. 2018, Jamie: <a href="http://upsideclown.com/2018-05-01?amp=1">The Sandéparabola</a></li>
+						<li>17 Apr. 2018, Vic: <a href="http://upsideclown.com/2018-04-17?amp=1">Ultra Absorbent</a></li>
+						<li>3 Apr. 2018, Dan: <a href="http://upsideclown.com/2018-04-03?amp=1">The Best Seat in the House</a></li>
+						<li>20 Mar. 2018, James: <a href="http://upsideclown.com/2018-03-20?amp=1">The girl with kaleidoscope eyes</a></li>
+						<li>6 Mar. 2018, Matt: <a href="http://upsideclown.com/2018-03-06?amp=1">The Ursa Major Moving Group</a></li>
+						<li>20 Feb. 2018, Neil: <a href="http://upsideclown.com/2018-02-20?amp=1">Ghost World</a></li>
+						<li>6 Feb. 2018, Jamie: <a href="http://upsideclown.com/2018-02-06?amp=1">In search of&#8230; Edson Vincent, football&#8217;s lost superstar</a></li>
+						<li>23 Jan. 2018, Vic: <a href="http://upsideclown.com/2018-01-23?amp=1">The Long Way Home</a></li>
+						<li>9 Jan. 2018, Dan: <a href="http://upsideclown.com/2018-01-09?amp=1">Season&#8217;s Greetings</a></li>
+						<li>19 Dec. 2017, James: <strong>The Ghost of Christmas Yet to Come</strong></li>
+						<li>4 Dec. 2017, Matt: <a href="http://upsideclown.com/2017-12-04?amp=1">The search for another intelligence</a></li>
+						<li>21 Nov. 2017, Neil: <a href="http://upsideclown.com/2017-11-21?amp=1">Passing</a></li>
+						<li>7 Nov. 2017, Jamie: <a href="http://upsideclown.com/2017-11-07?amp=1">The Dark Of The Matinee</a></li>
+						<li>24 Oct. 2017, Vic: <a href="http://upsideclown.com/2017-10-24?amp=1">Anybody Seen Carlos?</a></li>
+						<li>10 Oct. 2017, Dan: <a href="http://upsideclown.com/2017-10-10?amp=1">Salvage</a></li>
+						<li>26 Sep. 2017, George: <a href="http://upsideclown.com/2017-09-26?amp=1">No Planes Go</a></li>
+						<li>12 Sep. 2017, James: <a href="http://upsideclown.com/2017-09-12?amp=1">Pontification</a></li>
+						<li>29 Aug. 2017, Matt: <a href="http://upsideclown.com/2017-08-29?amp=1">Moving House</a></li>
+						<li>15 Aug. 2017, Neil: <a href="http://upsideclown.com/2017-08-15?amp=1">Parental Guidance</a></li>
+						<li>1 Aug. 2017, Jamie: <a href="http://upsideclown.com/2017-08-01?amp=1">OK, Commuter</a></li>
+						<li>18 Jul. 2017, Vic: <a href="http://upsideclown.com/2017-07-18?amp=1">228 days to go</a></li>
+										<li>2003&mdash;2017: Hiatus. <a href="http://upsideclown.com/2003_12_01.shtml" target="_blank">Where we left off</a></li>
+			</ul>
+
+		<h1>&nbsp;</h1>
+
+		<h4 id="subscribe">never come here again <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<p>Receive new stories by email. Fortnightly. <a href="http://eepurl.com/cVjL2D" target="_blank">Subscribe.</a></p>
+
+		<h1>&nbsp;</h1>
+
+		<p class="boilerplate">
+			<small>We are all Upsideclown: Vic, Jamie, Neil, Matt, James, George, and Dan. Material&nbsp;&copy;&nbsp;its respective author. Email:&nbsp;<a href="mailto:complains@upsideclown.com">complaints@upsideclown.com</a></small>
+		</p>
+		
+
+	</div> <!-- /.container -->
+	
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-101929921-1"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>	
+</body>
+</html>

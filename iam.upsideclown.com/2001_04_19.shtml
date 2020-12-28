@@ -1,0 +1,302 @@
+<html>
+<head>
+<title>Upsideclown</title>
+<style type="text/css">
+P.subhead {
+font-family : Verdana, Arial, Helvetica;
+color : #773333;
+font-size : 11px;
+margin-right : 30%;
+margin-left : 25px;
+}
+P.bottom {
+font-family : Verdana, Arial, Helvetica;
+color : #773333;
+font-size : 11px;
+}
+P, OL, UL, LI {
+color : #333366;
+font-family : Georgia, serif;
+}
+LI.major {
+margin-top : 10px;
+margin-bottom : 10px;
+}
+P.minor {
+margin-top : 0px;
+margin-bottom : 0px;
+text-indent : 2em;
+}
+P.major {
+margin-bottom : 0px;
+}
+P.quote {
+margin-top : 5px;
+margin-bottom : 5px;
+font-style : italic;
+padding-left : 2em;
+padding-right : 2em;
+}
+.top {
+font-family : Verdana, Arial, Helvetica;
+font-weight : bold;
+font-size : 11px;
+color : #333366;
+}
+.light {
+font-family: Verdana, Arial, Helvetica;
+font-size: 11px;
+color: #eeffcc;
+}
+A {
+color : #333399;
+font-weight : bold;
+}
+A:visited {
+color : #333366;
+}
+A:hover {
+color : #eeffcc;
+background : #773333;
+}
+H1 {
+font-family : 'Trebuchet MS', Verdana, Arial, Helvetica;
+font-size : 28px;
+color : #773333;
+font-weight : normal;
+}
+HR {
+color: #333366;
+width: 30%;
+align: center;
+}
+</style>
+
+</head>
+
+<body background="cubes.gif" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" style="margin-top: 0px; margin-left: 0px; margin-right: 0px">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="3" style="border-bottom: 2px solid black;">
+<tr>
+<td bgcolor="#773333" valign="middle" align="left" style="padding-left: 10px;">
+<p class="light">
+<span style="font-size: 18px;">One</span> year. <span style="font-size: 18px;">100</span> articles. So we're having a Reader's <span style="font-size: 36px;">Party</span>. Come along to <a style="color: White; font-size: 24px; font-weight: normal;" href="http://www.upsidecrown.com/"><font color="White">Upsidecrown</font></a>.
+</p>
+</td>
+</tr>
+</table>
+
+<p align="right"><a name="top"></a><img width="330" height="122" alt="Upsideclown banner" src="title.gif"></p>
+
+<table width="85%" align="center" cellpadding="0" cellspacing="0" border="0">
+
+<tr>
+<td width="25" bgcolor="#eeffcc"><img src="spacer.gif" height="1" width="25"></td>
+<td bgcolor="#eeffcc" style="padding-right : 25px;" valign="bottom">
+
+<p align="right" class="top">
+Fresh Mondays and Thursdays&nbsp;&nbsp;&nbsp;<a href="#archive">ARCHIVE</a>&nbsp;&nbsp;&nbsp;<a href="#us">US</a>
+</p>
+
+</td>
+<td height="25" width="25">&nbsp;</td>
+</tr>
+
+<tr>
+<td width="25" bgcolor="#eeffcc">&nbsp;</td>
+<td bgcolor="#eeffcc" style="padding-right : 25px; padding-top : 15px; padding-bottom : 15px" align="left" valign="top">
+
+
+<font face="serif">
+
+
+
+<h1>
+Maintaining the Driving Line
+</h1>
+
+<p class="subhead">
+<b>19 April 2001</b>
+<br>
+<a href="mailto:dan@upsideclown.com">Dan</a> has a point to make. Or three.
+</p>
+
+<p class="major">
+Put the key into the ignition and turn. Rest your forehead on the steering wheel. Part of being a successful driver is knowing your vehicle. Study the finer qualities of the dashboard. Different brands, or, as they are known in the "auto trade", <i>marques</i>, are primarily differentiated by chassis structure, engine quality, and detailing. The way the dash is put together is one part of detailing.  For example, the gauge on this model represents the level of oil in the system by a series of illuminated blocks of various colours, rather than the more traditional arrangement.
+</p>
+<p class="minor">
+The more traditional arrangement also employs coloured blocks, or more generally a curved parallelogram, with a thick green end tapering through an arc of around 15%, as if describing a part of a far larger circle. The interrupted circle terminates not quite in a point, by which time the green has elided into a dull, irritated red. This shape may be described in an uninterrupted curve, or may be subdivided into a series of blocks. This makes no difference.
+</p>
+<p class="minor">
+Regardless, this arc is the passive participant in the process of information, providing only a scale or metric. If you actually want to know how much oil there is in your engine, you need the second part - a needle at one end penetrating slightly but lying above the block, embedded in the other in a gear which moves it to the point where the extended arm touches, gently, the correct point along this arc. The gear, for the sake of appearances, is generally concealed beneath a plastic cylinder, itself lodged in the Perspex covering the dashboard <i>entier</i>. On the other side of this cylinder, generally but not necessarily, is an identical arc, indicating petrol (usually indicated by a stylised image of a can or pump) or engine temperature (usually indicated by a stylised image of a thermometer). The stylised image denoting oil has never successfully been identified. It exists as signifier only through not being recognisable as anything else.
+</p>
+<p class="minor">
+The two descriptive arcs describe their arcs almost but not to the point of touching at head and foot.
+</p>
+<p class="minor">
+There was a brief vogue for "talking cars", automobiles that would take the information on the dash and represent, or re-present, that data through a series of recorded messages in a neutral, faintly feminine computerised voice. At the time, you wondered whether drivers unable to interpret the dash signals on their own should strictly be known as drivers, or indeed allowed anywhere near the driver's side of a car. 
+</p>
+<p class="minor">
+An affectation at best, these cars rapidly became infuriating, due to a basic design flaw. As the engine was switched off, the comically large, clumsy and stupid late-eighties computer would register the falling of the oil and petrol gauges, caused by the termination of electrical supply from the battery to the gears which held them up. 
+</p>
+<p class="minor">
+So, every time the car stopped, the same neutral monition would bring to your attention low levels of oil and petrol which simply did not exist. This was by no means the only reason that, after the aforementioned period of gimmick-fuelled interest, the cars, which were boxy and handled badly, in no small part a result of the expense of time and money on the computer-activated voice system, failed to sell in the expected droves.
+</p>
+<p class="minor">
+Computer-activated voice system. An inversion. Ridiculous.
+</p>
+
+<p class="major">
+For you, however, such a system might be quite useful, as your vision of the lower end of the two sets of illuminated blocks, which, having no central plastic cylinder to curl around, instead taper off along a true vertical, leaving a goblet shape in which are held the stylised images denoting their function, has been and is obscured by a picture of a young woman. 
+</p>
+<p class="minor">
+The young woman has been photographed standing just outside the terraced houses currently reflected in your left-hand wing mirror, and is in fact the very same young woman who is currently using the perspective gained from the bathroom mirror in a flat in the terraced house ten feet or so behind your rear bumper on the left-hand side. She is repairing salt damage to her exterior detailing, employing tapering blocks of colour over the eyes and along the cheekbones.  The photograph is slightly newer than the rest of the car's interior detail, with the exception of the air-freshener hanging from the rear-view mirror, which is green and cut to resemble a stylised pine tree, although the smell it releases does not resemble even a stylised version of pine.
+</p>
+<p class="minor">
+Move your head back to the driving position. Place one finger on the photograph and apply downward pressure. Allow it to fall beneath the clutch pedal, which you should then depress, and shift gear into first. Check right wing and rear-view mirrors. Pause. Shift into reverse, disengage the handbrake, release the pressure on the clutch. Rock it. Rock it. Squeeze the accelerator. Rock it. Rock it. Rocket backwards, drive and grind your rear bumper into the grille, the glass, the lights of the car behind. Move into first, clip your wing on a Japanese car as you move into second, third, fourth, hit the main road at fifty, sideswipe a family pet just for wouldnt you.
+</p>
+<p class="minor">
+Its not as if you have to pass through here to get anywhere important.
+</p>
+
+
+<p>&nbsp;</p>
+</font>
+</td>
+<td width="25" background="shadow.gif" valign="top">&nbsp;</td>
+</tr>
+
+<tr>
+<td width="25" height="25">&nbsp;</td>
+<td height="25" background="shadow.gif">&nbsp;</td>
+<td width="25" height="25" background="shadow.gif">&nbsp;</td>
+</tr>
+
+</table>
+
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td>
+<img src="spacer.gif" width="1" height="50">
+</td>
+</tr>
+<tr>
+<td bgcolor="#773333" height="17" align="left" style="padding-left : 10px">
+<a name="archive"></a><img alt="Previously on upsideclown" src="archive.gif" height="17" width="425">
+</td>
+</tr>
+<tr>
+<td bgcolor="#60b0f0" style="padding : 10px" align="left">
+
+<table align="right" border="0" cellpadding="0" cellspacing="0"><tr><td><p><a href="#top" class="top">top</a></p></td></tr></table>
+
+<p class="bottom">Current clown:</p><p class="bottom">18 December 2003. <b>George</b> writes: <a href="2003_12_18.shtml">This List</a><br />
+</p><p class="bottom">Most recent ten:</p><p class="bottom">15 December 2003. <b>Jamie</b> writes: <a href="2003_12_15.shtml">Seven Songs</a><br />
+11 December 2003. <b>Dan</b> writes: <a href="2003_12_11.shtml">Spinning Jenny</a><br />
+8 December 2003. <b>Victor</b> writes: <a href="2003_12_08.shtml">Rock Opera</a><br />
+4 December 2003. <b>Matt</b> writes: <a href="2003_12_04.shtml">The Mirrored Spheres of Patagonia</a><br />
+1 December 2003. <b>George</b> writes: <a href="2003_12_01.shtml">Charm</a><br />
+27 November 2003. <b>James</b> writes: <a href="2003_11_27.shtml">On Boxing</a><br />
+24 November 2003. <b>Jamie</b> writes: <a href="2003_11_24.shtml">El Matador del Amor; Or, the Man who Killed Love</a><br />
+20 November 2003. <b>Dan</b> writes: <a href="2003_11_20.shtml">Rights Management</a><br />
+17 November 2003. <b>Victor</b> writes: <a href="2003_11_17.shtml">Walking on Yellow</a><br />
+13 November 2003. <b>Matt</b> writes: <a href="2003_11_13.shtml">Disintermediation</a><br />
+(And alas we lost <b>Neil</b>, who last wrote <a href="2002_06_17.shtml">Cockfosters</a>)<br /></p><p class="bottom">Also by this clown:</p><p class="bottom">11 December 2003. <b>Dan</b> writes: <a href="2003_12_11.shtml">Spinning Jenny</a><br />
+20 November 2003. <b>Dan</b> writes: <a href="2003_11_20.shtml">Rights Management</a><br />
+30 October 2003. <b>Dan</b> writes: <a href="2003_10_30.shtml">My only goal</a><br />
+9 October 2003. <b>Dan</b> writes: <a href="2003_10_09.shtml">The Knot</a><br />
+18 September 2003. <b>Dan</b> writes: <a href="2003_09_18.shtml">The Engelbart Elephant</a><br />
+28 August 2003. <b>Dan</b> writes: <a href="2003_08_28.shtml">The Amity Index</a><br />
+7 August 2003. <b>Dan</b> writes: <a href="2003_08_07.shtml">This Sporting Life</a><br />
+17 July 2003. <b>Dan</b> writes: <a href="2003_07_17.shtml">Touch</a><br />
+26 June 2003. <b>Dan</b> writes: <a href="2003_06_26.shtml">Metadata</a><br />
+5 June 2003. <b>Dan</b> writes: <a href="2003_06_05.shtml">Street Mate</a><br />
+15 May 2003. <b>Dan</b> writes: <a href="2003_05_15.shtml">Usher's Well</a><br />
+24 April 2003. <b>Dan</b> writes: <a href="2003_04_24.shtml">Medicamenta</a><br />
+3 April 2003. <b>Dan</b> writes: <a href="2003_04_03.shtml">Weapons of Mass Construction</a><br />
+13 March 2003. <b>Dan</b> writes: <a href="2003_03_13.shtml">David Sneddon, Bukake Secret Agent</a><br />
+20 February 2003. <b>Dan</b> writes: <a href="2003_02_20.shtml">Mary Sue</a><br />
+30 January 2003. <b>Dan</b> writes: <a href="2003_01_30.shtml">Bait and Switch</a><br />
+9 January 2003. <b>Dan</b> writes: <a href="2003_01_09.shtml">What Never Happened</a><br />
+19 December 2002. <b>Dan</b> writes: <a href="2002_12_19.shtml">Sermon on the Mount the Face</a><br />
+28 November 2002. <b>Dan</b> writes: <a href="2002_11_28.shtml">Ballroom Blitz</a><br />
+7 November 2002. <b>Dan</b> writes: <a href="2002_11_07.shtml">The Photographer</a><br />
+17 October 2002. <b>Dan</b> writes: <a href="2002_10_17.shtml">Diaphragmatic</a><br />
+26 September 2002. <b>Dan</b> writes: <a href="2002_09_26.shtml">A life in the day</a><br />
+5 September 2002. <b>Dan</b> writes: <a href="2002_09_05.shtml">Different Class</a><br />
+15 August 2002. <b>Dan</b> writes: <a href="2002_08_15.shtml">Story and sequel</a><br />
+25 July 2002. <b>Dan</b> writes: <a href="2002_07_25.shtml">Fellatious</a><br />
+4 July 2002. <b>Dan</b> writes: <a href="2002_07_04.shtml">Skin Mag</a><br />
+10 June 2002. <b>Dan</b> writes: <a href="2002_06_10.shtml">The Ibizan book of the Dead</a><br />
+16 May 2002. <b>Dan</b> writes: <a href="2002_05_16.shtml">The Sissons Situation</a><br />
+22 April 2002. <b>Dan</b> writes: <a href="2002_04_22.shtml">UpsideClown and Out in Hollywood</a><br />
+28 March 2002. <b>Dan</b> writes: <a href="2002_03_28.shtml">Nereus' Daughters</a><br />
+4 March 2002. <b>Dan</b> writes: <a href="2002_03_04.shtml">Diomedes</a><br />
+7 February 2002. <b>Dan</b> writes: <a href="2002_02_07.shtml">Text Only</a><br />
+14 January 2002. <b>Dan</b> writes: <a href="2002_01_14.shtml">Civil Engineering</a><br />
+20 December 2001. <b>Dan</b> writes: <a href="2001_12_20.shtml">Nativity</a><br />
+26 November 2001. <b>Dan</b> writes: <a href="2001_11_26.shtml">The Wedding Band</a><br />
+1 November 2001. <b>Dan</b> writes: <a href="2001_11_01.shtml">what dreans mecum?</a><br />
+8 October 2001. <b>Dan</b> writes: <a href="2001_10_08.shtml">Stop me if you've heard this one before</a><br />
+13 September 2001. <b>Dan</b> writes: <a href="2001_09_13.shtml">Mother of the Muses</a><br />
+20 August 2001. <b>Dan</b> writes: <a href="2001_08_20.shtml">I say I say I say</a><br />
+26 July 2001. <b>Dan</b> writes: <a href="2001_07_26.shtml">Bigger, Better, Brother</a><br />
+2 July 2001. <b>Dan</b> writes: <a href="2001_07_02.shtml">Hecatomb</a><br />
+7 June 2001. <b>Dan</b> writes: <a href="2001_06_07.shtml">Dispassionate Leave</a><br />
+14 May 2001. <b>Dan</b> writes: <a href="2001_05_14.shtml">Small Town Boy</a><br />
+19 April 2001. <b>Dan</b> writes: <a href="2001_04_19.shtml">Maintaining the Driving Line</a><br />
+26 March 2001. <b>Dan</b> writes: <a href="2001_03_26.shtml">Cut and Paste</a><br />
+1 March 2001. <b>Dan</b> writes: <a href="2001_03_01.shtml">Redemption</a><br />
+5 February 2001. <b>Dan</b> writes: <a href="2001_02_05.shtml">Blyton the Face of the Earth</a><br />
+8 January 2001. <b>Dan</b> writes: <a href="2001_01_08.shtml">Smoke Signals</a><br />
+18 December 2000. <b>Dan</b> writes: <a href="2000_12_18.shtml">The Loa Depths</a><br />
+23 November 2000. <b>Dan</b> writes: <a href="2000_11_23.shtml">The Limits of Melissa Joan Hart</a><br />
+30 October 2000. <b>Dan</b> writes: <a href="2000_10_30.shtml">Shiftwork</a><br />
+5 October 2000. <b>Dan</b> writes: <a href="2000_10_05.shtml">Dawson</a><br />
+11 September 2000. <b>Dan</b> writes: <a href="2000_09_11.shtml">Testing Times</a><br />
+17 August 2000. <b>Dan</b> writes: <a href="2000_08_17.shtml">Onanova</a><br />
+3 July 2000. <b>Dan</b> writes: <a href="2000_07_03.shtml">Roboto il Diavolo</a><br />
+</p>
+
+</td>
+</tr>
+<tr>
+<td background="shadow.gif">
+<img src="spacer.gif" width="1" height="15">
+</td>
+</tr>
+<tr>
+<td bgcolor="#773333" height="17" align="left" style="padding-left : 10px">
+<a name="us"></a><img alt="Let meeeeee entertain you" src="us.gif" height="17" width="419">
+</td>
+</tr>
+<tr>
+<td bgcolor="#60b0f0" style="padding : 10px" align="left">
+
+<table align="right" border="0" cellpadding="0" cellspacing="0"><tr><td><p><a href="#top" class="top">top</a></p></td></tr></table>
+
+<p class="bottom">
+We are all Upsideclown: <a href="mailto:dan@upsideclown.com">Dan</a>, <a href="mailto:george@upsideclown.com">George</a>, <a href="mailto:james@upsideclown.com">James</a>, <a href="mailto:jamie@upsideclown.com">Jamie</a>, <a href="mailto:matt@upsideclown.com">Matt</a>, <a href="mailto:neil@upsideclown.com">Neil</a>, <a href="mailto:victor@upsideclown.com">Victor</a>.
+</p>
+
+<p class="bottom">
+Material is (c) respective authors. For everything else, there's <a href="mailto:it@upsideclown.com">it@upsideclown.com</a>.
+</p>
+
+<p class="bottom">
+And weeeeeee can entertain you by email too. Get fresh steaming Upsideclown in your inbox Mondays and Thursdays. To subscribe, send the word <b>subscribe</b> in the body of your mail to <a href="mailto:upsideclown-request@historicalfact.com?body=subscribe">upsideclown-request@historicalfact.com</a>. (To unsubscribe, send the word <b>unsubscribe</b> instead.)
+</p>
+
+</td>
+</tr>
+<tr>
+<td background="shadow.gif">
+<img src="spacer.gif" width="1" height="15">
+</td>
+</tr>
+</table>
+
+</body>
+</html>
+

@@ -1,0 +1,687 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+	<meta charset="utf-8">
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<link rel="canonical" href="http://upsideclown.com/2017-12-04">
+
+	<title>The search for another intelligence (Upsideclown)</title>
+	<style amp-custom>
+		h1 {
+			font-size: 4rem;
+			line-height: 1.2;
+			letter-spacing: -.1rem;
+			font-weight: 300;
+			margin-top: 0;
+			margin-bottom: 2rem;
+		}
+		.container {
+			width: 100%;
+		    position: relative;
+		    max-width: 960px;
+		    margin: 0 auto;
+		    padding: 0 20px;
+		    box-sizing: border-box; }
+		}
+		@charset "UTF-8";
+/*!
+Typeplate : Starter Kit
+URL ........... http://typeplate.com
+Version ....... 3.0.2
+Github ........ https://github.com/typeplate/starter-kit
+Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+  color: #222;
+}
+
+blockquote + figcaption cite {
+  display: block;
+  font-size: inherit;
+  text-align: right;
+}
+
+body {
+  word-wrap: break-word;
+}
+
+pre code {
+  word-wrap: normal;
+}
+
+html {
+  font: normal 112.5% / 1.65 serif;
+}
+
+body {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #444;
+}
+
+.typl8-tera {
+  font-size: 6.5em;
+  margin-bottom: 3.93939rem;
+}
+
+.typl8-giga {
+  font-size: 5em;
+  margin-bottom: 3.0303rem;
+}
+
+.typl8-mega, h1 {
+  font-size: 4em;
+  margin-bottom: 2.42424rem;
+}
+
+.typl8-alpha, h2 {
+  font-size: 3.33333em;
+  margin-bottom: 2.0202rem;
+}
+
+.typl8-beta, h3 {
+  font-size: 2.66667em;
+  margin-bottom: 1.61616rem;
+}
+
+.typl8-gamma, h4 {
+  font-size: 2em;
+  margin-bottom: 1.21212rem;
+}
+
+.typl8-delta, h5 {
+  font-size: 1.33333em;
+  margin-bottom: 0.80808rem;
+}
+
+.typl8-epsilon {
+  font-size: 1.16667em;
+  margin-bottom: 0.70707rem;
+}
+
+.typl8-zeta, h6 {
+  font-size: 1em;
+  margin-bottom: 0.60606rem;
+}
+
+p {
+  margin: auto auto 1.5rem;
+}
+
+p + p {
+  text-indent: 1.5rem;
+  margin-top: -1.5rem;
+}
+
+small {
+  font-size: 65%;
+}
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre {
+  white-space: pre;
+}
+
+pre code {
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
+}
+
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray;
+}
+
+abbr[title]:hover {
+  cursor: help;
+}
+
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+p + .typl8-drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="typl8-lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-lining dt,
+.typl8-lining dd {
+  display: inline;
+  margin: 0;
+}
+
+.typl8-lining dt + dt:before,
+.typl8-lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+
+.typl8-lining dd + dd:before {
+  content: ", ";
+}
+
+.typl8-lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem;
+}
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="typl8-dictionary-style">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+
+.typl8-dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2rem;
+}
+
+.typl8-dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+
+.typl8-dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+/**
+ * Blockquote Markup
+ *
+    <figure>
+      <blockquote cite="">
+        <p></p>
+      </blockquote>
+      <figcaption>
+        <cite>
+          <small><a href=""></a></small>
+        </cite>
+      </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="typl8-pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.typl8-pull-quote {
+  position: relative;
+  padding: 1em;
+}
+
+.typl8-pull-quote:before, .typl8-pull-quote:after {
+  height: 1em;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+
+.typl8-pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+
+.typl8-pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. X.X | </strong><cite title=""></cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */		
+body {
+	font-family: georgia, serif;
+	font-size: 1rem;
+	background: #F5F5F5;
+}
+h1 {
+    -webkit-hyphens: none;
+    -moz-hyphens:    none;
+    -ms-hyphens:     none;
+    hyphens:         none;
+}
+h1, h3 {
+	color: #333;
+}
+p, li {
+	color: #444;
+}
+a {
+	color: #327F9A;
+}
+h4 {
+	color: #62aFcA;
+	letter-spacing: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	font-variant: small-caps;
+}
+hr {
+	display: none;
+}
+li + li {
+    margin-top: -1rem;	
+}
+ol + p, ul + p {
+    margin-top: -1rem;	
+}
+ul {
+  list-style: circle outside;
+}
+ol {
+  list-style: decimal outside;
+}
+#mce-EMAIL {
+	width: 400px;
+}
+p.boilerplate {
+	text-transform: uppercase;
+}
+p.boilerplate, p.boilerplate a, p.boilerplate a:hover {
+	color: #444;
+}
+p.nav {
+	text-indent: 0;
+	text-transform: uppercase;
+}
+h3.nav-arrest {
+	color: #62aFcA;	
+}
+#banner, #banner a {
+    xtransition: .3s all;  /* rotate gradually instead of instantly */
+    -webkit-transform: rotate(180deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(180deg);      /* to support IE 9 */
+    transform: rotate(180deg);
+	font-family: georgia;
+	font-size: 2rem;
+	color: #327F9A;
+	text-decoration: none;
+}
+#banner a:hover {
+    /* -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg); */
+	color: #62aFcA;
+}
+@media (max-width: 550px) {
+	.hide-on-mobile { display: none; }
+	h1 { font-size: 2rem;}
+	p, h4, li, label { font-size: 0.8rem; }
+	#mce-EMAIL { width: 90%; }
+	ul {
+	  list-style: circle inside;
+	}
+	ol {
+	  list-style: decimal inside;
+	}
+}
+@media (min-width: 550px) {
+	.show-on-mobile { display: none; }
+}		ul {
+		  list-style: circle inside;
+		  padding-left: 0;
+		  margin-top: 0;
+	  	}
+		li + li {
+			margin-top: 0rem;
+		}
+		ol + p, ul + p {
+			margin-top: 1.5rem;
+		}
+		@media (max-width: 550px) {
+			h1 { font-size: 2rem; }
+			p, h4, li, label { font-size: 0.8rem; }
+			#mce-EMAIL { width: 90%; }
+		}
+	</style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "mainEntityOfPage": "http://upsideclown.com/2017-12-04",
+        "headline": "The search for another intelligence",
+        "datePublished": "2017-12-04T10:00:00Z",
+        "dateModified": "2017-12-04T10:00:00Z",
+        "author": {
+          "@type": "Person",
+          "name": "Matt"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Upsideclown",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "http://upsideclown.com/reboot-2017/upsideclown-logo-amp.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    </script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+</head>
+<body>
+	<div class="container">
+		<p id="banner" align="right"><a href="/?amp=1">umol&#x2184;&#x259;p!sdn</a></p>
+			
+		<p class="nav">
+			<small>
+			<a href="#archive">Archive</a>
+			<a href="#subscribe">Subscribe</a>
+			</small>
+		</p>
+		
+		<h1>The search for another intelligence</h1>
+		<p>
+			By Matt<em> a.k.a.</em> <a href="https://twitter.com/genmon" target="_blank">@genmon</a>, 4 December 2017</u> <a href="/2017-12-04?amp=1">#</a></p>
+
+		<hr>
+
+		<p class="typl8-drop-cap">Petr held the Scotch egg still between thumb and forefinger, and cut it carefully in two. They sat in the library cafe. He placed the symmetrical halves side by side on the plate, two halves of egg in two half balls of sausage, centred on yellow yolks.</p>
+<p>&#8216;The Dogon people, in Mali,&#8217; said Bruno, eying Petr&#8217;s lunch, &#8216;were visited by aliens from the Sirius star system.&#8217;</p>
+<p>&#8216;And you find somewhere scenic for the presenter to stand while they say this,&#8217; said Petr, &#8216;so nobody notices how absurd it is.&#8217;</p>
+<p>&#8216;I&#8217;m sure this is exactly the kind of research the founders of this magnificent place of learning had in mind.&#8217; Bruno waved a hand at the bustle of students and tourists around him, and the six storey glass tower housing the King&#8217;s Library collection ahead.</p>
+<p>Bruno had approached Petr seeing their shared interest in North African prehistory. Since then their research had converged&#8212;Mali&#8212;and their desks too. Bruno had taken to occupying the desk opposite Petr in Humanities Reading Room 1.</p>
+<p>&#8216;It&#8217;s a good opportunity to build some expertise,&#8217; his one-time agent had said, through whom contact had been made, &#8216;another book, you never know.&#8217;</p>
+<p>Bruno had been approached to do background colour for &#8220;3,114 B.C. and All That,&#8221; an upcoming TV series on the conspiracy theories centred on that year. The dawn of the Mayan calendar; the mysterious construction of Stonehenge. Docu-entertainment. &#8216;Docu-bullshit,&#8217; he had replied but he took the work. The chance to get closer to TV producers again, that had been why he did it.</p>
+<p>&#8216;I&#8217;ve already done Egypt and besides that&#8217;s easy. The society fluoresced around 3,000 B.C. for no obvious reason. There are a hundred picturesque places to say that.</p>
+<p>&#8216;Mali is more convoluted. The Dogon people who live there have an ancient religion. There&#8217;s a story that they were visited by aquatic beings from a twin star. Space fish in space ships. In 3,000 B.C. of course. And we know the star system&#8212;the stories locate it clearly. It&#8217;s Sirius, the brightest star in the sky. Also known by us as the Dog Star. By the Dogon people&#8212;no connection implied there I&#8217;m sure&#8212;as <em>sigi tolo.</em></p>
+<p>&#8216;Get this: Sirius is a binary star. Twin stars, orbiting one another. So how did they know.&#8217;</p>
+<p>&#8216;One minute. I&#8217;m going to need to correct you on Egypt,&#8217; said Petr.</p>
+<p>&#8216;I know but that&#8217;s not the point,&#8217; said Bruno. </p>
+<p>What made the Sirius aliens worthy of conspiracy theory, and a segment in a mid-budget TV series, is that there was no way the Dogon people could have known that Sirius is a binary system. The first western traveller to visit, French anthropologist Marcel Griaule in 1931, was also the first to report the Dogon myths, and their inclusion of Sirius. But its binary nature is not visible to the naked eye&#8212;it had only been discovered in 1844 by Friedrich Bessel, thanks to modern telescopes and advanced mathematics, and there was no apparent way for this revelation to have reached Mali ahead of Griaule. So either precision optics had been independently invented in late prehistory North Africa, which was an enticing enough premise for TV in itself, or the stories were based on an actual extraterrestrial visitation, which is where this particular series was taking it.</p>
+<p>&#8216;Or it&#8217;s a coincidence.&#8217;</p>
+<p>&#8216;Or,&#8217; said Bruno, &#8216;the Dogon had an <em>unrecorded</em> visit by western astronomers at some point between 1844 and the first known visit in 1931, were informed of Sirius A and Sirius B, and updated their stories appropriately.&#8217;</p>
+<p>Which is what it appears had happened, as Bruno had learned with even cursory digging. Henri-Alexandre Deslandres, to put a name to the assumed visitor. Astronomer. Born in Paris in 1853. Likely to have passed through Dogon territory when following the solar eclipse of 1893. It&#8217;s easy to imagine him hearing the myths and in response communicating the facts. No mystery to the knowledge of Sirius by the Dogon, therefore no alien visit, therefore no conspiracy theory.</p>
+<p>&#8216;Don&#8217;t tell the producers. You won&#8217;t get on telly.&#8217;</p>
+<p>&#8216;They already know,&#8217; said Bruno, &#8216;I don&#8217;t think they mind.&#8217;</p>
+<hr />
+<p>A series of notes passed over the desk divider, from Bruno to Petr.</p>
+<p><em>Conspiracy update. I&#8217;ve been making a map from the journals of Deslandres. He never even passed near Dogon territory. There&#8217;s no way he could have told them about Sirius. The fish men from the dog star are resurrected!</em></p>
+<p><em>Mystery deepens. Turns out Dogon stories talk about THREE stars. THERE ARE INDEED THREE STARS. Scientists are hunting for the third one.</em></p>
+<p><em>Surely there is someone else you can bug about this.</em> (This note from Petr.)</p>
+<p><em>Yes I know an ACTUAL ASTROPHYSICIST but I haven&#8217;t spoken to her for a decade, I don&#8217;t have her email address or her phone number, and you are here right opposite me</em></p>
+<p>From Petr, his handwriting carrying a sing-song sarcasm: <em>&#8220;I&#8217;d like to add you to my professional network on LinkedIn.&#8221;</em></p>
+<p>I don&#8217;t know why I stopped spending time with Hope, thought Bruno, and I don&#8217;t know why I convinced myself that I had lost any way of contacting her. But of course she will be on LinkedIn.</p>
+<p><em>Beer later?</em></p>
+<p><em>Busy, sorry</em> (Petr was always busy.)</p>
+<hr />
+<p>Bruno placed a bitter and a lime and soda on the beer mats, and sat feeling slightly too big for both the pub table and the stool. He wrapped both hands around the pint glass. While he had been at the bar, Hope had neatly folded the empty peanuts packet and placed it towards the edge of the table, between them and to the side.</p>
+<p>Hope: &#8216;You&#8217;re going to like this. There are three stars, your ancient civilization had it right. Nobody else knows this yet. It&#8217;s not in any of the stellar catalogues I&#8217;ve looked at, it&#8217;s not in any exoplanet databases, it doesn&#8217;t come up when I search the preprints on arXiv.&#8217;</p>
+<p>&#8216;An exoplanet is a planet around a different star,&#8217; said Bruno, trailing off, just about keeping pace. He had been reading up since he messaged Hope. Going back to Griaule&#8217;s accounts, passed down for generations, the Dogon stories talked about Sirius being a three star system: two main stars, <em>sigi tolo</em> and <em>pō tolo,</em> the second revealing itself once every half century. The third, <em>ęmmę ya tolo,</em> smaller, shyer.</p>
+<p>Sirius A can be seen by anyone who looks up. Sirius B had been deduced in 1844 mathematically, and then in 1862 observed directly by telescope: the main star hot and white, its companion compact, cool and white. So-called Sirius C was tentatively spotted in the 1920s, a star so dim and so small that it would barely disturb its larger hearthmates. But in 2008, with much improved imaging, this was found to be a mistake: no Sirius C, and the Sirius system was reclassified, a pair once again. </p>
+<p>But, continued Hope, there was recently collected but unanalysed data about Sirius. Data she had on hand because the startup she worked at downloaded and stored stellar data as a matter of course. And, when Hope filtered, crunched, and processed the data, there it was: the unmistakable fingerprint of a true Sirius C.</p>
+<p>&#8216;It&#8217;s small, and right up close to Sirius A. I call it Sirius C but it&#8217;s possibly not even a star. It might be a Hot Jupiter, a planet like Jupiter which is almost a star, and orbiting close and fast. Or perhaps it&#8217;s a small star, a very dim star, a Brown Dwarf, one of the smallest found. Almost invisible in any event.&#8217;</p>
+<p>So Hope had done a good amount of work before they met up. The last time they had crossed paths was seven or eight years before maybe. And that was only a passing conversation. Not like it was fifteen years ago when they sat like this, not in this pub but others almost indistinguishable, every week or more often. Pubs like this weren&#8217;t as common now as they were then. Or like it was twenty years ago&#8212;more!&#8212;at university, in each other&#8217;s pockets. Allies.</p>
+<p>&#8216;Which is why you were searching the exoplanet databases,&#8217; said Bruno, &#8216;because it&#8217;s not a star. And what do you mean, nobody else knows?&#8217;</p>
+<p>&#8216;Well it might be a star. Or it might be an exoplanet,&#8217; said Hope, &#8216;it&#8217;s unclear. But everyone&#8217;s looking for exoplanets now. It&#8217;s an astronomer&#8217;s hobby. You point your telescope at a star, look for a tiny wobble in the light, a rhythm. For the two main Sirius stars it&#8217;s a slow wobble, a 50 year orbit. You can&#8217;t really see that. For planets, or the planets we&#8217;re able spot anyway, it&#8217;s much quicker, maybe just days if the planet is really close. That wobble means you&#8217;re seeing the star getting pulled side to side by the gravity of orbiting planets. You do the maths, and if you can prove it, and you&#8217;re lucky, you&#8217;ve discovered a planet. An exoplanet. But sometimes people publish the raw data for other people to look at, and that&#8217;s what happened here, except nobody else has gotten round to it. So we&#8217;ve found one. Our own planet.&#8217;</p>
+<p>&#8216;Or a star, a Brown Dwarf,&#8217; said Bruno, &#8216;in the archive.&#8217;</p>
+<p>&#8216;ArXiv,&#8217; said Hope automatically, pronouncing it just the same, &#8216;ay are ex eye vee. It&#8217;s the name of a website where papers go before they get published in journals. To share them quicker.&#8217;</p>
+<p>&#8216;Will you publish?&#8217;</p>
+<p>&#8216;Maybe. If there&#8217;s time. Work is pretty consuming. It&#8217;s enough for me to know that I know Sirius C is out there and no-one else does.&#8217;</p>
+<p>&#8216;Except for the Dogon people,&#8217; said Bruno, &#8216;and the space-faring fish.&#8217;</p>
+<p>Then Hope said well that&#8217;s true, and sipped her lime and soda.</p>
+<p>&#8216;You just said that Sirius A and Sirius B have a 50 year orbit,&#8217; said Bruno, &#8216;which is interesting. Because the Dogon names are <em>sigi tolo</em> and <em>pō tolo</em> and they talk about a 50 year cycle too. Another coincidence.&#8217;</p>
+<p>&#8216;Definitely aliens. Your TV people will be delighted.&#8217;</p>
+<hr />
+<p>A week later in the same pub, and it could have been fifteen years earlier. The same dark wood tables, slightly sticky, dents curved the same as the arc of the bottom of a glass, the legacy of a hundred conversations, a hundred glasses thumped down to make a point. A couple of scorch marks too. No smoking indoors anymore, that was different. And of course they both had older faces too. Bruno: rounder, sturdier, less grey than he had feared he would be at 40. Hope: denim jeans and jacket still, no longer in academia and short hair now, working at a startup. </p>
+<p>&#8216;We Can Map It For You Wholesale, Inc. We map asteroids. For future mining. Remote mapping now, but give it a few years and there will be probes. Landers. So we&#8217;re designing the mapping robots to go with them,&#8217; said Hope.</p>
+<p>It would be heavy and therefore expensive to send a whole fleet of flying, crawling, and leaping robots to a distant asteroid. So instead the plan was to send 3D printers to fabricate the robots once there, using material found at the landing site. All automated. </p>
+<p>&#8216;I write the software for the robots. Or rather, I write the software that writes the software for chips for the robots. Each chip comes out a bit different, so the code needs to adapt.&#8217;</p>
+<p>&#8216;Haven&#8217;t we been to asteroids?&#8217; said Bruno. </p>
+<p>&#8216;Yes,&#8217; said Hope, &#8216;but for scientific purposes, not commercial mining.&#8217;</p>
+<p>&#8216;For love not money.&#8217;</p>
+<p>&#8216;And sadly nowadays I am all about the money.&#8217; Sardonically.</p>
+<p>&#8216;And what are 3D printers?&#8217;</p>
+<p>&#8216;Jesus Bruno. Have you spent the last fifteen years in a cupboard?&#8217;</p>
+<p>&#8216;More or less. Are you still doing the band?&#8217;</p>
+<p>&#8216;That? Not for ages,&#8217; said Hope. Bruno finished his drink. Hope finished her drink, the end of an ice cube left at the bottom of the glass. </p>
+<p>&#8216;Remember the time we made that treasure hunt?&#8217; said Bruno.</p>
+<p>&#8216;I do,&#8217; said Hope, and smiled.</p>
+<p>&#8216;You know it&#8217;s been seven years,&#8217; said Bruno.</p>
+<p>&#8216;Really? I thought it was longer.&#8217; A pause, and then: &#8216;We should give that documentary a proper conspiracy.</p>
+<p>&#8216;Let&#8217;s say it was aliens, visiting in 3,000 B.C., five thousand years ago,&#8217; continued Hope, &#8216;and let&#8217;s say they wanted to send us a message. Not just a message that gets carried in a myth. But actual information. Data. How do you reckon they would do it?&#8217;</p>
+<p>&#8216;Oh that&#8217;s easy,&#8217; said Bruno, &#8216;Egypt. Hieroglyphics. You would put the message in the pyramids.&#8217;</p>
+<p>&#8216;Well let&#8217;s find one. See if we can get it in the show.&#8217;</p>
+<p>&#8216;We should go to Egypt,&#8217; Bruno said to Hope.</p>
+<p>&#8216;Where you should go,&#8217; she said, &#8216;is to the bar. I&#8217;ll have a Diet Coke.&#8217;</p>
+<hr />
+<p>Another week. Same place. This could turn into a pleasant ritual. Like old times.</p>
+<p>&#8216;There&#8217;s no money in astrophysics. My postdoc was going nowhere. Next to, you know, <em>space</em>, I was always more into the computer science stuff anyway.&#8217;</p>
+<p>Once upon a time Hope was a computational astrophysicist. She was narrating to Bruno what had happened since. </p>
+<p>&#8216;And after the divorce,&#8217; (Incredulously, &#8216;You&#8217;re married?&#8217;)</p>
+<p>&#8216;Divorced,&#8217; (&#8216;Well yes, but married and divorced?&#8217;)</p>
+<p>&#8216;Yes and married again. Well: partner. A few years now. He has kids, we don&#8217;t live together.&#8217;</p>
+<p>&#8216;I didn&#8217;t know.&#8217;</p>
+<p>&#8216;You didn&#8217;t ask. How about you?&#8217;</p>
+<p>&#8216;Girlfriends. Nothing much. One serious. Two. Almost. Not right now. I&#8217;m happier like this.&#8217;</p>
+<p>&#8216;After the divorce I found what I&#8217;m doing now, We Can Map It, Inc. Left the roundabout of funding applications and made the jump into code and the working world. It&#8217;s about space, obviously, obsessed as a kid, it&#8217;s magical to imagine although obviously I&#8217;ll never get to go. Finally a grown-up. Coding to pay the bills. Love <em>and</em> money really. Yes it&#8217;s hard work. But. The mapping robots need chips, and someone needs to code those chips. The mapping robots will dance on the surface of an asteroid, and that&#8217;s me. At a distance, but that&#8217;s me.</p>
+<p>&#8216;To write software for chips that don&#8217;t exist yet, that won&#8217;t even be fabricated closer than 150 million miles away. That&#8217;s a challenge, that takes something new.&#8217;</p>
+<p>Hope was excited.</p>
+<p>&#8216;The chips are&#8212;will be, I suppose&#8212;the chips are unreliably printed, that&#8217;s the nature of 3D printers. So what I write, my code, my code has to read the chip back in and see what quirks it has, and it has to on-the-fly create a special language for that single chip, one that corrects for any misunderstandings. A unique language. Constructed by an autodidactic artificial intelligence.&#8217;</p>
+<p>Bruno looked at Hope and her eyes were directed at him, but he could tell she was looking a long way away. 150 million miles, he supposed. He remembered this. It was part of what he enjoyed about her. He waited until she came back to Earth.</p>
+<p>&#8216;Anyway. That&#8217;s work. You were going to tell me about hieroglyphics. We need to concoct this conspiracy. You&#8217;ve got a bundle for me?&#8217;</p>
+<p>&#8216;Yes,&#8217; said Bruno, &#8216;digitised walls and tablets. But some have no translations, nobody has been able to make a start.&#8217;</p>
+<p>&#8216;Those are the most interesting ones.&#8217;</p>
+<hr />
+<p>A series of messages on WhatsApp, late at night, from Hope to Bruno.</p>
+<p><em>i have a system trained to recognise programming languages, even ones that haven&#8217;t been invented yet. underlying form of any code is an abstract syntax tree. its a simple A.I. its what i made to read the chips at work. it can find an abstract syntax tree in any kind of structured info.</em></p>
+<p>Later:</p>
+<p><em>thats funny</em></p>
+<p>When Bruno received the next message it wasn&#8217;t dawn but it wasn&#8217;t still dark either:</p>
+<p><em>i pointed the A.I. at the hieroglyphics with no translations. figured we could get something that would look authentic enough to feed the producers.</em></p>
+<p><em>but two of them are actually ASTs. computer programs</em></p>
+<hr />
+<p>&#8216;You&#8217;re shitting me. These two are programs,&#8217; and Bruno thumbed through pages of what looked like numbers and letters on Hope&#8217;s phone, apparently representing hieroglyphics not from the pyramids but earlier, from tablets dating to the Early Dynastic Period.</p>
+<p>&#8216;And I know what they are,&#8217; said Hope, &#8216;or at least I know what they do. Or anyway I have suspicions.</p>
+<p>&#8216;They both create objects. They&#8217;re programs to generate 3D objects.&#8217;</p>
+<p>&#8216;This is insane,&#8217; said Bruno, &#8216;what do we do? Tell the government? I don&#8217;t even know anyone in the government.&#8217;</p>
+<p>&#8216;The government isn&#8217;t a person, you don&#8217;t knock at a door. I know some people at SETI. There&#8217;s a United Nations protocol for alien contact. I know some people who will know some people.&#8217;</p>
+<p>&#8216;This is insane,&#8217; said Bruno and his voice was suddenly from a buried part of him. &#8216;At university I thought I would be involved in something important. Someday. And after the thesis and then the book, and then the one time on TV, I thought perhaps now, but that didn&#8217;t really take off, someday hasn&#8217;t come. And I say it&#8217;s worth it but I&#8217;m working on this <em>terrible</em> TV research. Shit I&#8217;m a <em>historian.</em> But you wouldn&#8217;t know it. And then this out of the blue. And with you! You were my best friend, and I don&#8217;t know what happened but to lose touch, and then now, this&#8212;across time&#8212;so much time&#8212;we&#8217;re hanging out again&#8212;and <em>this!</em> Shots. I&#8217;m getting shots.&#8217;</p>
+<p>&#8216;Bruno, I don&#8217;t drink,&#8217; said Hope, &#8216;haven&#8217;t you noticed? It was a rough divorce. You&#8217;re right, it&#8217;s been ages. It&#8217;s nice to get to know you again. But maybe we shouldn&#8217;t meet in a pub next time.&#8217;</p>
+<hr />
+<p>From an email from Hope to Sutherland, her friend at the SETI Institute:</p>
+<p><em>they&#8217;re both objects. I could print them on the printers we have here in the office, its that obvious. One I think is a transmitter. I don&#8217;t know how it works, but I can tell there is memory storage, probably a buffer, and something that looks like an antenna although its unclear how it works. The other&#8212;no idea. It has a laser, some other cavities that look like lasing cavities but also unclear.</em></p>
+<p>And from Sutherland:</p>
+<p><em>I&#8217;ll talk to UNOOSA. Sit tight, I&#8217;ll get back to you as soon as I hear.</em></p>
+<hr />
+<p>Bruno cut the nose off the slice of lemon polenta cake with the side of his fork, and spooned it into his mouth. Hope was taking in the red brick lobby, the wide and tall volume of air given warmth by the sunlight entering through the high up windows, the white balconies of the library stepping up and back to the ceiling.</p>
+<p>&#8216;What are you going to tell your producers?&#8217; Hope asked. &#8216;Is it still a conspiracy theory if it turns out it&#8217;s true?&#8217;</p>
+<p>&#8216;I&#8217;ve started on the paper,&#8217; said Bruno. &#8216;This needs to be documented. And you?&#8217;</p>
+<p>&#8216;Sutherland is already here. The team from the UN is coming tomorrow. I imagine they will take over. I&#8217;m enjoying my last evening of peace.&#8217;</p>
+<p>&#8216;Maybe we should take a holiday. Go to Egypt and check out the landing site.&#8217; A pause and then in with both feet. &#8216;What do you think?&#8217;</p>
+<p>As Bruno said it, he knew that it didn&#8217;t come out like the light-hearted whimsy he had kidded himself it was. A reaching out.</p>
+<p>&#8216;Oh Bruno,&#8217; said Hope. &#8216;I&#8217;m not that person you knew when we were friends. A lot has happened. I&#8217;m tired.&#8217;</p>
+<p>And then, realising that she had made a mistake, &#8216;This is fun. I&#8217;m having fun seeing you again.&#8217;</p>
+<p>For the rest of Bruno&#8217;s polenta cake they talked about tomorrow&#8217;s visit to Hope&#8217;s We Can Map It For You Wholesale office by the team from the United Nations Office of Outer Space Affairs.</p>
+<hr />
+<p>Bruno heard from Hope that night on WhatsApp. She messaged at 3am.</p>
+<p><em>im at work. the other device is a scanner. it turns whatever is in front of it into code. the laser is wow, i don&#8217;t know where it gets the power from. it&#8217;s a destructive process, i tried it on a paperclip. the paperclip vanished and now the transmitter memory is busy with some kind of code</em></p>
+<p>Bruno wasn&#8217;t sleeping. He thought about how to reply. He thought about Hope twenty years ago and Hope now, and knowing someone and not knowing someone, and how those could become confused. Another message arrived.</p>
+<p><em>the transmitter is hot! i didn&#8217;t do anything. the lights flickered and then it went hot. now the memory is empty. i think I&#8217;ve just sent a paperclip to sirius</em></p>
+<p>Then:</p>
+<p><em>are you there?</em></p>
+<p>He didn&#8217;t send a message back. As far as Hope knew he was asleep. At around 4am he was watching the screen and Hope messaged again.</p>
+<p><em>bruno i can point this scanner at anything. i can point it at me. i can go to sirius. they will take this away from me, i know it. there&#8217;s nothing for me here, not compared to whats out there. please don&#8217;t be mad and please don&#8217;t be lonely</em></p>
+<p>Bruno was still fumbling with the phone to call Hope when out of the window the streetlights of London dimmed once. Returned. And dimmed again. The call connected and it started to ring, but nobody answered. </p>
+		<h1>&nbsp;</h1>
+
+		<h4 id="archive">this is the fucking archive <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<ul>
+			<li>30 Oct. 2018, Vic: <a href="http://upsideclown.com/2018-10-30?amp=1">Minami-Senju Disconnect</a></li>
+						<li>16 Oct. 2018, Dan: <a href="http://upsideclown.com/2018-10-16?amp=1">Energy&#8217;s Exile</a></li>
+						<li>11 Sep. 2018, Matt: <a href="http://upsideclown.com/2018-09-11?amp=1">On the Campaign Trail</a></li>
+						<li>21 Aug. 2018, Neil: <a href="http://upsideclown.com/2018-08-21?amp=1">By Any Other Word</a></li>
+						<li>31 Jul. 2018, Jamie: <a href="http://upsideclown.com/2018-07-31?amp=1">How to Say Goodbye (Part II)</a></li>
+						<li>17 Jul. 2018, Vic: <a href="http://upsideclown.com/2018-07-17?amp=1">Shirley Asinine</a></li>
+						<li>3 Jul. 2018, Dan: <a href="http://upsideclown.com/2018-07-03?amp=1">Tell the Bees</a></li>
+						<li>19 Jun. 2018, James: <a href="http://upsideclown.com/2018-06-19?amp=1">Warning: May contain offensive language</a></li>
+						<li>29 May. 2018, Matt: <a href="http://upsideclown.com/2018-05-29?amp=1">Volume Five</a></li>
+						<li>15 May. 2018, Neil: <a href="http://upsideclown.com/2018-05-15?amp=1">In the City Last Night</a></li>
+						<li>1 May. 2018, Jamie: <a href="http://upsideclown.com/2018-05-01?amp=1">The Sandéparabola</a></li>
+						<li>17 Apr. 2018, Vic: <a href="http://upsideclown.com/2018-04-17?amp=1">Ultra Absorbent</a></li>
+						<li>3 Apr. 2018, Dan: <a href="http://upsideclown.com/2018-04-03?amp=1">The Best Seat in the House</a></li>
+						<li>20 Mar. 2018, James: <a href="http://upsideclown.com/2018-03-20?amp=1">The girl with kaleidoscope eyes</a></li>
+						<li>6 Mar. 2018, Matt: <a href="http://upsideclown.com/2018-03-06?amp=1">The Ursa Major Moving Group</a></li>
+						<li>20 Feb. 2018, Neil: <a href="http://upsideclown.com/2018-02-20?amp=1">Ghost World</a></li>
+						<li>6 Feb. 2018, Jamie: <a href="http://upsideclown.com/2018-02-06?amp=1">In search of&#8230; Edson Vincent, football&#8217;s lost superstar</a></li>
+						<li>23 Jan. 2018, Vic: <a href="http://upsideclown.com/2018-01-23?amp=1">The Long Way Home</a></li>
+						<li>9 Jan. 2018, Dan: <a href="http://upsideclown.com/2018-01-09?amp=1">Season&#8217;s Greetings</a></li>
+						<li>19 Dec. 2017, James: <a href="http://upsideclown.com/2017-12-19?amp=1">The Ghost of Christmas Yet to Come</a></li>
+						<li>4 Dec. 2017, Matt: <strong>The search for another intelligence</strong></li>
+						<li>21 Nov. 2017, Neil: <a href="http://upsideclown.com/2017-11-21?amp=1">Passing</a></li>
+						<li>7 Nov. 2017, Jamie: <a href="http://upsideclown.com/2017-11-07?amp=1">The Dark Of The Matinee</a></li>
+						<li>24 Oct. 2017, Vic: <a href="http://upsideclown.com/2017-10-24?amp=1">Anybody Seen Carlos?</a></li>
+						<li>10 Oct. 2017, Dan: <a href="http://upsideclown.com/2017-10-10?amp=1">Salvage</a></li>
+						<li>26 Sep. 2017, George: <a href="http://upsideclown.com/2017-09-26?amp=1">No Planes Go</a></li>
+						<li>12 Sep. 2017, James: <a href="http://upsideclown.com/2017-09-12?amp=1">Pontification</a></li>
+						<li>29 Aug. 2017, Matt: <a href="http://upsideclown.com/2017-08-29?amp=1">Moving House</a></li>
+						<li>15 Aug. 2017, Neil: <a href="http://upsideclown.com/2017-08-15?amp=1">Parental Guidance</a></li>
+						<li>1 Aug. 2017, Jamie: <a href="http://upsideclown.com/2017-08-01?amp=1">OK, Commuter</a></li>
+						<li>18 Jul. 2017, Vic: <a href="http://upsideclown.com/2017-07-18?amp=1">228 days to go</a></li>
+										<li>2003&mdash;2017: Hiatus. <a href="http://upsideclown.com/2003_12_01.shtml" target="_blank">Where we left off</a></li>
+			</ul>
+
+		<h1>&nbsp;</h1>
+
+		<h4 id="subscribe">never come here again <small><a href="#banner">&#x21A9;&#xFE0E;</a></small></h4>
+				
+		<p>Receive new stories by email. Fortnightly. <a href="http://eepurl.com/cVjL2D" target="_blank">Subscribe.</a></p>
+
+		<h1>&nbsp;</h1>
+
+		<p class="boilerplate">
+			<small>We are all Upsideclown: Vic, Jamie, Neil, Matt, James, George, and Dan. Material&nbsp;&copy;&nbsp;its respective author. Email:&nbsp;<a href="mailto:complains@upsideclown.com">complaints@upsideclown.com</a></small>
+		</p>
+		
+
+	</div> <!-- /.container -->
+	
+<amp-analytics type="googleanalytics">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-101929921-1"
+  },
+  "triggers": {
+    "trackPageview": {
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>	
+</body>
+</html>
